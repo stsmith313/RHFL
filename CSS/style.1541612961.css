@@ -628,7 +628,7 @@ h1.display {
           color: #fff;
           font-weight: 300; }
     .longCard#chab .top {
-      background: url("http://collegehoopswatch.com/wp-content/uploads/2017/10/University-of-South-Carolina-Gamecocks-Primary-Logo.jpg");
+      background: url("https://i.imgur.com/R57F9Aw.png");
       background-position: top center;
       background-size: contain;
       background-repeat: no-repeat; }
@@ -650,7 +650,7 @@ h1.display {
       background: linear-gradient(to top, #0085CA, #f3f5f6);
       opacity: 0.75; }
     .longCard#hayd .top {
-      background: url("https://i.pinimg.com/originals/2b/81/fa/2b81faa810f2dbf9aac25760ea715d08.png");
+      background: url("https://i.imgur.com/9PC6pyi.png");
       background-position: top center;
       background-size: contain;
       background-repeat: no-repeat; }
@@ -661,7 +661,7 @@ h1.display {
       background: linear-gradient(to top, #A71930, #f3f5f6);
       opacity: 0.75; }
     .longCard#heat .top {
-      background: url("https://i.pinimg.com/originals/79/af/d0/79afd027614dbc199c79cdc08a030506.jpg");
+      background: url("https://i.imgur.com/YbsFrd7.png");
       background-position: top center;
       background-size: contain;
       background-repeat: no-repeat; }
@@ -672,7 +672,7 @@ h1.display {
       background: linear-gradient(to top, #FB4F14, #f3f5f6);
       opacity: 0.75; }
     .longCard#jaso .top {
-      background: url("https://cdn-na16.netdna-ssl.com/wp-content/uploads/2013/10/houston-texans-logo.jpg");
+      background: url("https://i.imgur.com/u0tPh5f.png");
       background-position: top center;
       background-size: contain;
       background-repeat: no-repeat; }
@@ -694,7 +694,7 @@ h1.display {
       background: linear-gradient(to top, #0085CA, #f3f5f6);
       opacity: 0.75; }
     .longCard#jenna .top {
-      background: url("https://bloximages.newyork1.vip.townnews.com/foxcarolina.com/content/tncms/assets/v3/editorial/0/72/072b20c2-b6c2-11e8-939f-e37389cfe096/5b99690e9a8d6.image.png?resize=1200%2C675");
+      background: url("https://i.imgur.com/Tz1H2d4.png");
       background-position: top center;
       background-size: contain;
       background-repeat: no-repeat; }
@@ -705,7 +705,7 @@ h1.display {
       background: linear-gradient(to top, #F66733, #f3f5f6);
       opacity: 0.75; }
     .longCard#gar .top {
-      background: url("https://i.axs.com/2015/05/promoted-media-optimized_5563250fa9564.jpg");
+      background: url("https://cdn.freebiesupply.com/images/large/2x/dallas-cowboys-logo-transparent.png");
       background-position: top center;
       background-size: contain;
       background-repeat: no-repeat; }
@@ -716,7 +716,7 @@ h1.display {
       background: linear-gradient(to top, #041E42, #f3f5f6);
       opacity: 0.75; }
     .longCard#kev .top {
-      background: url("https://s3.amazonaws.com/freebiesupply/large/2x/kansas-city-chiefs-arrowhead-logo.png");
+      background: url("https://i.imgur.com/Ls0QoDF.png");
       background-position: top center;
       background-size: contain;
       background-repeat: no-repeat; }
@@ -727,7 +727,7 @@ h1.display {
       background: linear-gradient(to top, #E31837, #f3f5f6);
       opacity: 0.75; }
     .longCard#rhet .top {
-      background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/New_Orleans_Saints_logo.svg/2000px-New_Orleans_Saints_logo.svg.png");
+      background: url("https://i.imgur.com/12vATk1.png");
       background-position: top center;
       background-size: contain;
       background-repeat: no-repeat; }
@@ -749,7 +749,7 @@ h1.display {
       background: linear-gradient(to top, #0085CA, #f3f5f6);
       opacity: 0.75; }
     .longCard#ridg .top {
-      background: url("http://content.sportslogos.net/news/2018/07/New-York-Jets-logo.png");
+      background: url("https://i.imgur.com/yDXxPps.png");
       background-position: top center;
       background-size: contain;
       background-repeat: no-repeat; }
@@ -760,7 +760,7 @@ h1.display {
       background: linear-gradient(to top, #003F2D, #f3f5f6);
       opacity: 0.75; }
     .longCard#sams .top {
-      background: url("http://www.sportshdwallpapers.com/download/nfl-arizona-cardinals-logo-on-red_1920x1200_824-wide.jpg");
+      background: url("https://i.imgur.com/GnyenA4.png");
       background-position: top center;
       background-size: contain;
       background-repeat: no-repeat; }
@@ -770,16 +770,38 @@ h1.display {
       background: -o-linear-gradient(bottom, #97233F, #f3f5f6);
       background: linear-gradient(to top, #97233F, #f3f5f6);
       opacity: 0.75; }
-    .longCard#bruin .top {
-      background: url("/wp-content/uploads/2018/07/bruinbombers-thumbnail.png");
+    .longCard#scot .top {
+      background: url("https://i.imgur.com/ixsdtpq.png");
       background-position: top center;
       background-size: contain;
       background-repeat: no-repeat; }
-    .longCard#bruin .overlay {
-      background: -webkit-gradient(linear, left bottom, left top, from(#ffb300), to(#f3f5f6));
-      background: -webkit-linear-gradient(bottom, #ffb300, #f3f5f6);
-      background: -o-linear-gradient(bottom, #ffb300, #f3f5f6);
-      background: linear-gradient(to top, #ffb300, #f3f5f6);
+    .longCard#scot .overlay {
+      background: -webkit-gradient(linear, left bottom, left top, from(#046A38), to(#f3f5f6));
+      background: -webkit-linear-gradient(bottom, #046A38, #f3f5f6);
+      background: -o-linear-gradient(bottom, #046A38, #f3f5f6);
+      background: linear-gradient(to top, #046A38, #f3f5f6);
+      opacity: 0.75; }
+    .longCard#skul .top {
+      background: url("https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/jets/soxhhcyoxzyxf135yhu6");
+      background-position: top center;
+      background-size: contain;
+      background-repeat: no-repeat; }
+    .longCard#skul .overlay {
+      background: -webkit-gradient(linear, left bottom, left top, from(#0B2265), to(#f3f5f6));
+      background: -webkit-linear-gradient(bottom, #0B2265, #f3f5f6);
+      background: -o-linear-gradient(bottom, #0B2265, #f3f5f6);
+      background: linear-gradient(to top, #0B2265, #f3f5f6);
+      opacity: 0.75; }
+    .longCard#spen .top {
+      background: url("https://www.skinit.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nfllgox7.jpg");
+      background-position: top center;
+      background-size: contain;
+      background-repeat: no-repeat; }
+    .longCard#spen .overlay {
+      background: -webkit-gradient(linear, left bottom, left top, from(#0B2265), to(#f3f5f6));
+      background: -webkit-linear-gradient(bottom, #0B2265, #f3f5f6);
+      background: -o-linear-gradient(bottom, #0B2265, #f3f5f6);
+      background: linear-gradient(to top, #0B2265, #f3f5f6);
       opacity: 0.75; }
   /*---------------- Box ----------------*/
   .box {
@@ -942,9 +964,15 @@ h1.display {
       .profileContainer .profileCard#sams .top {
         background-color: #97233F;
         color: #fff; }
-      .profileContainer .profileCard#bruin .top {
-        background-color: #ffb300;
-        color: #0d1011; }
+      .profileContainer .profileCard#scot .top {
+        background-color: #046A38;
+        color: #fff; }
+      .profileContainer .profileCard#skul .top {
+        background-color: #0B2265;
+        color: #fff; }
+      .profileContainer .profileCard#spen .top {
+        background-color: #0B2265;
+        color: #fff; }
   /*------------ Stat Card --------------*/
   .statCard {
     width: 355px;
@@ -1748,9 +1776,15 @@ h1.display {
     .profileContainer .profileCard#sams .stat:hover {
       background-color: #FFB612;
       color: #000000; }
-    .profileContainer .profileCard#bruin .stat:hover {
-      background-color: #ffb300;
-      color: #0d1011; }
+    .profileContainer .profileCard#scot .stat:hover {
+      background-color: #27251F;
+      color: #fff; }
+    .profileContainer .profileCard#skul .stat:hover {
+      background-color: #A71930;
+      color: #A5ACAF; }
+    .profileContainer .profileCard#spen .stat:hover {
+      background-color: #A71930;
+      color: #A5ACAF; }
   /*------------ News Card --------------*/
   .newsCard {
     width: calc(50% - 30px); } }
