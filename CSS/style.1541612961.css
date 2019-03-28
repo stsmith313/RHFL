@@ -660,27 +660,27 @@ h1.display {
       background: -o-linear-gradient(bottom, #A71930, #f3f5f6);
       background: linear-gradient(to top, #A71930, #f3f5f6);
       opacity: 0.75; }
-    .longCard#fleet .top {
-      background: url("/wp-content/uploads/2018/07/fleetfox.-thumbnail.gif");
+    .longCard#heat .top {
+      background: url("https://i.pinimg.com/originals/79/af/d0/79afd027614dbc199c79cdc08a030506.jpg");
       background-position: top center;
       background-size: contain;
       background-repeat: no-repeat; }
-    .longCard#fleet .overlay {
-      background: -webkit-gradient(linear, left bottom, left top, from(#da6e16), to(#f3f5f6));
-      background: -webkit-linear-gradient(bottom, #da6e16, #f3f5f6);
-      background: -o-linear-gradient(bottom, #da6e16, #f3f5f6);
-      background: linear-gradient(to top, #da6e16, #f3f5f6);
+    .longCard#heat .overlay {
+      background: -webkit-gradient(linear, left bottom, left top, from(#FB4F14), to(#f3f5f6));
+      background: -webkit-linear-gradient(bottom, #FB4F14, #f3f5f6);
+      background: -o-linear-gradient(bottom, #FB4F14, #f3f5f6);
+      background: linear-gradient(to top, #FB4F14, #f3f5f6);
       opacity: 0.75; }
-    .longCard#slone .top {
-      background: url("/wp-content/uploads/2018/07/slonewiththewind-thumbnail.png");
+    .longCard#jaso .top {
+      background: url("https://cdn-na16.netdna-ssl.com/wp-content/uploads/2013/10/houston-texans-logo.jpg");
       background-position: top center;
       background-size: contain;
       background-repeat: no-repeat; }
-    .longCard#slone .overlay {
-      background: -webkit-gradient(linear, left bottom, left top, from(#353535), to(#f3f5f6));
-      background: -webkit-linear-gradient(bottom, #353535, #f3f5f6);
-      background: -o-linear-gradient(bottom, #353535, #f3f5f6);
-      background: linear-gradient(to top, #353535, #f3f5f6);
+    .longCard#jaso .overlay {
+      background: -webkit-gradient(linear, left bottom, left top, from(#03202F), to(#f3f5f6));
+      background: -webkit-linear-gradient(bottom, #03202F, #f3f5f6);
+      background: -o-linear-gradient(bottom, #03202F, #f3f5f6);
+      background: linear-gradient(to top, #03202F, #f3f5f6);
       opacity: 0.75; }
     .longCard#cody .top {
       background: url("/wp-content/uploads/2018/07/teamcody-thumbnail.png");
@@ -912,11 +912,11 @@ h1.display {
       .profileContainer .profileCard#hayd .top {
         background-color: #A71930;
         color: #fff; }
-      .profileContainer .profileCard#fleet .top {
-        background-color: #da6e16;
+      .profileContainer .profileCard#heat .top {
+        background-color: #FB4F14;
         color: #fff; }
-      .profileContainer .profileCard#slone .top {
-        background-color: #353535;
+      .profileContainer .profileCard#jaso .top {
+        background-color: #03202F;
         color: #fff; }
       .profileContainer .profileCard#cody .top {
         background-color: #0a174a;
@@ -1718,11 +1718,11 @@ h1.display {
     .profileContainer .profileCard#hayd .stat:hover {
       background-color: #A5ACAF;
       color: #A71930; }
-    .profileContainer .profileCard#fleet .stat:hover {
-      background-color: #da6e16;
+    .profileContainer .profileCard#heat .stat:hover {
+      background-color: #002244;
       color: #fff; }
-    .profileContainer .profileCard#slone .stat:hover {
-      background-color: #353535;
+    .profileContainer .profileCard#jaso .stat:hover {
+      background-color: #A71930;
       color: #fff; }
     .profileContainer .profileCard#cody .stat:hover {
       background-color: #0a174a;
