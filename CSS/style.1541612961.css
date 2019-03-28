@@ -726,49 +726,49 @@ h1.display {
       background: -o-linear-gradient(bottom, #E31837, #f3f5f6);
       background: linear-gradient(to top, #E31837, #f3f5f6);
       opacity: 0.75; }
-    .longCard#straight .top {
-      background: url("/wp-content/uploads/2018/07/straightouttajohnscreek-thumbnail.png");
+    .longCard#rhet .top {
+      background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/New_Orleans_Saints_logo.svg/2000px-New_Orleans_Saints_logo.svg.png");
       background-position: top center;
       background-size: contain;
       background-repeat: no-repeat; }
-    .longCard#straight .overlay {
-      background: -webkit-gradient(linear, left bottom, left top, from(#141416), to(#f3f5f6));
-      background: -webkit-linear-gradient(bottom, #141416, #f3f5f6);
-      background: -o-linear-gradient(bottom, #141416, #f3f5f6);
-      background: linear-gradient(to top, #141416, #f3f5f6);
+    .longCard#rhet .overlay {
+      background: -webkit-gradient(linear, left bottom, left top, from(#D3BC8D), to(#f3f5f6));
+      background: -webkit-linear-gradient(bottom, #D3BC8D, #f3f5f6);
+      background: -o-linear-gradient(bottom, #D3BC8D, #f3f5f6);
+      background: linear-gradient(to top, #D3BC8D, #f3f5f6);
       opacity: 0.75; }
-    .longCard#jc .top {
-      background: url("/wp-content/uploads/2018/08/Terrorbytes.png");
+    .longCard#krist .top {
+      background: url("https://s3.amazonaws.com/freebiesupply/large/2x/carolina-panthers-logo-transparent.png");
       background-position: top center;
       background-size: contain;
       background-repeat: no-repeat; }
-    .longCard#jc .overlay {
-      background: -webkit-gradient(linear, left bottom, left top, from(#B4975A), to(#f3f5f6));
-      background: -webkit-linear-gradient(bottom, #B4975A, #f3f5f6);
-      background: -o-linear-gradient(bottom, #B4975A, #f3f5f6);
-      background: linear-gradient(to top, #B4975A, #f3f5f6);
+    .longCard#krist .overlay {
+      background: -webkit-gradient(linear, left bottom, left top, from(#0085CA), to(#f3f5f6));
+      background: -webkit-linear-gradient(bottom, #0085CA, #f3f5f6);
+      background: -o-linear-gradient(bottom, #0085CA, #f3f5f6);
+      background: linear-gradient(to top, #0085CA, #f3f5f6);
       opacity: 0.75; }
-    .longCard#objyn .top {
-      background: url("/wp-content/uploads/2018/07/objyn-thumbnail.png");
+    .longCard#ridg .top {
+      background: url("http://content.sportslogos.net/news/2018/07/New-York-Jets-logo.png");
       background-position: top center;
       background-size: contain;
       background-repeat: no-repeat; }
-    .longCard#objyn .overlay {
-      background: -webkit-gradient(linear, left bottom, left top, from(#25316a), to(#f3f5f6));
-      background: -webkit-linear-gradient(bottom, #25316a, #f3f5f6);
-      background: -o-linear-gradient(bottom, #25316a, #f3f5f6);
-      background: linear-gradient(to top, #25316a, #f3f5f6);
+    .longCard#ridg .overlay {
+      background: -webkit-gradient(linear, left bottom, left top, from(#003F2D), to(#f3f5f6));
+      background: -webkit-linear-gradient(bottom, #003F2D, #f3f5f6);
+      background: -o-linear-gradient(bottom, #003F2D, #f3f5f6);
+      background: linear-gradient(to top, #003F2D, #f3f5f6);
       opacity: 0.75; }
-    .longCard#king .top {
-      background: url("/wp-content/uploads/2018/07/kentuckykings-thumbnail.png");
+    .longCard#sams .top {
+      background: url("http://www.sportshdwallpapers.com/download/nfl-arizona-cardinals-logo-on-red_1920x1200_824-wide.jpg");
       background-position: top center;
       background-size: contain;
       background-repeat: no-repeat; }
-    .longCard#king .overlay {
-      background: -webkit-gradient(linear, left bottom, left top, from(#005daa), to(#f3f5f6));
-      background: -webkit-linear-gradient(bottom, #005daa, #f3f5f6);
-      background: -o-linear-gradient(bottom, #005daa, #f3f5f6);
-      background: linear-gradient(to top, #005daa, #f3f5f6);
+    .longCard#sams .overlay {
+      background: -webkit-gradient(linear, left bottom, left top, from(#97233F), to(#f3f5f6));
+      background: -webkit-linear-gradient(bottom, #97233F, #f3f5f6);
+      background: -o-linear-gradient(bottom, #97233F, #f3f5f6);
+      background: linear-gradient(to top, #97233F, #f3f5f6);
       opacity: 0.75; }
     .longCard#bruin .top {
       background: url("/wp-content/uploads/2018/07/bruinbombers-thumbnail.png");
@@ -930,17 +930,17 @@ h1.display {
       .profileContainer .profileCard#kev .top {
         background-color: #E31837;
         color: #fff; }
-      .profileContainer .profileCard#straight .top {
-        background-color: #141416;
+      .profileContainer .profileCard#rhet .top {
+        background-color: #D3BC8D;
+        color: #000000; }
+      .profileContainer .profileCard#krist .top {
+        background-color: #0085CA;
         color: #fff; }
-      .profileContainer .profileCard#jc .top {
-        background-color: #B4975A;
+      .profileContainer .profileCard#ridg .top {
+        background-color: #003F2D;
         color: #fff; }
-      .profileContainer .profileCard#objyn .top {
-        background-color: #25316a;
-        color: #fff; }
-      .profileContainer .profileCard#king .top {
-        background-color: #005daa;
+      .profileContainer .profileCard#sams .top {
+        background-color: #97233F;
         color: #fff; }
       .profileContainer .profileCard#bruin .top {
         background-color: #ffb300;
@@ -1736,18 +1736,18 @@ h1.display {
     .profileContainer .profileCard#kev .stat:hover {
       background-color: #FFB81C;
       color: #000000; }
-    .profileContainer .profileCard#straight .stat:hover {
+    .profileContainer .profileCard#rhet .stat:hover {
       background-color: #141416;
       color: #fff; }
-    .profileContainer .profileCard#jc .stat:hover {
-      background-color: #B4975A;
-      color: #000; }
-    .profileContainer .profileCard#objyn .stat:hover {
-      background-color: #25316a;
+    .profileContainer .profileCard#krist .stat:hover {
+      background-color: #BFC0BF;
+      color: #000000; }
+    .profileContainer .profileCard#ridg .stat:hover {
+      background-color: #003F2D;
       color: #fff; }
-    .profileContainer .profileCard#king .stat:hover {
-      background-color: #005daa;
-      color: #fff; }
+    .profileContainer .profileCard#sams .stat:hover {
+      background-color: #FFB612;
+      color: #000000; }
     .profileContainer .profileCard#bruin .stat:hover {
       background-color: #ffb300;
       color: #0d1011; }
