@@ -191,7 +191,7 @@ h1.display {
         -ms-transform: translate(-50%, 0%) rotate(-45deg);
         transform: translate(-50%, 0%) rotate(-45deg); }
     header .mainLogo {
-      width: 75px; }
+      width: 85px; }
     header a {
       color: #0d1011; }
   .clear {
@@ -203,7 +203,7 @@ h1.display {
     width: 100%;
     background: #e2e7e9;
     display: none;
-    margin-top: 110px; }
+    margin-top: 15px 20px 125px 10px; }
   .cardArea {
     margin-top: 0px; }
   .cardContainer {
@@ -236,7 +236,7 @@ h1.display {
     z-index: 990;
     background: #fff;
     height: 100vh;
-    padding-top: 150px;
+    padding-top: 160px;
     top: 0%;
     left: -100%;
     -webkit-transition: all 0.3s ease;
@@ -351,7 +351,7 @@ h1.display {
       .carousel .post .postImage {
         background-size: cover !important;
         background-repeat: no-repeat !important;
-        background-position: center center;
+        background-position: center right;
         height: 100%;
         width: 100%;
         -webkit-box-ordinal-group: 2;
@@ -1524,9 +1524,9 @@ h1.display {
     width: calc(50% - 30px) !important; }
   /*-------- Article ----------*/
   .article {
-    padding: 50px 10px 0 10px; }
+    padding: 0px 10px 0 10px; }
     .article .postIMG {
-      width: 100%;
+      width: 93%;
       height: 400px;
       overflow: hidden;
       position: relative; }
@@ -1601,7 +1601,7 @@ h1.display {
 
 @media only screen and (min-width: 1024px) {
   header .mainLogo {
-    width: 120px; }
+    width: 130px; }
   .cardArea {
     margin-top: 50px;
     padding-left: 10px; }
@@ -1615,29 +1615,52 @@ h1.display {
   section.section {
     margin-top: 110px;
     padding: 0 10px; }
+  .sidebars {
+    float: right;
+    width: calc(30% - 10px);
+    background: #f9fafb;
+    display: inline-block;
+    padding: 25px 20px 10px 20px;
+    margin-top: 125px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    -webkit-box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28);
+    box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28); }
+    .sidebars ul {
+      padding: 0 10px;
+      list-style: none; }
+      .sidebars ul li {
+        border: 1px solid #0d1011;
+        padding: 5px 0;
+        text-align: center;
+        margin-bottom: 10px;
+        border-radius: 3px;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        cursor: pointer; }
+        .sidebars ul li a {
+          color: #0d1011;
+          text-decoration: none; }
+        .sidebars ul li:hover {
+          background: #0d1011;
+          color: #fff;
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+          .sidebars ul li:hover a {
+            color: #fff; }
   .sidebar {
     float: right;
     width: calc(30% - 10px);
     background: #f9fafb;
     display: inline-block;
-    padding: 15px 20px 125px 20px;
+    padding: 15px 20px 10px 20px;
     margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 15px;
     -webkit-box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28);
     box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28); }
-    .sidebar-champion{
-      float: right;
-      width: calc(30% - 10px);
-      background: #f9fafb;
-      display: inline-block;
-      padding: 15px 20px 125px 20px;
-      margin-top: 110px;
-      margin-right: 10px;
-      margin-bottom: 15px;
-      -webkit-box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28);
-      box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28);
-    }
     .sidebar ul {
       padding: 0 10px;
       list-style: none; }
