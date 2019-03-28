@@ -682,27 +682,27 @@ h1.display {
       background: -o-linear-gradient(bottom, #03202F, #f3f5f6);
       background: linear-gradient(to top, #03202F, #f3f5f6);
       opacity: 0.75; }
-    .longCard#cody .top {
-      background: url("/wp-content/uploads/2018/07/teamcody-thumbnail.png");
+    .longCard#jay .top {
+      background: url("https://s3.amazonaws.com/freebiesupply/large/2x/carolina-panthers-logo-transparent.png");
       background-position: top center;
       background-size: contain;
       background-repeat: no-repeat; }
-    .longCard#cody .overlay {
-      background: -webkit-gradient(linear, left bottom, left top, from(#0a174a), to(#f3f5f6));
-      background: -webkit-linear-gradient(bottom, #0a174a, #f3f5f6);
-      background: -o-linear-gradient(bottom, #0a174a, #f3f5f6);
-      background: linear-gradient(to top, #0a174a, #f3f5f6);
+    .longCard#jay .overlay {
+      background: -webkit-gradient(linear, left bottom, left top, from(#0085CA), to(#f3f5f6));
+      background: -webkit-linear-gradient(bottom, #0085CA, #f3f5f6);
+      background: -o-linear-gradient(bottom, #0085CA, #f3f5f6);
+      background: linear-gradient(to top, #0085CA, #f3f5f6);
       opacity: 0.75; }
-    .longCard#imps .top {
-      background: url("/wp-content/uploads/2018/07/fighting-imps-thumbnail.gif");
+    .longCard#jenna .top {
+      background: url("https://bloximages.newyork1.vip.townnews.com/foxcarolina.com/content/tncms/assets/v3/editorial/0/72/072b20c2-b6c2-11e8-939f-e37389cfe096/5b99690e9a8d6.image.png?resize=1200%2C675");
       background-position: top center;
       background-size: contain;
       background-repeat: no-repeat; }
-    .longCard#imps .overlay {
-      background: -webkit-gradient(linear, left bottom, left top, from(#d11c23), to(#f3f5f6));
-      background: -webkit-linear-gradient(bottom, #d11c23, #f3f5f6);
-      background: -o-linear-gradient(bottom, #d11c23, #f3f5f6);
-      background: linear-gradient(to top, #d11c23, #f3f5f6);
+    .longCard#jenna .overlay {
+      background: -webkit-gradient(linear, left bottom, left top, from(#F66733), to(#f3f5f6));
+      background: -webkit-linear-gradient(bottom, #F66733, #f3f5f6);
+      background: -o-linear-gradient(bottom, #F66733, #f3f5f6);
+      background: linear-gradient(to top, #F66733, #f3f5f6);
       opacity: 0.75; }
     .longCard#gar .top {
       background: url("https://i.axs.com/2015/05/promoted-media-optimized_5563250fa9564.jpg");
@@ -715,16 +715,16 @@ h1.display {
       background: -o-linear-gradient(bottom, #041E42, #f3f5f6);
       background: linear-gradient(to top, #041E42, #f3f5f6);
       opacity: 0.75; }
-    .longCard#tussin .top {
-      background: url("/wp-content/uploads/2018/07/chuggarobitussin-thumbnail.png");
+    .longCard#kev .top {
+      background: url("https://s3.amazonaws.com/freebiesupply/large/2x/kansas-city-chiefs-arrowhead-logo.png");
       background-position: top center;
       background-size: contain;
       background-repeat: no-repeat; }
-    .longCard#tussin .overlay {
-      background: -webkit-gradient(linear, left bottom, left top, from(#592e34), to(#f3f5f6));
-      background: -webkit-linear-gradient(bottom, #592e34, #f3f5f6);
-      background: -o-linear-gradient(bottom, #592e34, #f3f5f6);
-      background: linear-gradient(to top, #592e34, #f3f5f6);
+    .longCard#kev .overlay {
+      background: -webkit-gradient(linear, left bottom, left top, from(#E31837), to(#f3f5f6));
+      background: -webkit-linear-gradient(bottom, #E31837, #f3f5f6);
+      background: -o-linear-gradient(bottom, #E31837, #f3f5f6);
+      background: linear-gradient(to top, #E31837, #f3f5f6);
       opacity: 0.75; }
     .longCard#straight .top {
       background: url("/wp-content/uploads/2018/07/straightouttajohnscreek-thumbnail.png");
@@ -918,17 +918,17 @@ h1.display {
       .profileContainer .profileCard#jaso .top {
         background-color: #03202F;
         color: #fff; }
-      .profileContainer .profileCard#cody .top {
-        background-color: #0a174a;
+      .profileContainer .profileCard#jay .top {
+        background-color: #0085CA;
         color: #fff; }
-      .profileContainer .profileCard#imps .top {
-        background-color: #d11c23;
-        color: #fff; }
+      .profileContainer .profileCard#jenna .top {
+        background-color: #F66733;
+        color: #000000; }
       .profileContainer .profileCard#gar .top {
         background-color: #041E42;
         color: #fff; }
-      .profileContainer .profileCard#tussin .top {
-        background-color: #592e34;
+      .profileContainer .profileCard#kev .top {
+        background-color: #E31837;
         color: #fff; }
       .profileContainer .profileCard#straight .top {
         background-color: #141416;
@@ -1724,18 +1724,18 @@ h1.display {
     .profileContainer .profileCard#jaso .stat:hover {
       background-color: #A71930;
       color: #fff; }
-    .profileContainer .profileCard#cody .stat:hover {
-      background-color: #0a174a;
-      color: #fff; }
-    .profileContainer .profileCard#imps .stat:hover {
-      background-color: #d11c23;
+    .profileContainer .profileCard#jay .stat:hover {
+      background-color: #BFC0BF;
+      color: #000000; }
+    .profileContainer .profileCard#jenna .stat:hover {
+      background-color: #522D80;
       color: #fff; }
     .profileContainer .profileCard#gar .stat:hover {
       background-color: #003594;
       color: #fff; }
-    .profileContainer .profileCard#tussin .stat:hover {
-      background-color: #592e34;
-      color: #fff; }
+    .profileContainer .profileCard#kev .stat:hover {
+      background-color: #FFB81C;
+      color: #000000; }
     .profileContainer .profileCard#straight .stat:hover {
       background-color: #141416;
       color: #fff; }
