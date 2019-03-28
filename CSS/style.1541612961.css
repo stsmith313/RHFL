@@ -1615,6 +1615,41 @@ h1.display {
   section.section {
     margin-top: 110px;
     padding: 0 10px; }
+  .sidebarChamp {
+    float: right;
+    width: calc(30% - 10px);
+    background: #f9fafb;
+    display: inline-block;
+    padding: 15px 20px 10px 20px;
+    margin-top: 150px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    -webkit-box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28);
+    box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28); }
+    .sidebarChamp ul {
+      padding: 0 10px;
+      list-style: none; }
+      .sidebarChamp ul li {
+        border: 1px solid #0d1011;
+        padding: 5px 0;
+        text-align: center;
+        margin-bottom: 10px;
+        border-radius: 3px;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        cursor: pointer; }
+        .sidebarChamp ul li a {
+          color: #0d1011;
+          text-decoration: none; }
+        .sidebarChamp ul li:hover {
+          background: #0d1011;
+          color: #fff;
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+          .sidebarChamp ul li:hover a {
+            color: #fff; }
   .sidebars {
     float: right;
     width: calc(30% - 10px);
