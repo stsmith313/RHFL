@@ -628,15 +628,15 @@ h1.display {
           color: #fff;
           font-weight: 300; }
     .longCard#atkh .top {
-      background: url("https://cdn.shopify.com/s/files/1/0917/3228/products/16954B.jpeg?v=1449360153");
+      background: url("http://collegehoopswatch.com/wp-content/uploads/2017/10/University-of-South-Carolina-Gamecocks-Primary-Logo.jpg");
       background-position: top center;
       background-size: contain;
       background-repeat: no-repeat; }
     .longCard#atkh .overlay {
-      background: -webkit-gradient(linear, left bottom, left top, from(#00471b), to(#f3f5f6));
-      background: -webkit-linear-gradient(bottom, #00471b, #f3f5f6);
-      background: -o-linear-gradient(bottom, #00471b, #f3f5f6);
-      background: linear-gradient(to top, #00471b, #f3f5f6);
+      background: -webkit-gradient(linear, left bottom, left top, from(#73000a), to(#f3f5f6));
+      background: -webkit-linear-gradient(bottom, #73000a, #f3f5f6);
+      background: -o-linear-gradient(bottom, #73000a, #f3f5f6);
+      background: linear-gradient(to top, #73000a, #f3f5f6);
       opacity: 0.75; }
     .longCard#mov .top {
       background: url("/wp-content/uploads/2018/07/mountainoverviper-thumbnail.png");
