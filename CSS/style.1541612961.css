@@ -793,7 +793,7 @@ h1.display {
       background: linear-gradient(to top, #0B2265, #f3f5f6);
       opacity: 0.75; }
     .longCard#spen .top {
-      background: url("https://www.skinit.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/n/f/nfllgox7.jpg");
+      background: url("https://i.imgur.com/EEt6uwV.png");
       background-position: top center;
       background-size: contain;
       background-repeat: no-repeat; }
@@ -869,10 +869,10 @@ h1.display {
       width: 100%;
       margin-top: 90px; }
       .profileContainer .profileCard .top {
-        background: url("https://az616578.vo.msecnd.net/files/2016/11/07/636141446203685455673162879_qb3.jpg");
+        background: url("https://i.imgur.com/HMlWhrw.jpg?3");
         background-size: cover;
         background-repeat: norepeat;
-        background-position: center center;
+        background-position: top center;
         background-color: #0d1011;
         background-blend-mode: soft-light;
         width: 100%;
