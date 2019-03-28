@@ -627,27 +627,27 @@ h1.display {
           background: #0d1011;
           color: #fff;
           font-weight: 300; }
-    .longCard#atkh .top {
+    .longCard#chab .top {
       background: url("http://collegehoopswatch.com/wp-content/uploads/2017/10/University-of-South-Carolina-Gamecocks-Primary-Logo.jpg");
       background-position: top center;
       background-size: contain;
       background-repeat: no-repeat; }
-    .longCard#atkh .overlay {
+    .longCard#chab .overlay {
       background: -webkit-gradient(linear, left bottom, left top, from(#73000a), to(#f3f5f6));
       background: -webkit-linear-gradient(bottom, #73000a, #f3f5f6);
       background: -o-linear-gradient(bottom, #73000a, #f3f5f6);
       background: linear-gradient(to top, #73000a, #f3f5f6);
       opacity: 0.75; }
-    .longCard#mov .top {
-      background: url("/wp-content/uploads/2018/07/mountainoverviper-thumbnail.png");
+    .longCard#chrb .top {
+      background: url("https://s3.amazonaws.com/freebiesupply/large/2x/carolina-panthers-logo-transparent.png");
       background-position: top center;
       background-size: contain;
       background-repeat: no-repeat; }
-    .longCard#mov .overlay {
-      background: -webkit-gradient(linear, left bottom, left top, from(#e14b4b), to(#f3f5f6));
-      background: -webkit-linear-gradient(bottom, #e14b4b, #f3f5f6);
-      background: -o-linear-gradient(bottom, #e14b4b, #f3f5f6);
-      background: linear-gradient(to top, #e14b4b, #f3f5f6);
+    .longCard#chrb .overlay {
+      background: -webkit-gradient(linear, left bottom, left top, from(#0085CA), to(#f3f5f6));
+      background: -webkit-linear-gradient(bottom, #0085CA, #f3f5f6);
+      background: -o-linear-gradient(bottom, #0085CA, #f3f5f6);
+      background: linear-gradient(to top, #0085CA, #f3f5f6);
       opacity: 0.75; }
     .longCard#cara .top {
       background: url("/wp-content/uploads/2018/07/teamcara-thumbnail.png");
@@ -903,11 +903,11 @@ h1.display {
           .profileContainer .profileCard .bottom .stat h3 {
             margin: 0;
             padding: 20px 0; }
-      .profileContainer .profileCard#atkh .top {
+      .profileContainer .profileCard#chab .top {
         background-color: #73000a;
         color: #fff; }
-      .profileContainer .profileCard#mov .top {
-        background-color: #e14b4b;
+      .profileContainer .profileCard#chrb .top {
+        background-color: #0085CA;
         color: #fff; }
       .profileContainer .profileCard#cara .top {
         background-color: #ba976f;
@@ -1709,11 +1709,11 @@ h1.display {
         -webkit-transition: all 0.3s ease;
         -o-transition: all 0.3s ease;
         transition: all 0.3s ease; }
-    .profileContainer .profileCard#atkh .stat:hover {
+    .profileContainer .profileCard#chab .stat:hover {
       background: #73000a;
       color: #fff; }
-    .profileContainer .profileCard#mov .stat:hover {
-      background: #e14b4b;
+    .profileContainer .profileCard#chrb .stat:hover {
+      background: #BFC0BF;
       color: #fff; }
     .profileContainer .profileCard#cara .stat:hover {
       background-color: #ba976f;
