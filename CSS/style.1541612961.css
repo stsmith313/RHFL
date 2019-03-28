@@ -649,16 +649,16 @@ h1.display {
       background: -o-linear-gradient(bottom, #0085CA, #f3f5f6);
       background: linear-gradient(to top, #0085CA, #f3f5f6);
       opacity: 0.75; }
-    .longCard#cara .top {
-      background: url("/wp-content/uploads/2018/07/teamcara-thumbnail.png");
+    .longCard#hayd .top {
+      background: url("https://i.pinimg.com/originals/2b/81/fa/2b81faa810f2dbf9aac25760ea715d08.png");
       background-position: top center;
       background-size: contain;
       background-repeat: no-repeat; }
-    .longCard#cara .overlay {
-      background: -webkit-gradient(linear, left bottom, left top, from(#ba976f), to(#f3f5f6));
-      background: -webkit-linear-gradient(bottom, #ba976f, #f3f5f6);
-      background: -o-linear-gradient(bottom, #ba976f, #f3f5f6);
-      background: linear-gradient(to top, #ba976f, #f3f5f6);
+    .longCard#hayd .overlay {
+      background: -webkit-gradient(linear, left bottom, left top, from(#A71930), to(#f3f5f6));
+      background: -webkit-linear-gradient(bottom, #A71930, #f3f5f6);
+      background: -o-linear-gradient(bottom, #A71930, #f3f5f6);
+      background: linear-gradient(to top, #A71930, #f3f5f6);
       opacity: 0.75; }
     .longCard#fleet .top {
       background: url("/wp-content/uploads/2018/07/fleetfox.-thumbnail.gif");
@@ -704,16 +704,16 @@ h1.display {
       background: -o-linear-gradient(bottom, #d11c23, #f3f5f6);
       background: linear-gradient(to top, #d11c23, #f3f5f6);
       opacity: 0.75; }
-    .longCard#hero .top {
-      background: url("/wp-content/uploads/2018/07/Team-Brian-thumbnail.gif");
+    .longCard#gar .top {
+      background: url("https://i.axs.com/2015/05/promoted-media-optimized_5563250fa9564.jpg");
       background-position: top center;
       background-size: contain;
       background-repeat: no-repeat; }
-    .longCard#hero .overlay {
-      background: -webkit-gradient(linear, left bottom, left top, from(#e71418), to(#f3f5f6));
-      background: -webkit-linear-gradient(bottom, #e71418, #f3f5f6);
-      background: -o-linear-gradient(bottom, #e71418, #f3f5f6);
-      background: linear-gradient(to top, #e71418, #f3f5f6);
+    .longCard#gar .overlay {
+      background: -webkit-gradient(linear, left bottom, left top, from(#041E42), to(#f3f5f6));
+      background: -webkit-linear-gradient(bottom, #041E42, #f3f5f6);
+      background: -o-linear-gradient(bottom, #041E42, #f3f5f6);
+      background: linear-gradient(to top, #041E42, #f3f5f6);
       opacity: 0.75; }
     .longCard#tussin .top {
       background: url("/wp-content/uploads/2018/07/chuggarobitussin-thumbnail.png");
@@ -909,9 +909,9 @@ h1.display {
       .profileContainer .profileCard#chrb .top {
         background-color: #0085CA;
         color: #fff; }
-      .profileContainer .profileCard#cara .top {
-        background-color: #ba976f;
-        color: #0d1011; }
+      .profileContainer .profileCard#hayd .top {
+        background-color: #A71930;
+        color: #fff; }
       .profileContainer .profileCard#fleet .top {
         background-color: #da6e16;
         color: #fff; }
@@ -924,8 +924,8 @@ h1.display {
       .profileContainer .profileCard#imps .top {
         background-color: #d11c23;
         color: #fff; }
-      .profileContainer .profileCard#hero .top {
-        background-color: #e71418;
+      .profileContainer .profileCard#gar .top {
+        background-color: #041E42;
         color: #fff; }
       .profileContainer .profileCard#tussin .top {
         background-color: #592e34;
@@ -1714,10 +1714,10 @@ h1.display {
       color: #fff; }
     .profileContainer .profileCard#chrb .stat:hover {
       background: #BFC0BF;
-      color: #fff; }
-    .profileContainer .profileCard#cara .stat:hover {
-      background-color: #ba976f;
-      color: #0d1011; }
+      color: #000000; }
+    .profileContainer .profileCard#hayd .stat:hover {
+      background-color: #A5ACAF;
+      color: #A71930; }
     .profileContainer .profileCard#fleet .stat:hover {
       background-color: #da6e16;
       color: #fff; }
@@ -1730,8 +1730,8 @@ h1.display {
     .profileContainer .profileCard#imps .stat:hover {
       background-color: #d11c23;
       color: #fff; }
-    .profileContainer .profileCard#hero .stat:hover {
-      background-color: #e71418;
+    .profileContainer .profileCard#gar .stat:hover {
+      background-color: #003594;
       color: #fff; }
     .profileContainer .profileCard#tussin .stat:hover {
       background-color: #592e34;
