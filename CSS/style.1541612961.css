@@ -628,7 +628,7 @@ h1.display {
           color: #fff;
           font-weight: 300; }
     .longCard#atkh .top {
-      background: url("/wp-content/uploads/2018/07/allthekingshorses-thumbnail.png");
+      background: url("https://cdn.shopify.com/s/files/1/0917/3228/products/16954B.jpeg?v=1449360153");
       background-position: top center;
       background-size: contain;
       background-repeat: no-repeat; }
@@ -904,7 +904,7 @@ h1.display {
             margin: 0;
             padding: 20px 0; }
       .profileContainer .profileCard#atkh .top {
-        background-color: #00471b;
+        background-color: #73000a;
         color: #fff; }
       .profileContainer .profileCard#mov .top {
         background-color: #e14b4b;
@@ -1496,7 +1496,7 @@ h1.display {
     width: calc(50% - 30px) !important; }
   /*-------- Article ----------*/
   .article {
-    padding: 0 10px 0 10px; }
+    padding: 50px 10px 0 10px; }
     .article .postIMG {
       width: 100%;
       height: 400px;
@@ -1593,11 +1593,23 @@ h1.display {
     background: #f9fafb;
     display: inline-block;
     padding: 15px 20px 125px 20px;
-    margin-top: 11px;
+    margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 15px;
     -webkit-box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28);
     box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28); }
+    .sidebar-champion{
+      float: right;
+      width: calc(30% - 10px);
+      background: #f9fafb;
+      display: inline-block;
+      padding: 15px 20px 125px 20px;
+      margin-top: 110px;
+      margin-right: 10px;
+      margin-bottom: 15px;
+      -webkit-box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28);
+      box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28);
+    }
     .sidebar ul {
       padding: 0 10px;
       list-style: none; }
@@ -1698,7 +1710,7 @@ h1.display {
         -o-transition: all 0.3s ease;
         transition: all 0.3s ease; }
     .profileContainer .profileCard#atkh .stat:hover {
-      background: #00471b;
+      background: #73000a;
       color: #fff; }
     .profileContainer .profileCard#mov .stat:hover {
       background: #e14b4b;
