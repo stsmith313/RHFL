@@ -205,7 +205,9 @@ h1.display {
     display: none;
     margin-top: 15px 20px 125px 10px; }
   .cardArea {
-    margin-top: 0px; }
+    margin-top: 0px;
+    margin-bottom: 50px;
+   }
   .cardContainer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1604,7 +1606,9 @@ h1.display {
     width: 130px; }
   .cardArea {
     margin-top: 50px;
-    padding-left: 10px; }
+    padding-left: 10px;
+    margin-bottom: 50px;
+   }
   main {
     padding: 30px; }
   section.post {
