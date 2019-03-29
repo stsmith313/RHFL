@@ -1524,7 +1524,7 @@ h1.display {
     width: calc(50% - 30px) !important; }
   /*-------- Article ----------*/
   .article {
-    padding: 0px 10px 0 10px; }
+    padding: 50px 10px 0 10px; }
     .article .postIMG {
       width: 93%;
       height: 400px;
