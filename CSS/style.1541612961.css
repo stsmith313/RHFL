@@ -475,10 +475,10 @@ h1.display {
   /*------------- Bannner ---------------*/
   .banner {
     height: 300px;
-    background: url("https://cms.qz.com/wp-content/uploads/2014/11/fantasy-football-manziel.jpg?quality=80&strip=all&w=4000");
+    background: url("https://nflops.blob.core.windows.net/cachenflops-lb/7/f/1/7/4/7/7f1747992ad63bdfdb97fbf2547f14620aaa5d38.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     margin-top: 15px; }
     .banner .overlay {
       width: 100%;
@@ -511,7 +511,7 @@ h1.display {
       -o-transition: all 0.3s ease;
       transition: all 0.3s ease;
       background: #fff;
-      color: #003d6b;
+      color: #013369;
       border-color: #fff; }
       .banner a:hover, .banner a:active, .banner a:focus {
         -webkit-transition: all 0.3s ease;
@@ -520,8 +520,8 @@ h1.display {
         background: #0d1011;
         color: #fff;
         font-weight: 300;
-        background: #d5002e;
-        border-color: #d5002e; }
+        background: #d50a0a;
+        border-color: #d50a0a; }
   /*---------- Flex Container -----------*/
   .flexContainer {
     display: -webkit-box;
