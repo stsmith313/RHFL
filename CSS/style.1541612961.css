@@ -74,7 +74,7 @@ h1.display {
     justify-content: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    padding: 10px 0;
+    padding: 0px 0;
     z-index: 999; }
     header .menu-icon {
       width: 30px;
@@ -273,7 +273,7 @@ h1.display {
     height: 600px;
     width: 100%;
     position: relative;
-    margin-top: 105px;
+    margin-top: 86px;
     z-index: 0; }
     .carousel .arrowContainer {
       position: absolute;
