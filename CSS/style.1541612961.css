@@ -277,7 +277,7 @@ h1.display {
     z-index: 0; }
     .carousel .arrowContainer {
       position: absolute;
-      top: 0;
+      top: 30;
       right: 0;
       background: #fff;
       opacity: 0.5;
@@ -1726,7 +1726,7 @@ h1.display {
             color: #fff; }
   /*------------- Carousel --------------*/
   .carousel {
-    margin-top: 100px; }
+    margin-top: 105px; }
     .carousel .arrowContainer {
       top: 90.5%;
       opacity: 1; }
