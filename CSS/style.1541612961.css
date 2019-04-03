@@ -1425,7 +1425,7 @@ h1.display {
           -ms-writing-mode: tb-rl;
           writing-mode: vertical-rl;
           text-orientation: upright;
-          letter-spacing: -12px;
+          letter-spacing: -10px;
           font-size: 14px; }
       .recordCard .top img {
         position: absolute;
