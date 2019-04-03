@@ -1521,6 +1521,185 @@ h1.display {
     700
 \*------------------------------------*/
 @media only screen and (min-width: 768px) {
+  header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    background: #fff;
+    -webkit-box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28);
+    box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0px 0;
+    z-index: 999; }
+    header .menu-icon {
+      width: 30px;
+      height: 30px;
+      background: #fff;
+      cursor: pointer;
+      position: relative;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      left: 50px; }
+      header .menu-icon .bar {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        height: 4px;
+        width: 25px;
+        background: #0d1011;
+        -webkit-box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28);
+        box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28);
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        header .menu-icon .bar:before, header .menu-icon .bar:after {
+          content: "";
+          width: 25px;
+          height: 4px;
+          background: #0d1011;
+          -webkit-box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28);
+          box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28);
+          position: absolute;
+          left: 50%;
+          -webkit-transform: translate(-50%, 0%) rotate(0deg);
+          -ms-transform: translate(-50%, 0%) rotate(0deg);
+          transform: translate(-50%, 0%) rotate(0deg);
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+          top: 8px; }
+      header .menu-icon .menu-icon.active .bar:after,
+      header .menu-icon.active .menu-icon .bar:after {
+        content: "";
+        width: 25px;
+        height: 4px;
+        background: #0d1011;
+        -webkit-box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28);
+        box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28);
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translate(-50%, 0%) rotate(0deg);
+        -ms-transform: translate(-50%, 0%) rotate(0deg);
+        transform: translate(-50%, 0%) rotate(0deg);
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        top: 8px; }
+      header .menu-icon .bar:after {
+        top: -8px; }
+      header .menu-icon.active .bar {
+        width: 0;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        header .menu-icon.active .bar:before {
+          top: 50%;
+          left: 50%;
+          background: #0d1011;
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+          -webkit-transform: translate(-50%, 0%) rotate(45deg);
+          -ms-transform: translate(-50%, 0%) rotate(45deg);
+          transform: translate(-50%, 0%) rotate(45deg); }
+      header .menu-icon.active .menu-icon .bar:after {
+        top: 50%;
+        left: 50%;
+        background: #0d1011;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        -webkit-transform: translate(-50%, 0%) rotate(45deg);
+        -ms-transform: translate(-50%, 0%) rotate(45deg);
+        transform: translate(-50%, 0%) rotate(45deg); }
+      header .menu-icon .menu-icon.active .bar:after {
+        top: 50%;
+        left: 50%;
+        background: #0d1011;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        -webkit-transform: translate(-50%, 0%) rotate(45deg);
+        -ms-transform: translate(-50%, 0%) rotate(45deg);
+        transform: translate(-50%, 0%) rotate(45deg); }
+      header .menu-icon.active .bar:after {
+        top: 50%;
+        left: 50%;
+        background: #0d1011;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        -webkit-transform: translate(-50%, 0%) rotate(45deg);
+        -ms-transform: translate(-50%, 0%) rotate(45deg);
+        transform: translate(-50%, 0%) rotate(45deg);
+        -webkit-transform: translate(-50%, 0%) rotate(-45deg);
+        -ms-transform: translate(-50%, 0%) rotate(-45deg);
+        transform: translate(-50%, 0%) rotate(-45deg); }
+    header .mainLogo {
+      width: 85px; }
+    header a {
+      color: #0d1011; }
+  /*-------- Nav --------*/
+  .nav {
+    position: fixed;
+    z-index: 990;
+    background: #fff;
+    height: 100vh;
+    padding-top: 130px;
+    top: 0%;
+    left: -100%;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -webkit-box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2); }
+    .nav ul {
+      list-style: none;
+      padding: 0; }
+      .nav ul li {
+        padding: 9px 20px;
+        font-size: 18px;
+        font-family: "Biryani", sans-serif;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        .nav ul li:hover {
+          background: #e2e7e9; }
+        .nav ul li a {
+          color: #0d1011;
+          text-decoration: none; }
+          .nav ul li a.active {
+            background: #c5ced3; }
+    .nav.active {
+      left: 0px;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
   /*-------- Profile Container ----------*/
   .profileContainer .profileCard .bottom .stat {
     width: calc(50% - 30px) !important; }
