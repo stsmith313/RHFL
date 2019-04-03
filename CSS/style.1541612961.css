@@ -238,7 +238,7 @@ h1.display {
     z-index: 990;
     background: #fff;
     height: 100vh;
-    padding-top: 160px;
+    padding-top: 100px;
     top: 0%;
     left: -100%;
     -webkit-transition: all 0.3s ease;
@@ -250,7 +250,7 @@ h1.display {
       list-style: none;
       padding: 0; }
       .nav ul li {
-        padding: 9px 50px;
+        padding: 9px 20px;
         font-size: 18px;
         font-family: "Biryani", sans-serif;
         -webkit-transition: all 0.3s ease;
