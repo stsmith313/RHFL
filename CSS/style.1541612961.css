@@ -238,7 +238,7 @@ h1.display {
     z-index: 990;
     background: #fff;
     height: 100vh;
-    padding-top: 100px;
+    padding-top: 80px;
     top: 0%;
     left: -100%;
     -webkit-transition: all 0.3s ease;
@@ -1524,7 +1524,7 @@ h1.display {
   header {
     width: 100%;
     position: fixed;
-    top: 0;
+    top: 0px;
     margin: 0;
     background: #fff;
     -webkit-box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28);
@@ -1670,7 +1670,7 @@ h1.display {
     z-index: 990;
     background: #fff;
     height: 100vh;
-    padding-top: 130px;
+    padding-top: 80px;
     top: 0%;
     left: -100%;
     -webkit-transition: all 0.3s ease;
