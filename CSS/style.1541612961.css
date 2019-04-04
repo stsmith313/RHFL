@@ -882,7 +882,9 @@ h1.display {
         position: relative; }
         .profileContainer .profileCard .top h1, .profileContainer .profileCard .top h2, .profileContainer .profileCard .top h3 {
           padding: 120px 0 80px 0;
-          margin: 0px 10px; }
+          margin: 0px 10px;
+          font-size: 34px;
+        }
         .profileContainer .profileCard .top img {
           min-width: 120px;
           width: 220px;
