@@ -1,15 +1,15 @@
 jQuery(document).ready(function($) {
 
-$(".menu-icon").on("click", function() {
-  	$(this).toggleClass("active");
-  	$('.nav').toggleClass("active");
-});
+  $(".menu-icon").on("click", function() {
+    $(this).toggleClass("active");
+    $('.nav').toggleClass("active");
+  });
 
-$(".acc_button").on("click", function() {
-  $(this).closest(".accordion").toggleClass("open");
-});
+  $(".acc_button").on("click", function() {
+    $(this).closest(".accordion").toggleClass("open");
+  });
 
-$(function() {
+  $(function() {
     $(".post")
       .eq(0)
       .addClass("active");
@@ -25,6 +25,7 @@ $(function() {
       current = current - 1;
       setSlide(prev, current);
     });
+
     function setSlide(prev, next) {
       var slide = current;
       if (next > total - 1) {
@@ -48,18 +49,18 @@ $(function() {
     }
   });
 
-    $('.change').each(function(){
+  $('.change').each(function() {
 
     var text = $(this).children('.change_num').text();
 
-    if( text.length > 1 ){
+    if (text.length > 1) {
 
       var neg = "-";
       var pos = "+";
 
-      if( text.indexOf(neg) != -1 ){
+      if (text.indexOf(neg) != -1) {
         $(this).addClass('down');
-      } else if( text.indexOf(pos) != -1 ) {
+      } else if (text.indexOf(pos) != -1) {
         $(this).addClass('up');
       }
 
