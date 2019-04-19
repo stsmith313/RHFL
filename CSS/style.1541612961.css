@@ -1335,6 +1335,84 @@ h1.display {
     margin-left: 10px;
   }
 
+  /*------------ Draft Card --------------*/
+  .draftCard {
+    width: 355px;
+    margin: 30px 10px;
+    padding: 0 5px 10px 5px;
+    -webkit-box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28);
+    box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28);
+    background: #fff;
+    position: relative;
+    z-index: 1;
+  }
+
+  .draftCard img {
+    width: 75px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+
+  .draftCard .top {
+    height: 155px;
+    position: relative;
+    border-bottom: 2px solid #0d1011;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 5px;
+  }
+
+  .draftCard .top h1, .draftCard .top h2, .draftCard .top h3 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .draftCard .top h2 {
+    position: absolute;
+    bottom: -24px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 0 10px;
+  }
+
+  .draftCard h5 {
+    padding-bottom: 0;
+    margin: 25px 0 10px 0;
+    color: #9da9af;
+    text-align: center;
+  }
+
+  .draftCard ul {
+    margin: 0;
+    list-style: none;
+    padding: 100 0 0 85px;
+  }
+
+  .draftCard ul li {
+    margin: 2.5px 0;
+  }
+
+  .draftCard ul li .num {
+    font-weight: 700;
+    margin-left: 10px;
+  }
+
   /*------------ News Card --------------*/
   .newsCard {
     width: 410px;
