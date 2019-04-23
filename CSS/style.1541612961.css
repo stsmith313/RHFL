@@ -10,7 +10,8 @@
   text-rendering: optimizeLegibility;
 }
 
-*:after, *:before {
+*:after,
+*:before {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -48,7 +49,9 @@ p.small {
   font-weight: 500;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   line-height: 0.928em;
@@ -125,7 +128,8 @@ h1.display {
     transition: all 0.3s ease;
   }
 
-  header .menu-icon .bar:before, header .menu-icon .bar:after {
+  header .menu-icon .bar:before,
+  header .menu-icon .bar:after {
     content: "";
     width: 25px;
     height: 4px;
@@ -236,7 +240,8 @@ h1.display {
     clear: both;
   }
 
-  section.post, section.section {
+  section.post,
+  section.section {
     margin-top: 110px;
     padding: 0 10px;
   }
@@ -509,7 +514,9 @@ h1.display {
     transition: all 0.3s ease;
   }
 
-  .card .cardBody a:hover, .card .cardBody a:active, .card .cardBody a:focus {
+  .card .cardBody a:hover,
+  .card .cardBody a:active,
+  .card .cardBody a:focus {
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
@@ -636,7 +643,9 @@ h1.display {
     border-color: #fff;
   }
 
-  .banner a:hover, .banner a:active, .banner a:focus {
+  .banner a:hover,
+  .banner a:active,
+  .banner a:focus {
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
@@ -674,7 +683,9 @@ h1.display {
     margin: 0;
   }
 
-  .flexContainer h1, .flexContainer h2, .flexContainer h3 {
+  .flexContainer h1,
+  .flexContainer h2,
+  .flexContainer h3 {
     margin-bottom: 5px;
   }
 
@@ -749,7 +760,9 @@ h1.display {
     margin-bottom: 0;
   }
 
-  .longCard .bottom h1, .longCard .bottom h2, .longCard .bottom h3 {
+  .longCard .bottom h1,
+  .longCard .bottom h2,
+  .longCard .bottom h3 {
     margin: 0;
   }
 
@@ -1104,18 +1117,20 @@ h1.display {
   }
 
   .profileContainer .profileCard .top {
-    background: url("https://i.imgur.com/HMlWhrw.jpg?3");
+    background: url("https://storage.googleapis.com/afs-prod/media/media:cfd0814908164440b0d223011a60b0fb/800.jpeg");
     background-size: cover;
     background-repeat: norepeat;
-    background-position: top center;
+    background-position: 50% 80%;
     background-color: #0d1011;
     background-blend-mode: soft-light;
     width: 100%;
-    text-align: center;
+    text-indent: 1050px;
     position: relative;
   }
 
-  .profileContainer .profileCard .top h1, .profileContainer .profileCard .top h2, .profileContainer .profileCard .top h3 {
+  .profileContainer .profileCard .top h1,
+  .profileContainer .profileCard .top h2,
+  .profileContainer .profileCard .top h3 {
     padding: 120px 0 80px 0;
     margin: 0px 10px;
     font-size: 34px;
@@ -1163,7 +1178,9 @@ h1.display {
     box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2);
   }
 
-  .profileContainer .profileCard .bottom .stat h1, .profileContainer .profileCard .bottom .stat h2, .profileContainer .profileCard .bottom .stat h3 {
+  .profileContainer .profileCard .bottom .stat h1,
+  .profileContainer .profileCard .bottom .stat h2,
+  .profileContainer .profileCard .bottom .stat h3 {
     margin: 0px;
     padding: 20px 0;
   }
@@ -1297,7 +1314,9 @@ h1.display {
     padding: 0 5px;
   }
 
-  .statCard .top h1, .statCard .top h2, .statCard .top h3 {
+  .statCard .top h1,
+  .statCard .top h2,
+  .statCard .top h3 {
     padding: 0;
     margin: 0;
   }
@@ -1375,7 +1394,9 @@ h1.display {
     padding: 0 5px;
   }
 
-  .draftCard .top h1, .draftCard .top h2, .draftCard .top h3 {
+  .draftCard .top h1,
+  .draftCard .top h2,
+  .draftCard .top h3 {
     padding: 0;
     margin: 0;
   }
@@ -1645,7 +1666,9 @@ h1.display {
     left: 50%;
   }
 
-  .ranking .rank>h1, .ranking .rank>h2, .ranking .rank>h3 {
+  .ranking .rank>h1,
+  .ranking .rank>h2,
+  .ranking .rank>h3 {
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -2101,7 +2124,8 @@ h1.display {
     transition: all 0.3s ease;
   }
 
-  header .menu-icon .bar:before, header .menu-icon .bar:after {
+  header .menu-icon .bar:before,
+  header .menu-icon .bar:after {
     content: "";
     width: 25px;
     height: 4px;
@@ -2427,7 +2451,8 @@ h1.display {
     transition: all 0.3s ease;
   }
 
-  header .menu-icon .bar:before, header .menu-icon .bar:after {
+  header .menu-icon .bar:before,
+  header .menu-icon .bar:after {
     content: "";
     width: 25px;
     height: 4px;
