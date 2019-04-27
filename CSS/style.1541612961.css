@@ -805,7 +805,13 @@ h1.display {
   }
 
   .longCard#chab .overlay {
-    background: -webkit-gradient(linear, left bottom, left top, from(#73000a), to(#f3f5f6));
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#73000a),
+      to(#f3f5f6)
+    );
     background: -webkit-linear-gradient(bottom, #73000a, #f3f5f6);
     background: -o-linear-gradient(bottom, #73000a, #f3f5f6);
     background: linear-gradient(to top, #73000a, #f3f5f6);
@@ -820,10 +826,16 @@ h1.display {
   }
 
   .longCard#chrb .overlay {
-    background: -webkit-gradient(linear, left bottom, left top, from(#0085CA), to(#f3f5f6));
-    background: -webkit-linear-gradient(bottom, #0085CA, #f3f5f6);
-    background: -o-linear-gradient(bottom, #0085CA, #f3f5f6);
-    background: linear-gradient(to top, #0085CA, #f3f5f6);
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#0085ca),
+      to(#f3f5f6)
+    );
+    background: -webkit-linear-gradient(bottom, #0085ca, #f3f5f6);
+    background: -o-linear-gradient(bottom, #0085ca, #f3f5f6);
+    background: linear-gradient(to top, #0085ca, #f3f5f6);
     opacity: 0.75;
   }
 
@@ -835,10 +847,16 @@ h1.display {
   }
 
   .longCard#hayd .overlay {
-    background: -webkit-gradient(linear, left bottom, left top, from(#A71930), to(#f3f5f6));
-    background: -webkit-linear-gradient(bottom, #A71930, #f3f5f6);
-    background: -o-linear-gradient(bottom, #A71930, #f3f5f6);
-    background: linear-gradient(to top, #A71930, #f3f5f6);
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#a71930),
+      to(#f3f5f6)
+    );
+    background: -webkit-linear-gradient(bottom, #a71930, #f3f5f6);
+    background: -o-linear-gradient(bottom, #a71930, #f3f5f6);
+    background: linear-gradient(to top, #a71930, #f3f5f6);
     opacity: 0.75;
   }
 
@@ -850,10 +868,16 @@ h1.display {
   }
 
   .longCard#heat .overlay {
-    background: -webkit-gradient(linear, left bottom, left top, from(#FB4F14), to(#f3f5f6));
-    background: -webkit-linear-gradient(bottom, #FB4F14, #f3f5f6);
-    background: -o-linear-gradient(bottom, #FB4F14, #f3f5f6);
-    background: linear-gradient(to top, #FB4F14, #f3f5f6);
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#fb4f14),
+      to(#f3f5f6)
+    );
+    background: -webkit-linear-gradient(bottom, #fb4f14, #f3f5f6);
+    background: -o-linear-gradient(bottom, #fb4f14, #f3f5f6);
+    background: linear-gradient(to top, #fb4f14, #f3f5f6);
     opacity: 0.75;
   }
 
@@ -865,10 +889,16 @@ h1.display {
   }
 
   .longCard#jaso .overlay {
-    background: -webkit-gradient(linear, left bottom, left top, from(#03202F), to(#f3f5f6));
-    background: -webkit-linear-gradient(bottom, #03202F, #f3f5f6);
-    background: -o-linear-gradient(bottom, #03202F, #f3f5f6);
-    background: linear-gradient(to top, #03202F, #f3f5f6);
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#03202f),
+      to(#f3f5f6)
+    );
+    background: -webkit-linear-gradient(bottom, #03202f, #f3f5f6);
+    background: -o-linear-gradient(bottom, #03202f, #f3f5f6);
+    background: linear-gradient(to top, #03202f, #f3f5f6);
     opacity: 0.75;
   }
 
@@ -880,10 +910,16 @@ h1.display {
   }
 
   .longCard#jay .overlay {
-    background: -webkit-gradient(linear, left bottom, left top, from(#0085CA), to(#f3f5f6));
-    background: -webkit-linear-gradient(bottom, #0085CA, #f3f5f6);
-    background: -o-linear-gradient(bottom, #0085CA, #f3f5f6);
-    background: linear-gradient(to top, #0085CA, #f3f5f6);
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#0085ca),
+      to(#f3f5f6)
+    );
+    background: -webkit-linear-gradient(bottom, #0085ca, #f3f5f6);
+    background: -o-linear-gradient(bottom, #0085ca, #f3f5f6);
+    background: linear-gradient(to top, #0085ca, #f3f5f6);
     opacity: 0.75;
   }
 
@@ -895,10 +931,16 @@ h1.display {
   }
 
   .longCard#jenna .overlay {
-    background: -webkit-gradient(linear, left bottom, left top, from(#F66733), to(#f3f5f6));
-    background: -webkit-linear-gradient(bottom, #F66733, #f3f5f6);
-    background: -o-linear-gradient(bottom, #F66733, #f3f5f6);
-    background: linear-gradient(to top, #F66733, #f3f5f6);
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#f66733),
+      to(#f3f5f6)
+    );
+    background: -webkit-linear-gradient(bottom, #f66733, #f3f5f6);
+    background: -o-linear-gradient(bottom, #f66733, #f3f5f6);
+    background: linear-gradient(to top, #f66733, #f3f5f6);
     opacity: 0.75;
   }
 
@@ -910,10 +952,16 @@ h1.display {
   }
 
   .longCard#gar .overlay {
-    background: -webkit-gradient(linear, left bottom, left top, from(#041E42), to(#f3f5f6));
-    background: -webkit-linear-gradient(bottom, #041E42, #f3f5f6);
-    background: -o-linear-gradient(bottom, #041E42, #f3f5f6);
-    background: linear-gradient(to top, #041E42, #f3f5f6);
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#041e42),
+      to(#f3f5f6)
+    );
+    background: -webkit-linear-gradient(bottom, #041e42, #f3f5f6);
+    background: -o-linear-gradient(bottom, #041e42, #f3f5f6);
+    background: linear-gradient(to top, #041e42, #f3f5f6);
     opacity: 0.75;
   }
 
@@ -925,10 +973,16 @@ h1.display {
   }
 
   .longCard#kev .overlay {
-    background: -webkit-gradient(linear, left bottom, left top, from(#E31837), to(#f3f5f6));
-    background: -webkit-linear-gradient(bottom, #E31837, #f3f5f6);
-    background: -o-linear-gradient(bottom, #E31837, #f3f5f6);
-    background: linear-gradient(to top, #E31837, #f3f5f6);
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#e31837),
+      to(#f3f5f6)
+    );
+    background: -webkit-linear-gradient(bottom, #e31837, #f3f5f6);
+    background: -o-linear-gradient(bottom, #e31837, #f3f5f6);
+    background: linear-gradient(to top, #e31837, #f3f5f6);
     opacity: 0.75;
   }
 
@@ -940,10 +994,16 @@ h1.display {
   }
 
   .longCard#rhet .overlay {
-    background: -webkit-gradient(linear, left bottom, left top, from(#D3BC8D), to(#f3f5f6));
-    background: -webkit-linear-gradient(bottom, #D3BC8D, #f3f5f6);
-    background: -o-linear-gradient(bottom, #D3BC8D, #f3f5f6);
-    background: linear-gradient(to top, #D3BC8D, #f3f5f6);
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#d3bc8d),
+      to(#f3f5f6)
+    );
+    background: -webkit-linear-gradient(bottom, #d3bc8d, #f3f5f6);
+    background: -o-linear-gradient(bottom, #d3bc8d, #f3f5f6);
+    background: linear-gradient(to top, #d3bc8d, #f3f5f6);
     opacity: 0.75;
   }
 
@@ -955,10 +1015,16 @@ h1.display {
   }
 
   .longCard#krist .overlay {
-    background: -webkit-gradient(linear, left bottom, left top, from(#0085CA), to(#f3f5f6));
-    background: -webkit-linear-gradient(bottom, #0085CA, #f3f5f6);
-    background: -o-linear-gradient(bottom, #0085CA, #f3f5f6);
-    background: linear-gradient(to top, #0085CA, #f3f5f6);
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#0085ca),
+      to(#f3f5f6)
+    );
+    background: -webkit-linear-gradient(bottom, #0085ca, #f3f5f6);
+    background: -o-linear-gradient(bottom, #0085ca, #f3f5f6);
+    background: linear-gradient(to top, #0085ca, #f3f5f6);
     opacity: 0.75;
   }
 
@@ -970,10 +1036,16 @@ h1.display {
   }
 
   .longCard#ridg .overlay {
-    background: -webkit-gradient(linear, left bottom, left top, from(#003F2D), to(#f3f5f6));
-    background: -webkit-linear-gradient(bottom, #003F2D, #f3f5f6);
-    background: -o-linear-gradient(bottom, #003F2D, #f3f5f6);
-    background: linear-gradient(to top, #003F2D, #f3f5f6);
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#003f2d),
+      to(#f3f5f6)
+    );
+    background: -webkit-linear-gradient(bottom, #003f2d, #f3f5f6);
+    background: -o-linear-gradient(bottom, #003f2d, #f3f5f6);
+    background: linear-gradient(to top, #003f2d, #f3f5f6);
     opacity: 0.75;
   }
 
@@ -985,10 +1057,16 @@ h1.display {
   }
 
   .longCard#sams .overlay {
-    background: -webkit-gradient(linear, left bottom, left top, from(#97233F), to(#f3f5f6));
-    background: -webkit-linear-gradient(bottom, #97233F, #f3f5f6);
-    background: -o-linear-gradient(bottom, #97233F, #f3f5f6);
-    background: linear-gradient(to top, #97233F, #f3f5f6);
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#97233f),
+      to(#f3f5f6)
+    );
+    background: -webkit-linear-gradient(bottom, #97233f, #f3f5f6);
+    background: -o-linear-gradient(bottom, #97233f, #f3f5f6);
+    background: linear-gradient(to top, #97233f, #f3f5f6);
     opacity: 0.75;
   }
 
@@ -1000,10 +1078,16 @@ h1.display {
   }
 
   .longCard#scot .overlay {
-    background: -webkit-gradient(linear, left bottom, left top, from(#046A38), to(#f3f5f6));
-    background: -webkit-linear-gradient(bottom, #046A38, #f3f5f6);
-    background: -o-linear-gradient(bottom, #046A38, #f3f5f6);
-    background: linear-gradient(to top, #046A38, #f3f5f6);
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#046a38),
+      to(#f3f5f6)
+    );
+    background: -webkit-linear-gradient(bottom, #046a38, #f3f5f6);
+    background: -o-linear-gradient(bottom, #046a38, #f3f5f6);
+    background: linear-gradient(to top, #046a38, #f3f5f6);
     opacity: 0.75;
   }
 
@@ -1015,10 +1099,16 @@ h1.display {
   }
 
   .longCard#skul .overlay {
-    background: -webkit-gradient(linear, left bottom, left top, from(#0B2265), to(#f3f5f6));
-    background: -webkit-linear-gradient(bottom, #0B2265, #f3f5f6);
-    background: -o-linear-gradient(bottom, #0B2265, #f3f5f6);
-    background: linear-gradient(to top, #0B2265, #f3f5f6);
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#0b2265),
+      to(#f3f5f6)
+    );
+    background: -webkit-linear-gradient(bottom, #0b2265, #f3f5f6);
+    background: -o-linear-gradient(bottom, #0b2265, #f3f5f6);
+    background: linear-gradient(to top, #0b2265, #f3f5f6);
     opacity: 0.75;
   }
 
@@ -1030,10 +1120,16 @@ h1.display {
   }
 
   .longCard#spen .overlay {
-    background: -webkit-gradient(linear, left bottom, left top, from(#0B2265), to(#f3f5f6));
-    background: -webkit-linear-gradient(bottom, #0B2265, #f3f5f6);
-    background: -o-linear-gradient(bottom, #0B2265, #f3f5f6);
-    background: linear-gradient(to top, #0B2265, #f3f5f6);
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#0b2265),
+      to(#f3f5f6)
+    );
+    background: -webkit-linear-gradient(bottom, #0b2265, #f3f5f6);
+    background: -o-linear-gradient(bottom, #0b2265, #f3f5f6);
+    background: linear-gradient(to top, #0b2265, #f3f5f6);
     opacity: 0.75;
   }
 
@@ -1124,7 +1220,7 @@ h1.display {
     background-color: #0d1011;
     background-blend-mode: soft-light;
     width: 100%;
-    text-indent: 1050px;
+    text-align: center;
     position: relative;
   }
 
@@ -1200,77 +1296,77 @@ h1.display {
   }
 
   .profileContainer .profileCard#chrb .top {
-    background-color: #0085CA;
+    background-color: #0085ca;
     color: #fff;
   }
 
   .profileContainer .profileCard#hayd .top {
-    background-color: #A71930;
+    background-color: #a71930;
     color: #fff;
   }
 
   .profileContainer .profileCard#heat .top {
-    background-color: #FB4F14;
+    background-color: #fb4f14;
     color: #fff;
   }
 
   .profileContainer .profileCard#jaso .top {
-    background-color: #03202F;
+    background-color: #03202f;
     color: #fff;
   }
 
   .profileContainer .profileCard#jay .top {
-    background-color: #0085CA;
+    background-color: #0085ca;
     color: #fff;
   }
 
   .profileContainer .profileCard#jenna .top {
-    background-color: #F66733;
+    background-color: #f66733;
     color: #000000;
   }
 
   .profileContainer .profileCard#gar .top {
-    background-color: #041E42;
+    background-color: #041e42;
     color: #fff;
   }
 
   .profileContainer .profileCard#kev .top {
-    background-color: #E31837;
+    background-color: #e31837;
     color: #fff;
   }
 
   .profileContainer .profileCard#rhet .top {
-    background-color: #D3BC8D;
+    background-color: #d3bc8d;
     color: #000000;
   }
 
   .profileContainer .profileCard#krist .top {
-    background-color: #0085CA;
+    background-color: #0085ca;
     color: #fff;
   }
 
   .profileContainer .profileCard#ridg .top {
-    background-color: #003F2D;
+    background-color: #003f2d;
     color: #fff;
   }
 
   .profileContainer .profileCard#sams .top {
-    background-color: #97233F;
+    background-color: #97233f;
     color: #fff;
   }
 
   .profileContainer .profileCard#scot .top {
-    background-color: #046A38;
+    background-color: #046a38;
     color: #fff;
   }
 
   .profileContainer .profileCard#skul .top {
-    background-color: #0B2265;
+    background-color: #0b2265;
     color: #fff;
   }
 
   .profileContainer .profileCard#spen .top {
-    background-color: #0B2265;
+    background-color: #0b2265;
     color: #fff;
   }
 
@@ -1450,12 +1546,12 @@ h1.display {
     position: relative;
   }
 
-  .newsCard a>img {
+  .newsCard a > img {
     width: 100%;
     height: auto;
   }
 
-  .newsCard a>.category {
+  .newsCard a > .category {
     color: #0d1011;
     font-weight: 700;
     position: absolute;
@@ -1666,9 +1762,9 @@ h1.display {
     left: 50%;
   }
 
-  .ranking .rank>h1,
-  .ranking .rank>h2,
-  .ranking .rank>h3 {
+  .ranking .rank > h1,
+  .ranking .rank > h2,
+  .ranking .rank > h3 {
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -1707,7 +1803,7 @@ h1.display {
     padding: 0;
   }
 
-  .ranking>.change {
+  .ranking > .change {
     position: absolute;
     top: 50%;
     right: 0;
@@ -1733,14 +1829,20 @@ h1.display {
     background: #c5ced3;
     background: -webkit-linear-gradient(to bottom, #c5ced3, #f9fafb);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-gradient(linear, left top, left bottom, from(#c5ced3), to(#f9fafb));
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#c5ced3),
+      to(#f9fafb)
+    );
     background: -webkit-linear-gradient(top, #c5ced3, #f9fafb);
     background: -o-linear-gradient(top, #c5ced3, #f9fafb);
     background: linear-gradient(to bottom, #c5ced3, #f9fafb);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
-  .ranking>.change h6 {
+  .ranking > .change h6 {
     position: absolute;
     top: 5px;
     margin: 0;
@@ -1749,15 +1851,21 @@ h1.display {
     border-bottom: 1px solid #0d1011;
   }
 
-  .ranking>.change h3 {
+  .ranking > .change h3 {
     margin: 0;
   }
 
-  .ranking>.change.up {
+  .ranking > .change.up {
     background: #00653a;
     background: -webkit-linear-gradient(to bottom, #00653a, #9da9af);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-gradient(linear, left top, left bottom, from(#00653a), to(#9da9af));
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#00653a),
+      to(#9da9af)
+    );
     background: -webkit-linear-gradient(top, #00653a, #9da9af);
     background: -o-linear-gradient(top, #00653a, #9da9af);
     background: linear-gradient(to bottom, #00653a, #9da9af);
@@ -1765,14 +1873,20 @@ h1.display {
     color: #fff;
   }
 
-  .ranking>.change.up h6 {
+  .ranking > .change.up h6 {
     border-color: #fff;
   }
 
-  .ranking>.change.down {
+  .ranking > .change.down {
     background: #e03a3e;
     background: -webkit-linear-gradient(to bottom, #e03a3e, #c5ced3);
-    background: -webkit-gradient(linear, left top, left bottom, from(#e03a3e), to(#c5ced3));
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#e03a3e),
+      to(#c5ced3)
+    );
     background: -webkit-linear-gradient(top, #e03a3e, #c5ced3);
     background: -o-linear-gradient(top, #e03a3e, #c5ced3);
     background: linear-gradient(to bottom, #e03a3e, #c5ced3);
@@ -1817,7 +1931,13 @@ h1.display {
 
   .accordion .accordion_header {
     width: 100%;
-    background: -webkit-gradient(linear, right top, left top, from(#00619a), to(#003d6b));
+    background: -webkit-gradient(
+      linear,
+      right top,
+      left top,
+      from(#00619a),
+      to(#003d6b)
+    );
     background: -webkit-linear-gradient(right, #00619a, #003d6b);
     background: -o-linear-gradient(right, #00619a, #003d6b);
     background: linear-gradient(to left, #00619a, #003d6b);
@@ -1885,7 +2005,13 @@ h1.display {
 
   .accordion .accordion_body {
     padding: 10px 20px;
-    background: -webkit-gradient(linear, left bottom, left top, from(#ece9e6), to(#ffffff));
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#ece9e6),
+      to(#ffffff)
+    );
     background: -webkit-linear-gradient(bottom, #ece9e6, #ffffff);
     background: -o-linear-gradient(bottom, #ece9e6, #ffffff);
     background: linear-gradient(to top, #ece9e6, #ffffff);
@@ -1912,7 +2038,8 @@ h1.display {
 
   .recordCard .top {
     height: 230px;
-    background: #0d1011 url("https://www.profootballhof.com/assets/1/19/Class2019Web1050.jpg?84244");
+    background: #0d1011
+      url("https://www.profootballhof.com/assets/1/19/Class2019Web1050.jpg?84244");
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -1922,9 +2049,9 @@ h1.display {
     text-transform: uppercase;
     display: inline-block;
     padding: 5px 0 15px 0;
-    outline: 2px solid #FFF;
+    outline: 2px solid #fff;
     outline-offset: -6px;
-    opacity: .9;
+    opacity: 0.9;
   }
 
   .recordCard .top .category p {
@@ -2036,7 +2163,8 @@ h1.display {
     background: #d5002e !important;
     color: #fff;
     font-weight: 700;
-    box-shadow: #9b0007 -1px 1px, #9b0007 -2px 2px, #9b0007 -3px 3px, #9b0007 -4px 4px, #9b0007 -5px 5px, #9b0007 -6px 6px;
+    box-shadow: #9b0007 -1px 1px, #9b0007 -2px 2px, #9b0007 -3px 3px,
+      #9b0007 -4px 4px, #9b0007 -5px 5px, #9b0007 -6px 6px;
     transform: translate3d(6px, -6px, 0);
     transition-delay: 0s;
     transition-duration: 0.4s;
@@ -2371,7 +2499,13 @@ h1.display {
 
   .accordion .accordion_body {
     padding: 10px 20px;
-    background: -webkit-gradient(linear, left bottom, left top, from(#ece9e6), to(#ffffff));
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#ece9e6),
+      to(#ffffff)
+    );
     background: -webkit-linear-gradient(bottom, #ece9e6, #ffffff);
     background: -o-linear-gradient(bottom, #ece9e6, #ffffff);
     background: linear-gradient(to top, #ece9e6, #ffffff);
@@ -2891,13 +3025,13 @@ h1.display {
   }
 
   .profileContainer .profileCard#chrb .stat:hover {
-    background: #BFC0BF;
+    background: #bfc0bf;
     color: #000000;
   }
 
   .profileContainer .profileCard#hayd .stat:hover {
-    background-color: #A5ACAF;
-    color: #A71930;
+    background-color: #a5acaf;
+    color: #a71930;
   }
 
   .profileContainer .profileCard#heat .stat:hover {
@@ -2906,17 +3040,17 @@ h1.display {
   }
 
   .profileContainer .profileCard#jaso .stat:hover {
-    background-color: #A71930;
+    background-color: #a71930;
     color: #fff;
   }
 
   .profileContainer .profileCard#jay .stat:hover {
-    background-color: #BFC0BF;
+    background-color: #bfc0bf;
     color: #000000;
   }
 
   .profileContainer .profileCard#jenna .stat:hover {
-    background-color: #522D80;
+    background-color: #522d80;
     color: #fff;
   }
 
@@ -2926,7 +3060,7 @@ h1.display {
   }
 
   .profileContainer .profileCard#kev .stat:hover {
-    background-color: #FFB81C;
+    background-color: #ffb81c;
     color: #000000;
   }
 
@@ -2936,33 +3070,33 @@ h1.display {
   }
 
   .profileContainer .profileCard#krist .stat:hover {
-    background-color: #BFC0BF;
+    background-color: #bfc0bf;
     color: #000000;
   }
 
   .profileContainer .profileCard#ridg .stat:hover {
-    background-color: #003F2D;
+    background-color: #003f2d;
     color: #fff;
   }
 
   .profileContainer .profileCard#sams .stat:hover {
-    background-color: #FFB612;
+    background-color: #ffb612;
     color: #000000;
   }
 
   .profileContainer .profileCard#scot .stat:hover {
-    background-color: #27251F;
+    background-color: #27251f;
     color: #fff;
   }
 
   .profileContainer .profileCard#skul .stat:hover {
-    background-color: #A71930;
-    color: #A5ACAF;
+    background-color: #a71930;
+    color: #a5acaf;
   }
 
   .profileContainer .profileCard#spen .stat:hover {
-    background-color: #A71930;
-    color: #A5ACAF;
+    background-color: #a71930;
+    color: #a5acaf;
   }
 
   /*------------ News Card --------------*/
