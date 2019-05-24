@@ -318,7 +318,7 @@ h1.display {
     margin: 0;
     padding: 0;
   }
-  
+
   footer {
     background: #9da9af;
     clear: both;
@@ -1771,7 +1771,7 @@ h1.display {
     background: #fff;
     width: calc(100% - 30px);
     max-width: calc(520px - 30px);
-    margin: 30px;
+    margin: 30px 15px;
   }
 
   .ranking .rank {
