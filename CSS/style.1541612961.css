@@ -354,6 +354,7 @@ h1.display {
   .nav ul li {
     padding: 9px 20px;
     font-size: 18px;
+    font-weight: 600;
     font-family: "Biryani", sans-serif;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -2572,6 +2573,7 @@ h1.display {
   .nav ul li {
     padding: 9px 20px;
     font-size: 18px;
+    font-weight: 600;
     font-family: "Biryani", sans-serif;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -3063,6 +3065,7 @@ h1.display {
   .nav ul li {
     padding: 9px 20px;
     font-size: 18px;
+    font-weight: 700;
     font-family: "Biryani", sans-serif;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
