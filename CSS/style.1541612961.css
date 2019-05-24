@@ -474,7 +474,7 @@ h1.display {
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    background: #0d1011;
+    background: #d50a0a;
     color: #fff;
     font-weight: 300;
   }
@@ -561,7 +561,7 @@ h1.display {
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    background: #0d1011;
+    background: #d50a0a;
     color: #fff;
     font-weight: 300;
   }
@@ -3248,7 +3248,7 @@ h1.display {
   }
 
   .sidebar ul li:hover {
-    background: #0d1011;
+    background: #d50a0a;
     color: #fff;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
