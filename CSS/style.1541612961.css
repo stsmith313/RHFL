@@ -1468,7 +1468,7 @@ h1.display {
     box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28);
     position: relative;
     z-index: 1;
-    background: linear-gradient(225deg, #d4af37, #FFD700, #DAA520);
+    background: linear-gradient(225deg, #ffd300, #f9a602, #DAA520, #c49102);
     background-size: 300% 300%;
     box-sizing: border-box;
     display: table;
@@ -1537,15 +1537,15 @@ h1.display {
     transform: translate(-50%, -50%);
     position: relative;
     z-index: 0;
-    background: linear-gradient(225deg, #d4af37, #FFD700, #DAA520);
+    background: linear-gradient(225deg, #ffd300, #f9a602, #DAA520, #c49102);
     background-size: 100% 100%;
     box-sizing: border-box;
     display: table;
     height: 0vh;
     position: absolute;
-    -webkit-animation: Rainbow 3s ease infinite;
-    -moz-animation: Rainbow 3s ease infinite;
-    animation: Rainbow 3s ease infinite;
+    -webkit-animation: Rainbow 10s ease infinite;
+    -moz-animation: Rainbow 10s ease infinite;
+    animation: Rainbow 10s ease infinite;
     padding: 0 10px;
   }
 
@@ -2598,15 +2598,15 @@ h1.display {
     box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28);
     position: relative;
     z-index: 1;
-    background: linear-gradient(225deg, #d4af37, #FFD700, #DAA520);
+    background: linear-gradient(225deg, #ffd300, #f9a602, #DAA520, #c49102);
     background-size: 300% 300%;
     box-sizing: border-box;
     display: table;
     height: 100vh;
     position: relative;
-    -webkit-animation: Rainbow 3s ease infinite;
-    -moz-animation: Rainbow 3s ease infinite;
-    animation: Rainbow 3s ease infinite;
+    -webkit-animation: Rainbow 10s ease infinite;
+    -moz-animation: Rainbow 10s ease infinite;
+    animation: Rainbow 10s ease infinite;
   }
 
   .rank1 {
@@ -3113,9 +3113,9 @@ h1.display {
     display: table;
     height: 100vh;
     position: relative;
-    -webkit-animation: Rainbow 3s ease infinite;
-    -moz-animation: Rainbow 3s ease infinite;
-    animation: Rainbow 3s ease infinite;
+    -webkit-animation: Rainbow 10s ease infinite;
+    -moz-animation: Rainbow 10s ease infinite;
+    animation: Rainbow 10s ease infinite;
   }
 
   .rank1 {
