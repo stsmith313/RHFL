@@ -1543,9 +1543,9 @@ h1.display {
     display: table;
     height: 0vh;
     position: absolute;
-    -webkit-animation: Rainbow 10s ease infinite;
-    -moz-animation: Rainbow 10s ease infinite;
-    animation: Rainbow 10s ease infinite;
+    -webkit-animation: Rainbow 3s ease infinite;
+    -moz-animation: Rainbow 3s ease infinite;
+    animation: Rainbow 3s ease infinite;
     padding: 0 10px;
   }
 
@@ -2604,9 +2604,9 @@ h1.display {
     display: table;
     height: 100vh;
     position: relative;
-    -webkit-animation: Rainbow 15s ease infinite;
-    -moz-animation: Rainbow 15s ease infinite;
-    animation: Rainbow 15s ease infinite;
+    -webkit-animation: Rainbow 3s ease infinite;
+    -moz-animation: Rainbow 3s ease infinite;
+    animation: Rainbow 3s ease infinite;
   }
 
   .rank1 {
@@ -3113,9 +3113,9 @@ h1.display {
     display: table;
     height: 100vh;
     position: relative;
-    -webkit-animation: Rainbow 10s ease infinite;
-    -moz-animation: Rainbow 10s ease infinite;
-    animation: Rainbow 10s ease infinite;
+    -webkit-animation: Rainbow 3s ease infinite;
+    -moz-animation: Rainbow 3s ease infinite;
+    animation: Rainbow 3s ease infinite;
   }
 
   .rank1 {
