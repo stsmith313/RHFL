@@ -1468,24 +1468,30 @@ h1.display {
     box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28);
     position: relative;
     z-index: 1;
-    background: linear-gradient(225deg, #FAFAD2, #d4af37, #FFD700, #DAA520);
-  background-size: 300% 300%;
-  box-sizing: border-box;
-  display: table;
-  height: 100vh;
-  position: relative;
-  -webkit-animation: Rainbow 15s ease infinite;
-  -moz-animation: Rainbow 15s ease infinite;
-  animation: Rainbow 15s ease infinite;
+    background: linear-gradient(225deg, #d4af37, #FFD700, #DAA520);
+    background-size: 300% 300%;
+    box-sizing: border-box;
+    display: table;
+    height: 100vh;
+    position: relative;
+    -webkit-animation: Rainbow 15s ease infinite;
+    -moz-animation: Rainbow 15s ease infinite;
+    animation: Rainbow 15s ease infinite;
   }
 
   @-webkit-keyframes Rainbow {
     0% {
-      background-position: 94% 0%; }
+      background-position: 94% 0%;
+    }
+
     50% {
-      background-position: 7% 100%; }
+      background-position: 7% 100%;
+    }
+
     100% {
-      background-position: 94% 0%; } }
+      background-position: 94% 0%;
+    }
+  }
 
   .hallCard img {
     width: 125px;
@@ -1532,14 +1538,14 @@ h1.display {
     position: relative;
     z-index: 0;
     background: linear-gradient(225deg, #d4af37, #FFD700, #DAA520);
-  background-size: 100% 100%;
-  box-sizing: border-box;
-  display: table;
-  height: 0vh;
-  position: absolute;
-  -webkit-animation: Rainbow 15s ease infinite;
-  -moz-animation: Rainbow 15s ease infinite;
-  animation: Rainbow 15s ease infinite;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    display: table;
+    height: 0vh;
+    position: absolute;
+    -webkit-animation: Rainbow 15s ease infinite;
+    -moz-animation: Rainbow 15s ease infinite;
+    animation: Rainbow 15s ease infinite;
     padding: 0 10px;
   }
 
@@ -2593,14 +2599,14 @@ h1.display {
     position: relative;
     z-index: 1;
     background: linear-gradient(225deg, #d4af37, #FFD700, #DAA520);
-  background-size: 300% 300%;
-  box-sizing: border-box;
-  display: table;
-  height: 100vh;
-  position: relative;
-  -webkit-animation: Rainbow 15s ease infinite;
-  -moz-animation: Rainbow 15s ease infinite;
-  animation: Rainbow 15s ease infinite;
+    background-size: 300% 300%;
+    box-sizing: border-box;
+    display: table;
+    height: 100vh;
+    position: relative;
+    -webkit-animation: Rainbow 15s ease infinite;
+    -moz-animation: Rainbow 15s ease infinite;
+    animation: Rainbow 15s ease infinite;
   }
 
   .rank1 {
@@ -3102,14 +3108,14 @@ h1.display {
     position: relative;
     z-index: 1;
     background: linear-gradient(225deg, #d4af37, #FFD700, #DAA520);
-  background-size: 300% 300%;
-  box-sizing: border-box;
-  display: table;
-  height: 100vh;
-  position: relative;
-  -webkit-animation: Rainbow 15s ease infinite;
-  -moz-animation: Rainbow 15s ease infinite;
-  animation: Rainbow 15s ease infinite;
+    background-size: 300% 300%;
+    box-sizing: border-box;
+    display: table;
+    height: 100vh;
+    position: relative;
+    -webkit-animation: Rainbow 15s ease infinite;
+    -moz-animation: Rainbow 15s ease infinite;
+    animation: Rainbow 15s ease infinite;
   }
 
   .rank1 {
