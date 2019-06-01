@@ -1551,6 +1551,7 @@ h1.display {
 
   .hallCard h5 {
     padding-bottom: 0;
+    font-weight: 1000;
     margin: 20px 0 0px 0;
     color: #0d1011;
     text-align: center;
