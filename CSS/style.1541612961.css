@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Biryani|Montserrat:400,700|Overpass");
-
 /* global box-sizing */
 * {
   -moz-box-sizing: border-box;
@@ -1283,14 +1281,14 @@ h1.display {
     box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2);
   }
 
-  .profileContainer .profileCard .bottom .stat h1,
-  .profileContainer .profileCard .bottom .stat h2,
-  .profileContainer .profileCard .bottom .stat h3 {
+  .profileContainer .profileCard .main .content .content1 .bottom .stat h1,
+  .profileContainer .profileCard .main .content .content1 .bottom .stat h2,
+  .profileContainer .profileCard .content .content1 .bottom .stat h3 {
     margin: 0px;
     padding: 20px 0;
   }
 
-  .profileContainer .profileCard .bottom .stat hr {
+  .profileContainer .profileCard .main .content .content1 .bottom .stat hr {
     width: 30%;
   }
 
@@ -1468,15 +1466,25 @@ h1.display {
     box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28);
     position: relative;
     z-index: 1;
-    background: linear-gradient(225deg, #ffd300, #f9a602, #DAA520, #c49102);
+    background: linear-gradient(225deg, #FAFAD2, #d4af37, #FFD700, #DAA520);
+
     background-size: 300% 300%;
     box-sizing: border-box;
     display: table;
     height: 100vh;
     position: relative;
+
+    -webkit-animation: Rainbow 15s ease infinite;
+    -moz-animation: Rainbow 15s ease infinite;
+    animation: Rainbow 15s ease infinite;
     -webkit-animation: Rainbow 10s ease infinite;
     -moz-animation: Rainbow 10s ease infinite;
     animation: Rainbow 10s ease infinite;
+
+    -webkit-animation: Rainbow 10s ease infinite;
+    -moz-animation: Rainbow 10s ease infinite;
+    animation: Rainbow 10s ease infinite;
+
   }
 
   @-webkit-keyframes Rainbow {
@@ -1537,12 +1545,23 @@ h1.display {
     transform: translate(-50%, -50%);
     position: relative;
     z-index: 0;
+
+    background: linear-gradient(225deg, #d4af37, #FFD700, #DAA520);
     background: linear-gradient(225deg, #ffd300, #f9a602, #DAA520, #c49102);
+
+    background: linear-gradient(225deg, #ffd300, #f9a602, #DAA520, #c49102);
+
     background-size: 100% 100%;
     box-sizing: border-box;
     display: table;
     height: 0vh;
     position: absolute;
+    -webkit-animation: Rainbow 15s ease infinite;
+    -moz-animation: Rainbow 15s ease infinite;
+    animation: Rainbow 15s ease infinite;
+    -webkit-animation: Rainbow 10s ease infinite;
+    -moz-animation: Rainbow 10s ease infinite;
+    animation: Rainbow 10s ease infinite;
     -webkit-animation: Rainbow 10s ease infinite;
     -moz-animation: Rainbow 10s ease infinite;
     animation: Rainbow 10s ease infinite;
@@ -2599,15 +2618,27 @@ h1.display {
     box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28);
     position: relative;
     z-index: 1;
+    background: linear-gradient(225deg, #d4af37, #FFD700, #DAA520);
+    background: linear-gradient(225deg, #ffd300, #f9a602, #DAA520, #c49102);
+
     background: linear-gradient(225deg, #ffd300, #f9a602, #DAA520, #c49102);
     background-size: 300% 300%;
     box-sizing: border-box;
     display: table;
     height: 100vh;
     position: relative;
+
+    -webkit-animation: Rainbow 15s ease infinite;
+    -moz-animation: Rainbow 15s ease infinite;
+    animation: Rainbow 15s ease infinite;
     -webkit-animation: Rainbow 10s ease infinite;
     -moz-animation: Rainbow 10s ease infinite;
     animation: Rainbow 10s ease infinite;
+
+    -webkit-animation: Rainbow 10s ease infinite;
+    -moz-animation: Rainbow 10s ease infinite;
+    animation: Rainbow 10s ease infinite;
+
   }
 
   .rank1 {
@@ -3114,9 +3145,17 @@ h1.display {
     display: table;
     height: 100vh;
     position: relative;
+    -webkit-animation: Rainbow 15s ease infinite;
+    -moz-animation: Rainbow 15s ease infinite;
+    animation: Rainbow 15s ease infinite;
     -webkit-animation: Rainbow 10s ease infinite;
     -moz-animation: Rainbow 10s ease infinite;
     animation: Rainbow 10s ease infinite;
+
+    -webkit-animation: Rainbow 10s ease infinite;
+    -moz-animation: Rainbow 10s ease infinite;
+    animation: Rainbow 10s ease infinite;
+
   }
 
   .rank1 {
@@ -3479,7 +3518,29 @@ h1.display {
     color: #fff;
   }
 
+  .profileContainer .profileCard#chab label:hover {
+    background: #73000a;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#chab input:checked+label {
+    background: #000000;
+    color: #fff;
+  }
+
   .profileContainer .profileCard#chrb .stat:hover {
+    background: #bfc0bf;
+    color: #000000;
+  }
+
+  .profileContainer .profileCard#chrb label:hover {
+    background: #0085ca;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#chrb input:checked+label {
     background: #bfc0bf;
     color: #000000;
   }
@@ -3489,7 +3550,29 @@ h1.display {
     color: #a71930;
   }
 
+  .profileContainer .profileCard#hayd label:hover {
+    background: #a5acaf;
+    color: #a71930;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#hayd input:checked+label {
+    background: #a5acaf;
+    color: #a71930;
+  }
+
   .profileContainer .profileCard#heat .stat:hover {
+    background-color: #002244;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#heat label:hover {
+    background-color: #002244;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#heat input:checked+label {
     background-color: #002244;
     color: #fff;
   }
@@ -3499,12 +3582,45 @@ h1.display {
     color: #fff;
   }
 
+  .profileContainer .profileCard#jaso label:hover {
+    background-color: #a71930;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#jaso input:checked+label {
+    background-color: #a71930;
+    color: #fff;
+  }
+
   .profileContainer .profileCard#jay .stat:hover {
     background-color: #bfc0bf;
     color: #000000;
   }
 
+  .profileContainer .profileCard#jay label:hover {
+    background: #0085ca;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#jay input:checked+label {
+    background: #bfc0bf;
+    color: #000000;
+  }
+
   .profileContainer .profileCard#jenna .stat:hover {
+    background-color: #522d80;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#jenna label:hover {
+    background-color: #522d80;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#jenna input:checked+label {
     background-color: #522d80;
     color: #fff;
   }
@@ -3514,18 +3630,62 @@ h1.display {
     color: #fff;
   }
 
+  .profileContainer .profileCard#gar label:hover {
+    background: #003594;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#gar input:checked+label {
+    background: #bfc0bf;
+    color: #000000;
+  }
+
   .profileContainer .profileCard#kev .stat:hover {
+    background-color: #ffb81c;
+    color: #000000;
+  }
+
+  .profileContainer .profileCard#kev label:hover {
+    background-color: #ffb81c;
+    color: #000000;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#kev input:checked+label {
     background-color: #ffb81c;
     color: #000000;
   }
 
   .profileContainer .profileCard#rhet .stat:hover {
     background-color: #141416;
-    color: #fff;
+    color: #d3bc8d;
+  }
+
+  .profileContainer .profileCard#rhet label:hover {
+    background-color: #141416;
+    color: #d3bc8d;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#rhet input:checked+label {
+    background-color: #141416;
+    color: #d3bc8d;
   }
 
   .profileContainer .profileCard#krist .stat:hover {
     background-color: #bfc0bf;
+    color: #000000;
+  }
+
+  .profileContainer .profileCard#krist label:hover {
+    background: #0085ca;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#krist input:checked+label {
+    background: #bfc0bf;
     color: #000000;
   }
 
@@ -3534,8 +3694,30 @@ h1.display {
     color: #fff;
   }
 
+  .profileContainer .profileCard#chrb label:hover {
+    background: #0085ca;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#chrb input:checked+label {
+    background: #bfc0bf;
+    color: #000000;
+  }
+
   .profileContainer .profileCard#sams .stat:hover {
     background-color: #ffb612;
+    color: #000000;
+  }
+
+  .profileContainer .profileCard#chrb label:hover {
+    background: #0085ca;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#chrb input:checked+label {
+    background: #bfc0bf;
     color: #000000;
   }
 
@@ -3544,9 +3726,31 @@ h1.display {
     color: #fff;
   }
 
+  .profileContainer .profileCard#chrb label:hover {
+    background: #0085ca;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#chrb input:checked+label {
+    background: #bfc0bf;
+    color: #000000;
+  }
+
   .profileContainer .profileCard#skul .stat:hover {
     background-color: #a71930;
     color: #a5acaf;
+  }
+
+  .profileContainer .profileCard#chrb label:hover {
+    background: #0085ca;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#chrb input:checked+label {
+    background: #bfc0bf;
+    color: #000000;
   }
 
   .profileContainer .profileCard#spen .stat:hover {
@@ -3554,8 +3758,103 @@ h1.display {
     color: #a5acaf;
   }
 
+  .profileContainer .profileCard#chrb label:hover {
+    background: #0085ca;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#chrb input:checked+label {
+    background: #bfc0bf;
+    color: #000000;
+  }
+
   /*------------ News Card --------------*/
   .newsCard {
     width: calc(50% - 30px);
+  }
+
+  @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+  *,
+  *:before,
+  *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  h1, h3 {
+    padding: 25px 0;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  hr {
+    margin: 0px 85px 0px 85px;
+    width: 30%;
+  }
+
+  p {
+    margin: 0 0 20px;
+    line-height: 1.5;
+  }
+
+  .main {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .content {
+    background: #fff;
+    color: #373737;
+    text-align: center;
+  }
+
+  .content>div {
+    display: none;
+    padding: 20px 25px 5px;
+  }
+
+  input {
+    display: none;
+  }
+
+  label {
+    display: inline-block;
+    padding: 10px 10px;
+    font-weight: 600;
+    text-align: center;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+
+  label:hover {
+    background: #0085ca;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  input:checked+label {
+    background: #bfc0bf;
+    color: #000000;
+  }
+
+  #tab1:checked~.content #content1,
+  #tab2:checked~.content #content2,
+  #tab3:checked~.content #content3,
+  #tab4:checked~.content #content4 {
+    display: block;
+  }
+
+  @media screen and (max-width: 400px) {
+    label {
+      padding: 15px 10px;
+    }
   }
 }
