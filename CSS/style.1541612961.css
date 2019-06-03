@@ -2338,9 +2338,263 @@ h1.display {
     width: 33%;
   }
 
+  .profileContainer .profileCard#chab .stat:hover {
+    background: #73000a;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#chab label:hover {
+    background: #73000a;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#chab input:checked + label {
+    background: #000000;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#chrb .stat:hover {
+    background: #bfc0bf;
+    color: #000000;
+  }
+
+  .profileContainer .profileCard#chrb label:hover {
+    background: #0085ca;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#chrb input:checked + label {
+    background: #bfc0bf;
+    color: #000000;
+  }
+
+  .profileContainer .profileCard#hayd .stat:hover {
+    background-color: #a5acaf;
+    color: #a71930;
+  }
+
+  .profileContainer .profileCard#hayd label:hover {
+    background: #a5acaf;
+    color: #a71930;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#hayd input:checked + label {
+    background: #a5acaf;
+    color: #a71930;
+  }
+
+  .profileContainer .profileCard#heat .stat:hover {
+    background-color: #002244;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#heat label:hover {
+    background-color: #002244;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#heat input:checked + label {
+    background-color: #002244;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#jaso .stat:hover {
+    background-color: #a71930;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#jaso label:hover {
+    background-color: #a71930;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#jaso input:checked + label {
+    background-color: #a71930;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#jay .stat:hover {
+    background-color: #bfc0bf;
+    color: #000000;
+  }
+
+  .profileContainer .profileCard#jay label:hover {
+    background: #0085ca;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#jay input:checked + label {
+    background: #bfc0bf;
+    color: #000000;
+  }
+
+  .profileContainer .profileCard#jenna .stat:hover {
+    background-color: #522d80;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#jenna label:hover {
+    background-color: #522d80;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#jenna input:checked + label {
+    background-color: #522d80;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#gar .stat:hover {
+    background-color: #003594;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#gar label:hover {
+    background: #003594;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#gar input:checked + label {
+    background: #bfc0bf;
+    color: #000000;
+  }
+
+  .profileContainer .profileCard#kev .stat:hover {
+    background-color: #ffb81c;
+    color: #000000;
+  }
+
+  .profileContainer .profileCard#kev label:hover {
+    background-color: #ffb81c;
+    color: #000000;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#kev input:checked + label {
+    background-color: #ffb81c;
+    color: #000000;
+  }
+
+  .profileContainer .profileCard#rhet .stat:hover {
+    background-color: #141416;
+    color: #d3bc8d;
+  }
+
+  .profileContainer .profileCard#rhet label:hover {
+    background-color: #141416;
+    color: #d3bc8d;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#rhet input:checked + label {
+    background-color: #141416;
+    color: #d3bc8d;
+  }
+
+  .profileContainer .profileCard#krist .stat:hover {
+    background-color: #bfc0bf;
+    color: #000000;
+  }
+
+  .profileContainer .profileCard#krist label:hover {
+    background: #0085ca;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#krist input:checked + label {
+    background: #bfc0bf;
+    color: #000000;
+  }
+
+  .profileContainer .profileCard#ridg .stat:hover {
+    background-color: #003f2d;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#ridg label:hover {
+    background-color: #003f2d;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#ridg input:checked + label {
+    background-color: #003f2d;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#sams .stat:hover {
+    background-color: #ffb612;
+    color: #000000;
+  }
+
+  .profileContainer .profileCard#sams label:hover {
+    background-color: #ffb612;
+    color: #000000;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#sams input:checked + label {
+    background-color: #ffb612;
+    color: #000000;
+  }
+
+  .profileContainer .profileCard#scot .stat:hover {
+    background-color: #27251f;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#scot label:hover {
+    background-color: #27251f;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#scot input:checked + label {
+    background-color: #27251f;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#skul .stat:hover {
+    background-color: #a71930;
+    color: #a5acaf;
+  }
+
+  .profileContainer .profileCard#skul label:hover {
+    background-color: #a71930;
+    color: #a5acaf;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#skul input:checked + label {
+    background-color: #a71930;
+    color: #a5acaf;
+  }
+
+  .profileContainer .profileCard#spen .stat:hover {
+    background-color: #a71930;
+    color: #a5acaf;
+  }
+
+  .profileContainer .profileCard#spen label:hover {
+    background-color: #a71930;
+    color: #a5acaf;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#spen input:checked + label {
+    background-color: #a71930;
+    color: #a5acaf;
+  }
+
   .content {
-    background: #fff;
-    color: #373737;
     text-align: center;
   }
 
@@ -2358,9 +2612,9 @@ h1.display {
     padding: 10px 10px;
     font-weight: 600;
     text-align: center;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
-    border-top: 1px solid white;
+    border-left: 1px hidden white;
+    border-right: 1px hidden white;
+    border-top: 1px hidden white;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
   }
@@ -2893,9 +3147,263 @@ h1.display {
     display: block;
   }
 
+  .profileContainer .profileCard#chab .stat:hover {
+    background: #73000a;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#chab label:hover {
+    background: #73000a;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#chab input:checked + label {
+    background: #000000;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#chrb .stat:hover {
+    background: #bfc0bf;
+    color: #000000;
+  }
+
+  .profileContainer .profileCard#chrb label:hover {
+    background: #0085ca;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#chrb input:checked + label {
+    background: #bfc0bf;
+    color: #000000;
+  }
+
+  .profileContainer .profileCard#hayd .stat:hover {
+    background-color: #a5acaf;
+    color: #a71930;
+  }
+
+  .profileContainer .profileCard#hayd label:hover {
+    background: #a5acaf;
+    color: #a71930;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#hayd input:checked + label {
+    background: #a5acaf;
+    color: #a71930;
+  }
+
+  .profileContainer .profileCard#heat .stat:hover {
+    background-color: #002244;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#heat label:hover {
+    background-color: #002244;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#heat input:checked + label {
+    background-color: #002244;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#jaso .stat:hover {
+    background-color: #a71930;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#jaso label:hover {
+    background-color: #a71930;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#jaso input:checked + label {
+    background-color: #a71930;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#jay .stat:hover {
+    background-color: #bfc0bf;
+    color: #000000;
+  }
+
+  .profileContainer .profileCard#jay label:hover {
+    background: #0085ca;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#jay input:checked + label {
+    background: #bfc0bf;
+    color: #000000;
+  }
+
+  .profileContainer .profileCard#jenna .stat:hover {
+    background-color: #522d80;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#jenna label:hover {
+    background-color: #522d80;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#jenna input:checked + label {
+    background-color: #522d80;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#gar .stat:hover {
+    background-color: #003594;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#gar label:hover {
+    background: #003594;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#gar input:checked + label {
+    background: #bfc0bf;
+    color: #000000;
+  }
+
+  .profileContainer .profileCard#kev .stat:hover {
+    background-color: #ffb81c;
+    color: #000000;
+  }
+
+  .profileContainer .profileCard#kev label:hover {
+    background-color: #ffb81c;
+    color: #000000;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#kev input:checked + label {
+    background-color: #ffb81c;
+    color: #000000;
+  }
+
+  .profileContainer .profileCard#rhet .stat:hover {
+    background-color: #141416;
+    color: #d3bc8d;
+  }
+
+  .profileContainer .profileCard#rhet label:hover {
+    background-color: #141416;
+    color: #d3bc8d;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#rhet input:checked + label {
+    background-color: #141416;
+    color: #d3bc8d;
+  }
+
+  .profileContainer .profileCard#krist .stat:hover {
+    background-color: #bfc0bf;
+    color: #000000;
+  }
+
+  .profileContainer .profileCard#krist label:hover {
+    background: #0085ca;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#krist input:checked + label {
+    background: #bfc0bf;
+    color: #000000;
+  }
+
+  .profileContainer .profileCard#ridg .stat:hover {
+    background-color: #003f2d;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#ridg label:hover {
+    background-color: #003f2d;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#ridg input:checked + label {
+    background-color: #003f2d;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#sams .stat:hover {
+    background-color: #ffb612;
+    color: #000000;
+  }
+
+  .profileContainer .profileCard#sams label:hover {
+    background-color: #ffb612;
+    color: #000000;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#sams input:checked + label {
+    background-color: #ffb612;
+    color: #000000;
+  }
+
+  .profileContainer .profileCard#scot .stat:hover {
+    background-color: #27251f;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#scot label:hover {
+    background-color: #27251f;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#scot input:checked + label {
+    background-color: #27251f;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#skul .stat:hover {
+    background-color: #a71930;
+    color: #a5acaf;
+  }
+
+  .profileContainer .profileCard#skul label:hover {
+    background-color: #a71930;
+    color: #a5acaf;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#skul input:checked + label {
+    background-color: #a71930;
+    color: #a5acaf;
+  }
+
+  .profileContainer .profileCard#spen .stat:hover {
+    background-color: #a71930;
+    color: #a5acaf;
+  }
+
+  .profileContainer .profileCard#spen label:hover {
+    background-color: #a71930;
+    color: #a5acaf;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#spen input:checked + label {
+    background-color: #a71930;
+    color: #a5acaf;
+  }
+
   .content {
-    background: #fff;
-    color: #373737;
     text-align: center;
   }
 
@@ -2913,9 +3421,9 @@ h1.display {
     padding: 10px 10px;
     font-weight: 600;
     text-align: center;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
-    border-top: 1px solid white;
+    border-left: 1px hidden white;
+    border-right: 1px hidden white;
+    border-top: 1px hidden white;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
   }
@@ -3625,7 +4133,29 @@ h1.display {
     color: #fff;
   }
 
+  .profileContainer .profileCard#chab label:hover {
+    background: #73000a;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#chab input:checked + label {
+    background: #000000;
+    color: #fff;
+  }
+
   .profileContainer .profileCard#chrb .stat:hover {
+    background: #bfc0bf;
+    color: #000000;
+  }
+
+  .profileContainer .profileCard#chrb label:hover {
+    background: #0085ca;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#chrb input:checked + label {
     background: #bfc0bf;
     color: #000000;
   }
@@ -3635,7 +4165,29 @@ h1.display {
     color: #a71930;
   }
 
+  .profileContainer .profileCard#hayd label:hover {
+    background: #a5acaf;
+    color: #a71930;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#hayd input:checked + label {
+    background: #a5acaf;
+    color: #a71930;
+  }
+
   .profileContainer .profileCard#heat .stat:hover {
+    background-color: #002244;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#heat label:hover {
+    background-color: #002244;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#heat input:checked + label {
     background-color: #002244;
     color: #fff;
   }
@@ -3645,12 +4197,45 @@ h1.display {
     color: #fff;
   }
 
+  .profileContainer .profileCard#jaso label:hover {
+    background-color: #a71930;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#jaso input:checked + label {
+    background-color: #a71930;
+    color: #fff;
+  }
+
   .profileContainer .profileCard#jay .stat:hover {
     background-color: #bfc0bf;
     color: #000000;
   }
 
+  .profileContainer .profileCard#jay label:hover {
+    background: #0085ca;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#jay input:checked + label {
+    background: #bfc0bf;
+    color: #000000;
+  }
+
   .profileContainer .profileCard#jenna .stat:hover {
+    background-color: #522d80;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#jenna label:hover {
+    background-color: #522d80;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#jenna input:checked + label {
     background-color: #522d80;
     color: #fff;
   }
@@ -3660,14 +4245,47 @@ h1.display {
     color: #fff;
   }
 
+  .profileContainer .profileCard#gar label:hover {
+    background: #003594;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#gar input:checked + label {
+    background: #bfc0bf;
+    color: #000000;
+  }
+
   .profileContainer .profileCard#kev .stat:hover {
+    background-color: #ffb81c;
+    color: #000000;
+  }
+
+  .profileContainer .profileCard#kev label:hover {
+    background-color: #ffb81c;
+    color: #000000;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#kev input:checked + label {
     background-color: #ffb81c;
     color: #000000;
   }
 
   .profileContainer .profileCard#rhet .stat:hover {
     background-color: #141416;
-    color: #fff;
+    color: #d3bc8d;
+  }
+
+  .profileContainer .profileCard#rhet label:hover {
+    background-color: #141416;
+    color: #d3bc8d;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#rhet input:checked + label {
+    background-color: #141416;
+    color: #d3bc8d;
   }
 
   .profileContainer .profileCard#krist .stat:hover {
@@ -3675,7 +4293,29 @@ h1.display {
     color: #000000;
   }
 
+  .profileContainer .profileCard#krist label:hover {
+    background: #0085ca;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#krist input:checked + label {
+    background: #bfc0bf;
+    color: #000000;
+  }
+
   .profileContainer .profileCard#ridg .stat:hover {
+    background-color: #003f2d;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#ridg label:hover {
+    background-color: #003f2d;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#ridg input:checked + label {
     background-color: #003f2d;
     color: #fff;
   }
@@ -3685,7 +4325,29 @@ h1.display {
     color: #000000;
   }
 
+  .profileContainer .profileCard#sams label:hover {
+    background-color: #ffb612;
+    color: #000000;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#sams input:checked + label {
+    background-color: #ffb612;
+    color: #000000;
+  }
+
   .profileContainer .profileCard#scot .stat:hover {
+    background-color: #27251f;
+    color: #fff;
+  }
+
+  .profileContainer .profileCard#scot label:hover {
+    background-color: #27251f;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#scot input:checked + label {
     background-color: #27251f;
     color: #fff;
   }
@@ -3695,7 +4357,29 @@ h1.display {
     color: #a5acaf;
   }
 
+  .profileContainer .profileCard#skul label:hover {
+    background-color: #a71930;
+    color: #a5acaf;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#skul input:checked + label {
+    background-color: #a71930;
+    color: #a5acaf;
+  }
+
   .profileContainer .profileCard#spen .stat:hover {
+    background-color: #a71930;
+    color: #a5acaf;
+  }
+
+  .profileContainer .profileCard#spen label:hover {
+    background-color: #a71930;
+    color: #a5acaf;
+    cursor: pointer;
+  }
+
+  .profileContainer .profileCard#spen input:checked + label {
     background-color: #a71930;
     color: #a5acaf;
   }
@@ -3706,8 +4390,6 @@ h1.display {
   }
 
   .content {
-    background: #fff;
-    color: #373737;
     text-align: center;
   }
 
@@ -3725,9 +4407,9 @@ h1.display {
     padding: 10px 10px;
     font-weight: 600;
     text-align: center;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
-    border-top: 1px solid white;
+    border-left: 1px hidden white;
+    border-right: 1px hidden white;
+    border-top: 1px hidden white;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
   }
