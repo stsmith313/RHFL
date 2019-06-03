@@ -2375,7 +2375,7 @@ h1.display {
   }
 
   hr {
-    margin: 0px 65px 0px 65px;
+    margin: 0px 100px 0px 90px;
     width: 40%;
   }
 
@@ -2967,8 +2967,8 @@ h1.display {
   }
 
   hr {
-    margin: 0px 85px 0px 85px;
-    width: 30%;
+    margin: 0px 10px 0px 90px;
+    width: 40%;
   }
 
   p {
@@ -3988,7 +3988,7 @@ h1.display {
   }
 
   hr {
-    margin: 0px 85px 0px 85px;
+    margin: 0px 75px 0px 90px;
     width: 30%;
   }
 
