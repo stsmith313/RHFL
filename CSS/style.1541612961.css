@@ -3917,7 +3917,7 @@ h1.display {
     padding: 15px 20px 10px 20px;
     margin-top: 150px;
     margin-right: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 15px;
     -webkit-box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28);
     box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28);
   }
@@ -3945,7 +3945,7 @@ h1.display {
   }
 
   .sidebarChamp ul li:hover {
-    background: #0d1011;
+    background: #d50a0a;
     color: #fff;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -3961,7 +3961,7 @@ h1.display {
     width: calc(30% - 10px);
     background: #f9fafb;
     display: inline-block;
-    padding: 25px 20px 10px 20px;
+    padding: 15px 20px 10px 20px;
     margin-top: 125px;
     margin-right: 10px;
     margin-bottom: 0px;
