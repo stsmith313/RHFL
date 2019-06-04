@@ -35,6 +35,7 @@ p {
   font-weight: 500;
   color: #21282c;
 }
+
 p.lead {
   font-family: "Biryani", sans-serif;
   font-size: 1.42em;
@@ -845,13 +846,11 @@ h1.display {
   }
 
   .longCard#chab .overlay {
-    background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      from(#73000a),
-      to(#f3f5f6)
-    );
+    background: -webkit-gradient(linear,
+        left bottom,
+        left top,
+        from(#73000a),
+        to(#f3f5f6));
     background: -webkit-linear-gradient(bottom, #73000a, #f3f5f6);
     background: -o-linear-gradient(bottom, #73000a, #f3f5f6);
     background: linear-gradient(to top, #73000a, #f3f5f6);
@@ -866,13 +865,11 @@ h1.display {
   }
 
   .longCard#chrb .overlay {
-    background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      from(#0085ca),
-      to(#f3f5f6)
-    );
+    background: -webkit-gradient(linear,
+        left bottom,
+        left top,
+        from(#0085ca),
+        to(#f3f5f6));
     background: -webkit-linear-gradient(bottom, #0085ca, #f3f5f6);
     background: -o-linear-gradient(bottom, #0085ca, #f3f5f6);
     background: linear-gradient(to top, #0085ca, #f3f5f6);
@@ -887,13 +884,11 @@ h1.display {
   }
 
   .longCard#hayd .overlay {
-    background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      from(#a71930),
-      to(#f3f5f6)
-    );
+    background: -webkit-gradient(linear,
+        left bottom,
+        left top,
+        from(#a71930),
+        to(#f3f5f6));
     background: -webkit-linear-gradient(bottom, #a71930, #f3f5f6);
     background: -o-linear-gradient(bottom, #a71930, #f3f5f6);
     background: linear-gradient(to top, #a71930, #f3f5f6);
@@ -908,13 +903,11 @@ h1.display {
   }
 
   .longCard#heat .overlay {
-    background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      from(#fb4f14),
-      to(#f3f5f6)
-    );
+    background: -webkit-gradient(linear,
+        left bottom,
+        left top,
+        from(#fb4f14),
+        to(#f3f5f6));
     background: -webkit-linear-gradient(bottom, #fb4f14, #f3f5f6);
     background: -o-linear-gradient(bottom, #fb4f14, #f3f5f6);
     background: linear-gradient(to top, #fb4f14, #f3f5f6);
@@ -929,13 +922,11 @@ h1.display {
   }
 
   .longCard#jaso .overlay {
-    background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      from(#03202f),
-      to(#f3f5f6)
-    );
+    background: -webkit-gradient(linear,
+        left bottom,
+        left top,
+        from(#03202f),
+        to(#f3f5f6));
     background: -webkit-linear-gradient(bottom, #03202f, #f3f5f6);
     background: -o-linear-gradient(bottom, #03202f, #f3f5f6);
     background: linear-gradient(to top, #03202f, #f3f5f6);
@@ -950,13 +941,11 @@ h1.display {
   }
 
   .longCard#jay .overlay {
-    background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      from(#0085ca),
-      to(#f3f5f6)
-    );
+    background: -webkit-gradient(linear,
+        left bottom,
+        left top,
+        from(#0085ca),
+        to(#f3f5f6));
     background: -webkit-linear-gradient(bottom, #0085ca, #f3f5f6);
     background: -o-linear-gradient(bottom, #0085ca, #f3f5f6);
     background: linear-gradient(to top, #0085ca, #f3f5f6);
@@ -971,13 +960,11 @@ h1.display {
   }
 
   .longCard#jenna .overlay {
-    background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      from(#f66733),
-      to(#f3f5f6)
-    );
+    background: -webkit-gradient(linear,
+        left bottom,
+        left top,
+        from(#f66733),
+        to(#f3f5f6));
     background: -webkit-linear-gradient(bottom, #f66733, #f3f5f6);
     background: -o-linear-gradient(bottom, #f66733, #f3f5f6);
     background: linear-gradient(to top, #f66733, #f3f5f6);
@@ -992,13 +979,11 @@ h1.display {
   }
 
   .longCard#gar .overlay {
-    background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      from(#041e42),
-      to(#f3f5f6)
-    );
+    background: -webkit-gradient(linear,
+        left bottom,
+        left top,
+        from(#041e42),
+        to(#f3f5f6));
     background: -webkit-linear-gradient(bottom, #041e42, #f3f5f6);
     background: -o-linear-gradient(bottom, #041e42, #f3f5f6);
     background: linear-gradient(to top, #041e42, #f3f5f6);
@@ -1013,13 +998,11 @@ h1.display {
   }
 
   .longCard#kev .overlay {
-    background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      from(#e31837),
-      to(#f3f5f6)
-    );
+    background: -webkit-gradient(linear,
+        left bottom,
+        left top,
+        from(#e31837),
+        to(#f3f5f6));
     background: -webkit-linear-gradient(bottom, #e31837, #f3f5f6);
     background: -o-linear-gradient(bottom, #e31837, #f3f5f6);
     background: linear-gradient(to top, #e31837, #f3f5f6);
@@ -1034,13 +1017,11 @@ h1.display {
   }
 
   .longCard#rhet .overlay {
-    background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      from(#d3bc8d),
-      to(#f3f5f6)
-    );
+    background: -webkit-gradient(linear,
+        left bottom,
+        left top,
+        from(#d3bc8d),
+        to(#f3f5f6));
     background: -webkit-linear-gradient(bottom, #d3bc8d, #f3f5f6);
     background: -o-linear-gradient(bottom, #d3bc8d, #f3f5f6);
     background: linear-gradient(to top, #d3bc8d, #f3f5f6);
@@ -1055,13 +1036,11 @@ h1.display {
   }
 
   .longCard#krist .overlay {
-    background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      from(#0085ca),
-      to(#f3f5f6)
-    );
+    background: -webkit-gradient(linear,
+        left bottom,
+        left top,
+        from(#0085ca),
+        to(#f3f5f6));
     background: -webkit-linear-gradient(bottom, #0085ca, #f3f5f6);
     background: -o-linear-gradient(bottom, #0085ca, #f3f5f6);
     background: linear-gradient(to top, #0085ca, #f3f5f6);
@@ -1076,13 +1055,11 @@ h1.display {
   }
 
   .longCard#ridg .overlay {
-    background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      from(#003f2d),
-      to(#f3f5f6)
-    );
+    background: -webkit-gradient(linear,
+        left bottom,
+        left top,
+        from(#003f2d),
+        to(#f3f5f6));
     background: -webkit-linear-gradient(bottom, #003f2d, #f3f5f6);
     background: -o-linear-gradient(bottom, #003f2d, #f3f5f6);
     background: linear-gradient(to top, #003f2d, #f3f5f6);
@@ -1097,13 +1074,11 @@ h1.display {
   }
 
   .longCard#sams .overlay {
-    background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      from(#97233f),
-      to(#f3f5f6)
-    );
+    background: -webkit-gradient(linear,
+        left bottom,
+        left top,
+        from(#97233f),
+        to(#f3f5f6));
     background: -webkit-linear-gradient(bottom, #97233f, #f3f5f6);
     background: -o-linear-gradient(bottom, #97233f, #f3f5f6);
     background: linear-gradient(to top, #97233f, #f3f5f6);
@@ -1118,13 +1093,11 @@ h1.display {
   }
 
   .longCard#scot .overlay {
-    background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      from(#046a38),
-      to(#f3f5f6)
-    );
+    background: -webkit-gradient(linear,
+        left bottom,
+        left top,
+        from(#046a38),
+        to(#f3f5f6));
     background: -webkit-linear-gradient(bottom, #046a38, #f3f5f6);
     background: -o-linear-gradient(bottom, #046a38, #f3f5f6);
     background: linear-gradient(to top, #046a38, #f3f5f6);
@@ -1139,13 +1112,11 @@ h1.display {
   }
 
   .longCard#skul .overlay {
-    background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      from(#0b2265),
-      to(#f3f5f6)
-    );
+    background: -webkit-gradient(linear,
+        left bottom,
+        left top,
+        from(#0b2265),
+        to(#f3f5f6));
     background: -webkit-linear-gradient(bottom, #0b2265, #f3f5f6);
     background: -o-linear-gradient(bottom, #0b2265, #f3f5f6);
     background: linear-gradient(to top, #0b2265, #f3f5f6);
@@ -1160,13 +1131,11 @@ h1.display {
   }
 
   .longCard#spen .overlay {
-    background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      from(#0b2265),
-      to(#f3f5f6)
-    );
+    background: -webkit-gradient(linear,
+        left bottom,
+        left top,
+        from(#0b2265),
+        to(#f3f5f6));
     background: -webkit-linear-gradient(bottom, #0b2265, #f3f5f6);
     background: -o-linear-gradient(bottom, #0b2265, #f3f5f6);
     background: linear-gradient(to top, #0b2265, #f3f5f6);
@@ -1479,7 +1448,7 @@ h1.display {
     background: url(https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/metlife14950.png);
     background-size: cover;
     background-repeat: norepeat;
-    background-position: 90% 40%;
+    background-position: 90% 55%;
     background-blend-mode: soft-light;
     background-color: #0b2265;
     color: #fff;
@@ -1774,12 +1743,12 @@ h1.display {
     position: relative;
   }
 
-  .newsCard a > img {
+  .newsCard a>img {
     width: 100%;
     height: auto;
   }
 
-  .newsCard a > .category {
+  .newsCard a>.category {
     color: #0d1011;
     font-weight: 700;
     position: absolute;
@@ -1990,9 +1959,9 @@ h1.display {
     left: 50%;
   }
 
-  .ranking .rank > h1,
-  .ranking .rank > h2,
-  .ranking .rank > h3 {
+  .ranking .rank>h1,
+  .ranking .rank>h2,
+  .ranking .rank>h3 {
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -2031,7 +2000,7 @@ h1.display {
     padding: 0;
   }
 
-  .ranking > .change {
+  .ranking>.change {
     position: absolute;
     top: 50%;
     right: 0;
@@ -2057,20 +2026,18 @@ h1.display {
     background: #c5ced3;
     background: -webkit-linear-gradient(to bottom, #c5ced3, #f9fafb);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(#c5ced3),
-      to(#f9fafb)
-    );
+    background: -webkit-gradient(linear,
+        left top,
+        left bottom,
+        from(#c5ced3),
+        to(#f9fafb));
     background: -webkit-linear-gradient(top, #c5ced3, #f9fafb);
     background: -o-linear-gradient(top, #c5ced3, #f9fafb);
     background: linear-gradient(to bottom, #c5ced3, #f9fafb);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
-  .ranking > .change h6 {
+  .ranking>.change h6 {
     position: absolute;
     top: 5px;
     margin: 0;
@@ -2079,21 +2046,19 @@ h1.display {
     border-bottom: 1px solid #0d1011;
   }
 
-  .ranking > .change h3 {
+  .ranking>.change h3 {
     margin: 0;
   }
 
-  .ranking > .change.up {
+  .ranking>.change.up {
     background: #00653a;
     background: -webkit-linear-gradient(to bottom, #00653a, #9da9af);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(#00653a),
-      to(#9da9af)
-    );
+    background: -webkit-gradient(linear,
+        left top,
+        left bottom,
+        from(#00653a),
+        to(#9da9af));
     background: -webkit-linear-gradient(top, #00653a, #9da9af);
     background: -o-linear-gradient(top, #00653a, #9da9af);
     background: linear-gradient(to bottom, #00653a, #9da9af);
@@ -2101,20 +2066,18 @@ h1.display {
     color: #fff;
   }
 
-  .ranking > .change.up h6 {
+  .ranking>.change.up h6 {
     border-color: #fff;
   }
 
-  .ranking > .change.down {
+  .ranking>.change.down {
     background: #e03a3e;
     background: -webkit-linear-gradient(to bottom, #e03a3e, #c5ced3);
-    background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(#e03a3e),
-      to(#c5ced3)
-    );
+    background: -webkit-gradient(linear,
+        left top,
+        left bottom,
+        from(#e03a3e),
+        to(#c5ced3));
     background: -webkit-linear-gradient(top, #e03a3e, #c5ced3);
     background: -o-linear-gradient(top, #e03a3e, #c5ced3);
     background: linear-gradient(to bottom, #e03a3e, #c5ced3);
@@ -2159,13 +2122,11 @@ h1.display {
 
   .accordion .accordion_header {
     width: 100%;
-    background: -webkit-gradient(
-      linear,
-      right top,
-      left top,
-      from(#00619a),
-      to(#003d6b)
-    );
+    background: -webkit-gradient(linear,
+        right top,
+        left top,
+        from(#00619a),
+        to(#003d6b));
     background: -webkit-linear-gradient(right, #00619a, #003d6b);
     background: -o-linear-gradient(right, #00619a, #003d6b);
     background: linear-gradient(to left, #00619a, #003d6b);
@@ -2233,13 +2194,11 @@ h1.display {
 
   .accordion .accordion_body {
     padding: 10px 20px;
-    background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      from(#ece9e6),
-      to(#ffffff)
-    );
+    background: -webkit-gradient(linear,
+        left bottom,
+        left top,
+        from(#ece9e6),
+        to(#ffffff));
     background: -webkit-linear-gradient(bottom, #ece9e6, #ffffff);
     background: -o-linear-gradient(bottom, #ece9e6, #ffffff);
     background: linear-gradient(to top, #ece9e6, #ffffff);
@@ -2266,8 +2225,7 @@ h1.display {
 
   .recordCard .top {
     height: 230px;
-    background: #0d1011
-      url("https://www.profootballhof.com/assets/1/19/Class2019Web1050.jpg?84244");
+    background: #0d1011 url("https://www.profootballhof.com/assets/1/19/Class2019Web1050.jpg?84244");
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -2424,7 +2382,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#chab input:checked + label {
+  .profileContainer .profileCard#chab input:checked+label {
     background: #000000;
     color: #fff;
   }
@@ -2440,7 +2398,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#chrb input:checked + label {
+  .profileContainer .profileCard#chrb input:checked+label {
     background: #bfc0bf;
     color: #000000;
   }
@@ -2456,7 +2414,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#hayd input:checked + label {
+  .profileContainer .profileCard#hayd input:checked+label {
     background: #a5acaf;
     color: #a71930;
   }
@@ -2472,7 +2430,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#heat input:checked + label {
+  .profileContainer .profileCard#heat input:checked+label {
     background-color: #002244;
     color: #fff;
   }
@@ -2488,7 +2446,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#jaso input:checked + label {
+  .profileContainer .profileCard#jaso input:checked+label {
     background-color: #a71930;
     color: #fff;
   }
@@ -2504,7 +2462,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#jay input:checked + label {
+  .profileContainer .profileCard#jay input:checked+label {
     background: #bfc0bf;
     color: #000000;
   }
@@ -2520,7 +2478,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#jenna input:checked + label {
+  .profileContainer .profileCard#jenna input:checked+label {
     background-color: #522d80;
     color: #fff;
   }
@@ -2536,7 +2494,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#gar input:checked + label {
+  .profileContainer .profileCard#gar input:checked+label {
     background: #bfc0bf;
     color: #000000;
   }
@@ -2552,7 +2510,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#kev input:checked + label {
+  .profileContainer .profileCard#kev input:checked+label {
     background-color: #ffb81c;
     color: #000000;
   }
@@ -2568,7 +2526,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#rhet input:checked + label {
+  .profileContainer .profileCard#rhet input:checked+label {
     background-color: #141416;
     color: #d3bc8d;
   }
@@ -2584,7 +2542,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#krist input:checked + label {
+  .profileContainer .profileCard#krist input:checked+label {
     background: #bfc0bf;
     color: #000000;
   }
@@ -2600,7 +2558,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#ridg input:checked + label {
+  .profileContainer .profileCard#ridg input:checked+label {
     background-color: #003f2d;
     color: #fff;
   }
@@ -2616,7 +2574,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#sams input:checked + label {
+  .profileContainer .profileCard#sams input:checked+label {
     background-color: #ffb612;
     color: #000000;
   }
@@ -2632,7 +2590,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#scot input:checked + label {
+  .profileContainer .profileCard#scot input:checked+label {
     background-color: #27251f;
     color: #fff;
   }
@@ -2648,7 +2606,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#skul input:checked + label {
+  .profileContainer .profileCard#skul input:checked+label {
     background-color: #a71930;
     color: #a5acaf;
   }
@@ -2664,7 +2622,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#spen input:checked + label {
+  .profileContainer .profileCard#spen input:checked+label {
     background-color: #a71930;
     color: #a5acaf;
   }
@@ -2673,7 +2631,7 @@ h1.display {
     text-align: center;
   }
 
-  .content > div {
+  .content>div {
     display: none;
     padding: 20px 25px 5px;
   }
@@ -2700,15 +2658,15 @@ h1.display {
     cursor: pointer;
   }
 
-  input:checked + label {
+  input:checked+label {
     background: #bfc0bf;
     color: #000000;
   }
 
-  #tab1:checked ~ .content #content1,
-  #tab2:checked ~ .content #content2,
-  #tab3:checked ~ .content #content3,
-  #tab4:checked ~ .content #content4 {
+  #tab1:checked~.content #content1,
+  #tab2:checked~.content #content2,
+  #tab3:checked~.content #content3,
+  #tab4:checked~.content #content4 {
     display: block;
   }
 
@@ -3200,13 +3158,11 @@ h1.display {
 
   .accordion .accordion_body {
     padding: 10px 20px;
-    background: -webkit-gradient(
-      linear,
-      left bottom,
-      left top,
-      from(#ece9e6),
-      to(#ffffff)
-    );
+    background: -webkit-gradient(linear,
+        left bottom,
+        left top,
+        from(#ece9e6),
+        to(#ffffff));
     background: -webkit-linear-gradient(bottom, #ece9e6, #ffffff);
     background: -o-linear-gradient(bottom, #ece9e6, #ffffff);
     background: linear-gradient(to top, #ece9e6, #ffffff);
@@ -3233,7 +3189,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#chab input:checked + label {
+  .profileContainer .profileCard#chab input:checked+label {
     background: #000000;
     color: #fff;
   }
@@ -3249,7 +3205,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#chrb input:checked + label {
+  .profileContainer .profileCard#chrb input:checked+label {
     background: #bfc0bf;
     color: #000000;
   }
@@ -3265,7 +3221,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#hayd input:checked + label {
+  .profileContainer .profileCard#hayd input:checked+label {
     background: #a5acaf;
     color: #a71930;
   }
@@ -3281,7 +3237,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#heat input:checked + label {
+  .profileContainer .profileCard#heat input:checked+label {
     background-color: #002244;
     color: #fff;
   }
@@ -3297,7 +3253,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#jaso input:checked + label {
+  .profileContainer .profileCard#jaso input:checked+label {
     background-color: #a71930;
     color: #fff;
   }
@@ -3313,7 +3269,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#jay input:checked + label {
+  .profileContainer .profileCard#jay input:checked+label {
     background: #bfc0bf;
     color: #000000;
   }
@@ -3329,7 +3285,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#jenna input:checked + label {
+  .profileContainer .profileCard#jenna input:checked+label {
     background-color: #522d80;
     color: #fff;
   }
@@ -3345,7 +3301,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#gar input:checked + label {
+  .profileContainer .profileCard#gar input:checked+label {
     background: #bfc0bf;
     color: #000000;
   }
@@ -3361,7 +3317,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#kev input:checked + label {
+  .profileContainer .profileCard#kev input:checked+label {
     background-color: #ffb81c;
     color: #000000;
   }
@@ -3377,7 +3333,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#rhet input:checked + label {
+  .profileContainer .profileCard#rhet input:checked+label {
     background-color: #141416;
     color: #d3bc8d;
   }
@@ -3393,7 +3349,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#krist input:checked + label {
+  .profileContainer .profileCard#krist input:checked+label {
     background: #bfc0bf;
     color: #000000;
   }
@@ -3409,7 +3365,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#ridg input:checked + label {
+  .profileContainer .profileCard#ridg input:checked+label {
     background-color: #003f2d;
     color: #fff;
   }
@@ -3425,7 +3381,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#sams input:checked + label {
+  .profileContainer .profileCard#sams input:checked+label {
     background-color: #ffb612;
     color: #000000;
   }
@@ -3441,7 +3397,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#scot input:checked + label {
+  .profileContainer .profileCard#scot input:checked+label {
     background-color: #27251f;
     color: #fff;
   }
@@ -3457,7 +3413,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#skul input:checked + label {
+  .profileContainer .profileCard#skul input:checked+label {
     background-color: #a71930;
     color: #a5acaf;
   }
@@ -3473,7 +3429,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#spen input:checked + label {
+  .profileContainer .profileCard#spen input:checked+label {
     background-color: #a71930;
     color: #a5acaf;
   }
@@ -3482,7 +3438,7 @@ h1.display {
     text-align: center;
   }
 
-  .content > div {
+  .content>div {
     display: none;
     padding: 20px 25px 5px;
   }
@@ -3509,15 +3465,15 @@ h1.display {
     cursor: pointer;
   }
 
-  input:checked + label {
+  input:checked+label {
     background: #bfc0bf;
     color: #000000;
   }
 
-  #tab1:checked ~ .content #content1,
-  #tab2:checked ~ .content #content2,
-  #tab3:checked ~ .content #content3,
-  #tab4:checked ~ .content #content4 {
+  #tab1:checked~.content #content1,
+  #tab2:checked~.content #content2,
+  #tab3:checked~.content #content3,
+  #tab4:checked~.content #content4 {
     display: block;
   }
 
@@ -4214,7 +4170,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#chab input:checked + label {
+  .profileContainer .profileCard#chab input:checked+label {
     background: #000000;
     color: #fff;
   }
@@ -4230,7 +4186,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#chrb input:checked + label {
+  .profileContainer .profileCard#chrb input:checked+label {
     background: #bfc0bf;
     color: #000000;
   }
@@ -4246,7 +4202,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#hayd input:checked + label {
+  .profileContainer .profileCard#hayd input:checked+label {
     background: #a5acaf;
     color: #a71930;
   }
@@ -4262,7 +4218,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#heat input:checked + label {
+  .profileContainer .profileCard#heat input:checked+label {
     background-color: #002244;
     color: #fff;
   }
@@ -4278,7 +4234,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#jaso input:checked + label {
+  .profileContainer .profileCard#jaso input:checked+label {
     background-color: #a71930;
     color: #fff;
   }
@@ -4294,7 +4250,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#jay input:checked + label {
+  .profileContainer .profileCard#jay input:checked+label {
     background: #bfc0bf;
     color: #000000;
   }
@@ -4310,7 +4266,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#jenna input:checked + label {
+  .profileContainer .profileCard#jenna input:checked+label {
     background-color: #522d80;
     color: #fff;
   }
@@ -4326,7 +4282,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#gar input:checked + label {
+  .profileContainer .profileCard#gar input:checked+label {
     background: #bfc0bf;
     color: #000000;
   }
@@ -4342,7 +4298,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#kev input:checked + label {
+  .profileContainer .profileCard#kev input:checked+label {
     background-color: #ffb81c;
     color: #000000;
   }
@@ -4358,7 +4314,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#rhet input:checked + label {
+  .profileContainer .profileCard#rhet input:checked+label {
     background-color: #141416;
     color: #d3bc8d;
   }
@@ -4374,7 +4330,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#krist input:checked + label {
+  .profileContainer .profileCard#krist input:checked+label {
     background: #bfc0bf;
     color: #000000;
   }
@@ -4390,7 +4346,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#ridg input:checked + label {
+  .profileContainer .profileCard#ridg input:checked+label {
     background-color: #003f2d;
     color: #fff;
   }
@@ -4406,7 +4362,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#sams input:checked + label {
+  .profileContainer .profileCard#sams input:checked+label {
     background-color: #ffb612;
     color: #000000;
   }
@@ -4422,7 +4378,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#scot input:checked + label {
+  .profileContainer .profileCard#scot input:checked+label {
     background-color: #27251f;
     color: #fff;
   }
@@ -4438,7 +4394,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#skul input:checked + label {
+  .profileContainer .profileCard#skul input:checked+label {
     background-color: #a71930;
     color: #a5acaf;
   }
@@ -4454,7 +4410,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#spen input:checked + label {
+  .profileContainer .profileCard#spen input:checked+label {
     background-color: #a71930;
     color: #a5acaf;
   }
@@ -4468,7 +4424,7 @@ h1.display {
     text-align: center;
   }
 
-  .content > div {
+  .content>div {
     display: none;
     padding: 20px 25px 5px;
   }
@@ -4495,15 +4451,15 @@ h1.display {
     cursor: pointer;
   }
 
-  input:checked + label {
+  input:checked+label {
     background: #bfc0bf;
     color: #000000;
   }
 
-  #tab1:checked ~ .content #content1,
-  #tab2:checked ~ .content #content2,
-  #tab3:checked ~ .content #content3,
-  #tab4:checked ~ .content #content4 {
+  #tab1:checked~.content #content1,
+  #tab2:checked~.content #content2,
+  #tab3:checked~.content #content3,
+  #tab4:checked~.content #content4 {
     display: block;
   }
 
