@@ -253,6 +253,13 @@ h1.display {
     margin-top: 15px 20px 125px 10px;
   }
 
+  .sidebarChamp {
+    width: 100%;
+    background: #e2e7e9;
+    display: none;
+    margin-top: 15px 20px 125px 10px;
+  }
+
   .cardArea {
     margin-top: 0px;
     margin-bottom: 50px;
