@@ -1245,7 +1245,7 @@ h1.display {
   .profileContainer .profileCard .top h3 {
     padding: 120px 0 80px 0;
     margin: 0px 10px;
-    font-size: 34px;
+    font-size: 56px;
   }
 
   .profileContainer .profileCard .top img {
@@ -1460,6 +1460,19 @@ h1.display {
     background-color: #0b2265;
     color: #fff;
   }
+
+  /*.profileContainer .profileCard#scot .top h1 {
+    font-family:  !important;
+    font-size: 56px !important;
+  }
+
+  .profileContainer .profileCard#skul .top h1 {
+    font-size: 56px !important;
+  }
+
+  .profileContainer .profileCard#spen .top h1 {
+    font-size: 56px !important;
+  }*/
 
   /*------------ Stat Card --------------*/
   .statCard {
