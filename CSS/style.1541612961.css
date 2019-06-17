@@ -2415,14 +2415,14 @@ h1.display {
   }
 
   .profileContainer .profileCard#hayd label:hover {
-    background: #a5acaf;
-    color: #a71930;
+    background: #a71930;
+    color: #fff;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#hayd input:checked+label {
-    background: #a5acaf;
-    color: #a71930;
+    background: #a71930;
+    color: #fff;
   }
 
   .profileContainer .profileCard#heat .stat:hover {
@@ -2437,8 +2437,8 @@ h1.display {
   }
 
   .profileContainer .profileCard#heat input:checked+label {
-    background-color: #002244;
-    color: #fff;
+    background-color: #fb4f14;
+    color: #002244;
   }
 
   .profileContainer .profileCard#jaso .stat:hover {
@@ -2453,7 +2453,7 @@ h1.display {
   }
 
   .profileContainer .profileCard#jaso input:checked+label {
-    background-color: #a71930;
+    background-color: #03202f;
     color: #fff;
   }
 
@@ -2485,8 +2485,8 @@ h1.display {
   }
 
   .profileContainer .profileCard#jenna input:checked+label {
-    background-color: #522d80;
-    color: #fff;
+    background-color: #f66733;
+    color: #522d80;
   }
 
   .profileContainer .profileCard#gar .stat:hover {
@@ -2517,8 +2517,8 @@ h1.display {
   }
 
   .profileContainer .profileCard#kev input:checked+label {
-    background-color: #ffb81c;
-    color: #000000;
+    background-color: #e31837;
+    color: #fff;
   }
 
   .profileContainer .profileCard#rhet .stat:hover {
@@ -2533,8 +2533,8 @@ h1.display {
   }
 
   .profileContainer .profileCard#rhet input:checked+label {
-    background-color: #141416;
-    color: #d3bc8d;
+    background-color: #d3bc8d;
+    color: #141416;
   }
 
   .profileContainer .profileCard#krist .stat:hover {
@@ -2566,7 +2566,7 @@ h1.display {
 
   .profileContainer .profileCard#ridg input:checked+label {
     background-color: #003f2d;
-    color: #fff;
+    color: #000000;
   }
 
   .profileContainer .profileCard#sams .stat:hover {
@@ -2581,8 +2581,8 @@ h1.display {
   }
 
   .profileContainer .profileCard#sams input:checked+label {
-    background-color: #ffb612;
-    color: #000000;
+    background-color: #97233f;
+    color: #fff;
   }
 
   .profileContainer .profileCard#scot .stat:hover {
@@ -2597,7 +2597,7 @@ h1.display {
   }
 
   .profileContainer .profileCard#scot input:checked+label {
-    background-color: #27251f;
+    background-color: #046a38;
     color: #fff;
   }
 
@@ -2613,8 +2613,8 @@ h1.display {
   }
 
   .profileContainer .profileCard#skul input:checked+label {
-    background-color: #a71930;
-    color: #a5acaf;
+    background-color: #0b2265;
+    color: #fff;
   }
 
   .profileContainer .profileCard#spen .stat:hover {
@@ -3228,8 +3228,8 @@ h1.display {
   }
 
   .profileContainer .profileCard#hayd input:checked+label {
-    background: #a5acaf;
-    color: #a71930;
+    background: #a71930;
+    color: #fff;
   }
 
   .profileContainer .profileCard#heat .stat:hover {
@@ -3244,8 +3244,8 @@ h1.display {
   }
 
   .profileContainer .profileCard#heat input:checked+label {
-    background-color: #002244;
-    color: #fff;
+    background-color: #fb4f14;
+    color: #002244;
   }
 
   .profileContainer .profileCard#jaso .stat:hover {
@@ -3260,7 +3260,7 @@ h1.display {
   }
 
   .profileContainer .profileCard#jaso input:checked+label {
-    background-color: #a71930;
+    background-color: #03202f;
     color: #fff;
   }
 
@@ -3292,8 +3292,8 @@ h1.display {
   }
 
   .profileContainer .profileCard#jenna input:checked+label {
-    background-color: #522d80;
-    color: #fff;
+    background-color: #f66733;
+    color: #522d80;
   }
 
   .profileContainer .profileCard#gar .stat:hover {
@@ -3324,8 +3324,8 @@ h1.display {
   }
 
   .profileContainer .profileCard#kev input:checked+label {
-    background-color: #ffb81c;
-    color: #000000;
+    background-color: #e31837;
+    color: #fff;
   }
 
   .profileContainer .profileCard#rhet .stat:hover {
@@ -3340,8 +3340,8 @@ h1.display {
   }
 
   .profileContainer .profileCard#rhet input:checked+label {
-    background-color: #141416;
-    color: #d3bc8d;
+    background-color: #d3bc8d;
+    color: #141416;
   }
 
   .profileContainer .profileCard#krist .stat:hover {
@@ -3373,7 +3373,7 @@ h1.display {
 
   .profileContainer .profileCard#ridg input:checked+label {
     background-color: #003f2d;
-    color: #fff;
+    color: #000000;
   }
 
   .profileContainer .profileCard#sams .stat:hover {
@@ -3388,8 +3388,8 @@ h1.display {
   }
 
   .profileContainer .profileCard#sams input:checked+label {
-    background-color: #ffb612;
-    color: #000000;
+    background-color: #97233f;
+    color: #fff;
   }
 
   .profileContainer .profileCard#scot .stat:hover {
@@ -3404,7 +3404,7 @@ h1.display {
   }
 
   .profileContainer .profileCard#scot input:checked+label {
-    background-color: #27251f;
+    background-color: #046a38;
     color: #fff;
   }
 
@@ -3420,8 +3420,8 @@ h1.display {
   }
 
   .profileContainer .profileCard#skul input:checked+label {
-    background-color: #a71930;
-    color: #a5acaf;
+    background-color: #0b2265;
+    color: #fff;
   }
 
   .profileContainer .profileCard#spen .stat:hover {
@@ -4209,8 +4209,8 @@ h1.display {
   }
 
   .profileContainer .profileCard#hayd input:checked+label {
-    background: #a5acaf;
-    color: #a71930;
+    background: #a71930;
+    color: #fff;
   }
 
   .profileContainer .profileCard#heat .stat:hover {
@@ -4225,8 +4225,8 @@ h1.display {
   }
 
   .profileContainer .profileCard#heat input:checked+label {
-    background-color: #002244;
-    color: #fff;
+    background-color: #fb4f14;
+    color: #002244;
   }
 
   .profileContainer .profileCard#jaso .stat:hover {
@@ -4241,7 +4241,7 @@ h1.display {
   }
 
   .profileContainer .profileCard#jaso input:checked+label {
-    background-color: #a71930;
+    background-color: #03202f;
     color: #fff;
   }
 
@@ -4273,8 +4273,8 @@ h1.display {
   }
 
   .profileContainer .profileCard#jenna input:checked+label {
-    background-color: #522d80;
-    color: #fff;
+    background-color: #f66733;
+    color: #522d80;
   }
 
   .profileContainer .profileCard#gar .stat:hover {
@@ -4305,8 +4305,8 @@ h1.display {
   }
 
   .profileContainer .profileCard#kev input:checked+label {
-    background-color: #ffb81c;
-    color: #000000;
+    background-color: #e31837;
+    color: #fff;
   }
 
   .profileContainer .profileCard#rhet .stat:hover {
@@ -4321,8 +4321,8 @@ h1.display {
   }
 
   .profileContainer .profileCard#rhet input:checked+label {
-    background-color: #141416;
-    color: #d3bc8d;
+    background-color: #d3bc8d;
+    color: #141416;
   }
 
   .profileContainer .profileCard#krist .stat:hover {
@@ -4354,7 +4354,7 @@ h1.display {
 
   .profileContainer .profileCard#ridg input:checked+label {
     background-color: #003f2d;
-    color: #fff;
+    color: #000000;
   }
 
   .profileContainer .profileCard#sams .stat:hover {
@@ -4369,8 +4369,8 @@ h1.display {
   }
 
   .profileContainer .profileCard#sams input:checked+label {
-    background-color: #ffb612;
-    color: #000000;
+    background-color: #97233f;
+    color: #fff;
   }
 
   .profileContainer .profileCard#scot .stat:hover {
@@ -4385,7 +4385,7 @@ h1.display {
   }
 
   .profileContainer .profileCard#scot input:checked+label {
-    background-color: #27251f;
+    background-color: #046a38;
     color: #fff;
   }
 
@@ -4401,8 +4401,8 @@ h1.display {
   }
 
   .profileContainer .profileCard#skul input:checked+label {
-    background-color: #a71930;
-    color: #a5acaf;
+    background-color: #0b2265;
+    color: #fff;
   }
 
   .profileContainer .profileCard#spen .stat:hover {
