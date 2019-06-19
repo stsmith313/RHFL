@@ -1,5 +1,77 @@
 @import url("https://fonts.googleapis.com/css?family=Biryani|Montserrat:400,700|Overpass");
 
+@font-face {
+  font-family: "Broncos";
+  src: url("fonts/webfonts/nflbronc-webfont.woff2");
+  src: url("fonts/webfonts/nflbronc-webfont.woff");
+}
+
+@font-face {
+  font-family: "Cardinals";
+  src: url("fonts/webfonts/rosario-bold-webfont.woff2");
+  src: url("fonts/webfonts/rosario-bold-webfont.woff");
+}
+
+@font-face {
+  font-family: "Chiefs";
+  src: url("fonts/webfonts/nfl_chiefs-webfont.woff2");
+  src: url("fonts/webfonts/nfl_chiefs-webfont.woff");
+}
+
+@font-face {
+  font-family: "Cowboys";
+  src: url("fonts/webfonts/cowboys_2.0-webfont.woff2");
+  src: url("fonts/webfonts/cowboys_2.0-webfont.woff");
+}
+
+@font-face {
+  font-family: "Falcons";
+  src: url("fonts/webfonts2/falconsfont-webfont.woff2");
+  src: url("fonts/webfonts2/falconsfont-webfont.woff");
+}
+
+@font-face {
+  font-family: "Gamecocks";
+  src: url("fonts/webfonts/fette___-webfont.woff2");
+  src: url("fonts/webfonts/fette___-webfont.woff");
+}
+
+@font-face {
+  font-family: "Giants";
+  src: url("fonts/webfonts/jersey_m54-webfont.woff2");
+  src: url("fonts/webfonts/jersey_m54-webfont.woff");
+}
+
+@font-face {
+  font-family: "Jets";
+  src: url("fonts/webfonts/nfl_jets-webfont.woff2");
+  src: url("fonts/webfonts/nfl_jets-webfont.woff");
+}
+
+@font-face {
+  font-family: "Panthers";
+  src: url("fonts/webfonts2/lubalin_graph_bold-webfont.woff2");
+  src: url("fonts/webfonts2/lubalin_graph_bold-webfont.woff");
+}
+
+@font-face {
+  font-family: "Saints";
+  src: url("fonts/webfonts/solemnit-webfont.woff2");
+  src: url("fonts/webfonts/solemnit-webfont.woff");
+}
+
+@font-face {
+  font-family: "Texans";
+  src: url("fonts/webfonts/cowboys_2.0-webfont.woff2");
+  src: url("fonts/webfonts/cowboys_2.0-webfont.woff");
+}
+
+@font-face {
+  font-family: "Tigers";
+  src: url("fonts/webfonts/ncaa_clemson_paw_hammer-webfont.woff2");
+  src: url("fonts/webfonts/ncaa_clemson_paw_hammer-webfont.woff");
+}
+
 /* global box-sizing */
 * {
   -moz-box-sizing: border-box;
@@ -853,11 +925,13 @@ h1.display {
   }
 
   .longCard#chab .overlay {
-    background: -webkit-gradient(linear,
-        left bottom,
-        left top,
-        from(#73000a),
-        to(#f3f5f6));
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#73000a),
+      to(#f3f5f6)
+    );
     background: -webkit-linear-gradient(bottom, #73000a, #f3f5f6);
     background: -o-linear-gradient(bottom, #73000a, #f3f5f6);
     background: linear-gradient(to top, #73000a, #f3f5f6);
@@ -872,11 +946,13 @@ h1.display {
   }
 
   .longCard#chrb .overlay {
-    background: -webkit-gradient(linear,
-        left bottom,
-        left top,
-        from(#0085ca),
-        to(#f3f5f6));
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#0085ca),
+      to(#f3f5f6)
+    );
     background: -webkit-linear-gradient(bottom, #0085ca, #f3f5f6);
     background: -o-linear-gradient(bottom, #0085ca, #f3f5f6);
     background: linear-gradient(to top, #0085ca, #f3f5f6);
@@ -891,11 +967,13 @@ h1.display {
   }
 
   .longCard#hayd .overlay {
-    background: -webkit-gradient(linear,
-        left bottom,
-        left top,
-        from(#a71930),
-        to(#f3f5f6));
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#a71930),
+      to(#f3f5f6)
+    );
     background: -webkit-linear-gradient(bottom, #a71930, #f3f5f6);
     background: -o-linear-gradient(bottom, #a71930, #f3f5f6);
     background: linear-gradient(to top, #a71930, #f3f5f6);
@@ -910,11 +988,13 @@ h1.display {
   }
 
   .longCard#heat .overlay {
-    background: -webkit-gradient(linear,
-        left bottom,
-        left top,
-        from(#fb4f14),
-        to(#f3f5f6));
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#fb4f14),
+      to(#f3f5f6)
+    );
     background: -webkit-linear-gradient(bottom, #fb4f14, #f3f5f6);
     background: -o-linear-gradient(bottom, #fb4f14, #f3f5f6);
     background: linear-gradient(to top, #fb4f14, #f3f5f6);
@@ -929,11 +1009,13 @@ h1.display {
   }
 
   .longCard#jaso .overlay {
-    background: -webkit-gradient(linear,
-        left bottom,
-        left top,
-        from(#03202f),
-        to(#f3f5f6));
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#03202f),
+      to(#f3f5f6)
+    );
     background: -webkit-linear-gradient(bottom, #03202f, #f3f5f6);
     background: -o-linear-gradient(bottom, #03202f, #f3f5f6);
     background: linear-gradient(to top, #03202f, #f3f5f6);
@@ -948,11 +1030,13 @@ h1.display {
   }
 
   .longCard#jay .overlay {
-    background: -webkit-gradient(linear,
-        left bottom,
-        left top,
-        from(#0085ca),
-        to(#f3f5f6));
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#0085ca),
+      to(#f3f5f6)
+    );
     background: -webkit-linear-gradient(bottom, #0085ca, #f3f5f6);
     background: -o-linear-gradient(bottom, #0085ca, #f3f5f6);
     background: linear-gradient(to top, #0085ca, #f3f5f6);
@@ -967,11 +1051,13 @@ h1.display {
   }
 
   .longCard#jenna .overlay {
-    background: -webkit-gradient(linear,
-        left bottom,
-        left top,
-        from(#f66733),
-        to(#f3f5f6));
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#f66733),
+      to(#f3f5f6)
+    );
     background: -webkit-linear-gradient(bottom, #f66733, #f3f5f6);
     background: -o-linear-gradient(bottom, #f66733, #f3f5f6);
     background: linear-gradient(to top, #f66733, #f3f5f6);
@@ -986,11 +1072,13 @@ h1.display {
   }
 
   .longCard#gar .overlay {
-    background: -webkit-gradient(linear,
-        left bottom,
-        left top,
-        from(#041e42),
-        to(#f3f5f6));
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#041e42),
+      to(#f3f5f6)
+    );
     background: -webkit-linear-gradient(bottom, #041e42, #f3f5f6);
     background: -o-linear-gradient(bottom, #041e42, #f3f5f6);
     background: linear-gradient(to top, #041e42, #f3f5f6);
@@ -1005,11 +1093,13 @@ h1.display {
   }
 
   .longCard#kev .overlay {
-    background: -webkit-gradient(linear,
-        left bottom,
-        left top,
-        from(#e31837),
-        to(#f3f5f6));
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#e31837),
+      to(#f3f5f6)
+    );
     background: -webkit-linear-gradient(bottom, #e31837, #f3f5f6);
     background: -o-linear-gradient(bottom, #e31837, #f3f5f6);
     background: linear-gradient(to top, #e31837, #f3f5f6);
@@ -1024,11 +1114,13 @@ h1.display {
   }
 
   .longCard#rhet .overlay {
-    background: -webkit-gradient(linear,
-        left bottom,
-        left top,
-        from(#d3bc8d),
-        to(#f3f5f6));
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#d3bc8d),
+      to(#f3f5f6)
+    );
     background: -webkit-linear-gradient(bottom, #d3bc8d, #f3f5f6);
     background: -o-linear-gradient(bottom, #d3bc8d, #f3f5f6);
     background: linear-gradient(to top, #d3bc8d, #f3f5f6);
@@ -1043,11 +1135,13 @@ h1.display {
   }
 
   .longCard#krist .overlay {
-    background: -webkit-gradient(linear,
-        left bottom,
-        left top,
-        from(#0085ca),
-        to(#f3f5f6));
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#0085ca),
+      to(#f3f5f6)
+    );
     background: -webkit-linear-gradient(bottom, #0085ca, #f3f5f6);
     background: -o-linear-gradient(bottom, #0085ca, #f3f5f6);
     background: linear-gradient(to top, #0085ca, #f3f5f6);
@@ -1062,11 +1156,13 @@ h1.display {
   }
 
   .longCard#ridg .overlay {
-    background: -webkit-gradient(linear,
-        left bottom,
-        left top,
-        from(#003f2d),
-        to(#f3f5f6));
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#003f2d),
+      to(#f3f5f6)
+    );
     background: -webkit-linear-gradient(bottom, #003f2d, #f3f5f6);
     background: -o-linear-gradient(bottom, #003f2d, #f3f5f6);
     background: linear-gradient(to top, #003f2d, #f3f5f6);
@@ -1081,11 +1177,13 @@ h1.display {
   }
 
   .longCard#sams .overlay {
-    background: -webkit-gradient(linear,
-        left bottom,
-        left top,
-        from(#97233f),
-        to(#f3f5f6));
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#97233f),
+      to(#f3f5f6)
+    );
     background: -webkit-linear-gradient(bottom, #97233f, #f3f5f6);
     background: -o-linear-gradient(bottom, #97233f, #f3f5f6);
     background: linear-gradient(to top, #97233f, #f3f5f6);
@@ -1100,11 +1198,13 @@ h1.display {
   }
 
   .longCard#scot .overlay {
-    background: -webkit-gradient(linear,
-        left bottom,
-        left top,
-        from(#046a38),
-        to(#f3f5f6));
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#046a38),
+      to(#f3f5f6)
+    );
     background: -webkit-linear-gradient(bottom, #046a38, #f3f5f6);
     background: -o-linear-gradient(bottom, #046a38, #f3f5f6);
     background: linear-gradient(to top, #046a38, #f3f5f6);
@@ -1119,11 +1219,13 @@ h1.display {
   }
 
   .longCard#skul .overlay {
-    background: -webkit-gradient(linear,
-        left bottom,
-        left top,
-        from(#0b2265),
-        to(#f3f5f6));
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#0b2265),
+      to(#f3f5f6)
+    );
     background: -webkit-linear-gradient(bottom, #0b2265, #f3f5f6);
     background: -o-linear-gradient(bottom, #0b2265, #f3f5f6);
     background: linear-gradient(to top, #0b2265, #f3f5f6);
@@ -1138,11 +1240,13 @@ h1.display {
   }
 
   .longCard#spen .overlay {
-    background: -webkit-gradient(linear,
-        left bottom,
-        left top,
-        from(#0b2265),
-        to(#f3f5f6));
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#0b2265),
+      to(#f3f5f6)
+    );
     background: -webkit-linear-gradient(bottom, #0b2265, #f3f5f6);
     background: -o-linear-gradient(bottom, #0b2265, #f3f5f6);
     background: linear-gradient(to top, #0b2265, #f3f5f6);
@@ -1461,18 +1565,84 @@ h1.display {
     color: #fff;
   }
 
-  /*.profileContainer .profileCard#scot .top h1 {
-    font-family:  !important;
+  .profileContainer .profileCard#chab .top h1 {
+    font-size: 45px !important;
+    font-family: "Gamecocks";
+  }
+
+  .profileContainer .profileCard#chab .top h1 {
+    font-size: 50px !important;
+    font-family: "Panthers";
+  }
+
+  .profileContainer .profileCard#gar .top h1 {
+    font-size: 50px !important;
+    font-family: "Cowboys";
+  }
+
+  .profileContainer .profileCard#hayd .top h1 {
+    font-size: 50px !important;
+    font-family: "Falcons";
+  }
+
+  .profileContainer .profileCard#heat .top h1 {
+    font-family: "Broncos";
     font-size: 56px !important;
+  }
+
+  .profileContainer .profileCard#jaso .top h1 {
+    font-size: 56px !important;
+  }
+
+  .profileContainer .profileCard#jay .top h1 {
+    font-family: "Panthers";
+    font-size: 50px !important;
+  }
+
+  .profileContainer .profileCard#jenna .top h1 {
+    font-family: "Tigers";
+    font-size: 56px !important;
+  }
+
+  .profileContainer .profileCard#kev .top h1 {
+    font-family: "Chiefs";
+    font-size: 50px !important;
+  }
+
+  .profileContainer .profileCard#krist .top h1 {
+    font-family: "Panthers";
+    font-size: 40px !important;
+  }
+
+  .profileContainer .profileCard#rhet .top h1 {
+    font-family: "Saints";
+    font-size: 56px !important;
+  }
+
+  .profileContainer .profileCard#ridg .top h1 {
+    font-family: "Jets";
+    font-size: 30px !important;
+  }
+
+  .profileContainer .profileCard#sams .top h1 {
+    font-family: "Cardinals";
+    font-size: 50px !important;
+  }
+
+  .profileContainer .profileCard#scot .top h1 {
+    font-family: "Jets";
+    font-size: 40px !important;
   }
 
   .profileContainer .profileCard#skul .top h1 {
-    font-size: 56px !important;
+    font-family: "Giants";
+    font-size: 65px !important;
   }
 
   .profileContainer .profileCard#spen .top h1 {
-    font-size: 56px !important;
-  }*/
+    font-family: "Giants";
+    font-size: 60px !important;
+  }
 
   /*------------ Stat Card --------------*/
   .statCard {
@@ -1563,7 +1733,16 @@ h1.display {
     box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28);
     position: relative;
     z-index: 1;
-    background: linear-gradient(225deg, #fad25a, #eec64f, #e1ba43, #d4af37, #c7a42b, #bb981d, #ae8d0b);
+    background: linear-gradient(
+      225deg,
+      #fad25a,
+      #eec64f,
+      #e1ba43,
+      #d4af37,
+      #c7a42b,
+      #bb981d,
+      #ae8d0b
+    );
     background-size: 300% 300%;
     box-sizing: border-box;
     display: table;
@@ -1762,12 +1941,12 @@ h1.display {
     position: relative;
   }
 
-  .newsCard a>img {
+  .newsCard a > img {
     width: 100%;
     height: auto;
   }
 
-  .newsCard a>.category {
+  .newsCard a > .category {
     color: #0d1011;
     font-weight: 700;
     position: absolute;
@@ -1978,9 +2157,9 @@ h1.display {
     left: 50%;
   }
 
-  .ranking .rank>h1,
-  .ranking .rank>h2,
-  .ranking .rank>h3 {
+  .ranking .rank > h1,
+  .ranking .rank > h2,
+  .ranking .rank > h3 {
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -2019,7 +2198,7 @@ h1.display {
     padding: 0;
   }
 
-  .ranking>.change {
+  .ranking > .change {
     position: absolute;
     top: 50%;
     right: 0;
@@ -2045,18 +2224,20 @@ h1.display {
     background: #c5ced3;
     background: -webkit-linear-gradient(to bottom, #c5ced3, #f9fafb);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-gradient(linear,
-        left top,
-        left bottom,
-        from(#c5ced3),
-        to(#f9fafb));
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#c5ced3),
+      to(#f9fafb)
+    );
     background: -webkit-linear-gradient(top, #c5ced3, #f9fafb);
     background: -o-linear-gradient(top, #c5ced3, #f9fafb);
     background: linear-gradient(to bottom, #c5ced3, #f9fafb);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
-  .ranking>.change h6 {
+  .ranking > .change h6 {
     position: absolute;
     top: 5px;
     margin: 0;
@@ -2065,19 +2246,21 @@ h1.display {
     border-bottom: 1px solid #0d1011;
   }
 
-  .ranking>.change h3 {
+  .ranking > .change h3 {
     margin: 0;
   }
 
-  .ranking>.change.up {
+  .ranking > .change.up {
     background: #00653a;
     background: -webkit-linear-gradient(to bottom, #00653a, #9da9af);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-gradient(linear,
-        left top,
-        left bottom,
-        from(#00653a),
-        to(#9da9af));
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#00653a),
+      to(#9da9af)
+    );
     background: -webkit-linear-gradient(top, #00653a, #9da9af);
     background: -o-linear-gradient(top, #00653a, #9da9af);
     background: linear-gradient(to bottom, #00653a, #9da9af);
@@ -2085,18 +2268,20 @@ h1.display {
     color: #fff;
   }
 
-  .ranking>.change.up h6 {
+  .ranking > .change.up h6 {
     border-color: #fff;
   }
 
-  .ranking>.change.down {
+  .ranking > .change.down {
     background: #e03a3e;
     background: -webkit-linear-gradient(to bottom, #e03a3e, #c5ced3);
-    background: -webkit-gradient(linear,
-        left top,
-        left bottom,
-        from(#e03a3e),
-        to(#c5ced3));
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#e03a3e),
+      to(#c5ced3)
+    );
     background: -webkit-linear-gradient(top, #e03a3e, #c5ced3);
     background: -o-linear-gradient(top, #e03a3e, #c5ced3);
     background: linear-gradient(to bottom, #e03a3e, #c5ced3);
@@ -2141,11 +2326,13 @@ h1.display {
 
   .accordion .accordion_header {
     width: 100%;
-    background: -webkit-gradient(linear,
-        right top,
-        left top,
-        from(#00619a),
-        to(#003d6b));
+    background: -webkit-gradient(
+      linear,
+      right top,
+      left top,
+      from(#00619a),
+      to(#003d6b)
+    );
     background: -webkit-linear-gradient(right, #00619a, #003d6b);
     background: -o-linear-gradient(right, #00619a, #003d6b);
     background: linear-gradient(to left, #00619a, #003d6b);
@@ -2213,11 +2400,13 @@ h1.display {
 
   .accordion .accordion_body {
     padding: 10px 20px;
-    background: -webkit-gradient(linear,
-        left bottom,
-        left top,
-        from(#ece9e6),
-        to(#ffffff));
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#ece9e6),
+      to(#ffffff)
+    );
     background: -webkit-linear-gradient(bottom, #ece9e6, #ffffff);
     background: -o-linear-gradient(bottom, #ece9e6, #ffffff);
     background: linear-gradient(to top, #ece9e6, #ffffff);
@@ -2244,7 +2433,8 @@ h1.display {
 
   .recordCard .top {
     height: 230px;
-    background: #0d1011 url("https://www.profootballhof.com/assets/1/19/Class2019Web1050.jpg?84244");
+    background: #0d1011
+      url("https://www.profootballhof.com/assets/1/19/Class2019Web1050.jpg?84244");
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -2401,7 +2591,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#chab input:checked+label {
+  .profileContainer .profileCard#chab input:checked + label {
     background: #000000;
     color: #fff;
   }
@@ -2417,7 +2607,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#chrb input:checked+label {
+  .profileContainer .profileCard#chrb input:checked + label {
     background: #bfc0bf;
     color: #000000;
   }
@@ -2433,7 +2623,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#hayd input:checked+label {
+  .profileContainer .profileCard#hayd input:checked + label {
     background: #a71930;
     color: #fff;
   }
@@ -2449,7 +2639,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#heat input:checked+label {
+  .profileContainer .profileCard#heat input:checked + label {
     background-color: #fb4f14;
     color: #002244;
   }
@@ -2465,7 +2655,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#jaso input:checked+label {
+  .profileContainer .profileCard#jaso input:checked + label {
     background-color: #03202f;
     color: #fff;
   }
@@ -2481,7 +2671,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#jay input:checked+label {
+  .profileContainer .profileCard#jay input:checked + label {
     background: #bfc0bf;
     color: #000000;
   }
@@ -2497,7 +2687,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#jenna input:checked+label {
+  .profileContainer .profileCard#jenna input:checked + label {
     background-color: #f66733;
     color: #522d80;
   }
@@ -2513,7 +2703,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#gar input:checked+label {
+  .profileContainer .profileCard#gar input:checked + label {
     background: #bfc0bf;
     color: #000000;
   }
@@ -2529,7 +2719,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#kev input:checked+label {
+  .profileContainer .profileCard#kev input:checked + label {
     background-color: #e31837;
     color: #fff;
   }
@@ -2545,7 +2735,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#rhet input:checked+label {
+  .profileContainer .profileCard#rhet input:checked + label {
     background-color: #d3bc8d;
     color: #141416;
   }
@@ -2561,7 +2751,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#krist input:checked+label {
+  .profileContainer .profileCard#krist input:checked + label {
     background: #bfc0bf;
     color: #000000;
   }
@@ -2577,7 +2767,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#ridg input:checked+label {
+  .profileContainer .profileCard#ridg input:checked + label {
     background-color: #003f2d;
     color: #000000;
   }
@@ -2593,7 +2783,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#sams input:checked+label {
+  .profileContainer .profileCard#sams input:checked + label {
     background-color: #97233f;
     color: #fff;
   }
@@ -2609,7 +2799,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#scot input:checked+label {
+  .profileContainer .profileCard#scot input:checked + label {
     background-color: #046a38;
     color: #fff;
   }
@@ -2625,7 +2815,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#skul input:checked+label {
+  .profileContainer .profileCard#skul input:checked + label {
     background-color: #0b2265;
     color: #fff;
   }
@@ -2641,7 +2831,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#spen input:checked+label {
+  .profileContainer .profileCard#spen input:checked + label {
     background-color: #a71930;
     color: #a5acaf;
   }
@@ -2650,7 +2840,7 @@ h1.display {
     text-align: center;
   }
 
-  .content>div {
+  .content > div {
     display: none;
     padding: 20px 25px 5px;
   }
@@ -2677,15 +2867,15 @@ h1.display {
     cursor: pointer;
   }
 
-  input:checked+label {
+  input:checked + label {
     background: #bfc0bf;
     color: #000000;
   }
 
-  #tab1:checked~.content #content1,
-  #tab2:checked~.content #content2,
-  #tab3:checked~.content #content3,
-  #tab4:checked~.content #content4 {
+  #tab1:checked ~ .content #content1,
+  #tab2:checked ~ .content #content2,
+  #tab3:checked ~ .content #content3,
+  #tab4:checked ~ .content #content4 {
     display: block;
   }
 
@@ -2998,7 +3188,16 @@ h1.display {
     box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28);
     position: relative;
     z-index: 1;
-    background: linear-gradient(225deg, #fad25a, #eec64f, #e1ba43, #d4af37, #c7a42b, #bb981d, #ae8d0b);
+    background: linear-gradient(
+      225deg,
+      #fad25a,
+      #eec64f,
+      #e1ba43,
+      #d4af37,
+      #c7a42b,
+      #bb981d,
+      #ae8d0b
+    );
     background-size: 300% 300%;
     box-sizing: border-box;
     display: table;
@@ -3177,11 +3376,13 @@ h1.display {
 
   .accordion .accordion_body {
     padding: 10px 20px;
-    background: -webkit-gradient(linear,
-        left bottom,
-        left top,
-        from(#ece9e6),
-        to(#ffffff));
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#ece9e6),
+      to(#ffffff)
+    );
     background: -webkit-linear-gradient(bottom, #ece9e6, #ffffff);
     background: -o-linear-gradient(bottom, #ece9e6, #ffffff);
     background: linear-gradient(to top, #ece9e6, #ffffff);
@@ -3208,7 +3409,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#chab input:checked+label {
+  .profileContainer .profileCard#chab input:checked + label {
     background: #000000;
     color: #fff;
   }
@@ -3224,7 +3425,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#chrb input:checked+label {
+  .profileContainer .profileCard#chrb input:checked + label {
     background: #bfc0bf;
     color: #000000;
   }
@@ -3240,7 +3441,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#hayd input:checked+label {
+  .profileContainer .profileCard#hayd input:checked + label {
     background: #a71930;
     color: #fff;
   }
@@ -3256,7 +3457,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#heat input:checked+label {
+  .profileContainer .profileCard#heat input:checked + label {
     background-color: #fb4f14;
     color: #002244;
   }
@@ -3272,7 +3473,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#jaso input:checked+label {
+  .profileContainer .profileCard#jaso input:checked + label {
     background-color: #03202f;
     color: #fff;
   }
@@ -3288,7 +3489,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#jay input:checked+label {
+  .profileContainer .profileCard#jay input:checked + label {
     background: #bfc0bf;
     color: #000000;
   }
@@ -3304,7 +3505,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#jenna input:checked+label {
+  .profileContainer .profileCard#jenna input:checked + label {
     background-color: #f66733;
     color: #522d80;
   }
@@ -3320,7 +3521,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#gar input:checked+label {
+  .profileContainer .profileCard#gar input:checked + label {
     background: #bfc0bf;
     color: #000000;
   }
@@ -3336,7 +3537,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#kev input:checked+label {
+  .profileContainer .profileCard#kev input:checked + label {
     background-color: #e31837;
     color: #fff;
   }
@@ -3352,7 +3553,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#rhet input:checked+label {
+  .profileContainer .profileCard#rhet input:checked + label {
     background-color: #d3bc8d;
     color: #141416;
   }
@@ -3368,7 +3569,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#krist input:checked+label {
+  .profileContainer .profileCard#krist input:checked + label {
     background: #bfc0bf;
     color: #000000;
   }
@@ -3384,7 +3585,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#ridg input:checked+label {
+  .profileContainer .profileCard#ridg input:checked + label {
     background-color: #003f2d;
     color: #000000;
   }
@@ -3400,7 +3601,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#sams input:checked+label {
+  .profileContainer .profileCard#sams input:checked + label {
     background-color: #97233f;
     color: #fff;
   }
@@ -3416,7 +3617,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#scot input:checked+label {
+  .profileContainer .profileCard#scot input:checked + label {
     background-color: #046a38;
     color: #fff;
   }
@@ -3432,7 +3633,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#skul input:checked+label {
+  .profileContainer .profileCard#skul input:checked + label {
     background-color: #0b2265;
     color: #fff;
   }
@@ -3448,7 +3649,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#spen input:checked+label {
+  .profileContainer .profileCard#spen input:checked + label {
     background-color: #a71930;
     color: #a5acaf;
   }
@@ -3457,7 +3658,7 @@ h1.display {
     text-align: center;
   }
 
-  .content>div {
+  .content > div {
     display: none;
     padding: 20px 25px 5px;
   }
@@ -3484,15 +3685,15 @@ h1.display {
     cursor: pointer;
   }
 
-  input:checked+label {
+  input:checked + label {
     background: #bfc0bf;
     color: #000000;
   }
 
-  #tab1:checked~.content #content1,
-  #tab2:checked~.content #content2,
-  #tab3:checked~.content #content3,
-  #tab4:checked~.content #content4 {
+  #tab1:checked ~ .content #content1,
+  #tab2:checked ~ .content #content2,
+  #tab3:checked ~ .content #content3,
+  #tab4:checked ~ .content #content4 {
     display: block;
   }
 
@@ -3812,7 +4013,16 @@ h1.display {
     box-shadow: -1px 3px 9px 0px rgba(24, 24, 24, 0.28);
     position: relative;
     z-index: 1;
-    background: linear-gradient(225deg, #fad25a, #eec64f, #e1ba43, #d4af37, #c7a42b, #bb981d, #ae8d0b);
+    background: linear-gradient(
+      225deg,
+      #fad25a,
+      #eec64f,
+      #e1ba43,
+      #d4af37,
+      #c7a42b,
+      #bb981d,
+      #ae8d0b
+    );
     background-size: 300% 300%;
     box-sizing: border-box;
     display: table;
@@ -4189,7 +4399,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#chab input:checked+label {
+  .profileContainer .profileCard#chab input:checked + label {
     background: #000000;
     color: #fff;
   }
@@ -4205,7 +4415,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#chrb input:checked+label {
+  .profileContainer .profileCard#chrb input:checked + label {
     background: #bfc0bf;
     color: #000000;
   }
@@ -4221,7 +4431,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#hayd input:checked+label {
+  .profileContainer .profileCard#hayd input:checked + label {
     background: #a71930;
     color: #fff;
   }
@@ -4237,7 +4447,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#heat input:checked+label {
+  .profileContainer .profileCard#heat input:checked + label {
     background-color: #fb4f14;
     color: #002244;
   }
@@ -4253,7 +4463,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#jaso input:checked+label {
+  .profileContainer .profileCard#jaso input:checked + label {
     background-color: #03202f;
     color: #fff;
   }
@@ -4269,7 +4479,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#jay input:checked+label {
+  .profileContainer .profileCard#jay input:checked + label {
     background: #bfc0bf;
     color: #000000;
   }
@@ -4285,7 +4495,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#jenna input:checked+label {
+  .profileContainer .profileCard#jenna input:checked + label {
     background-color: #f66733;
     color: #522d80;
   }
@@ -4301,7 +4511,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#gar input:checked+label {
+  .profileContainer .profileCard#gar input:checked + label {
     background: #bfc0bf;
     color: #000000;
   }
@@ -4317,7 +4527,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#kev input:checked+label {
+  .profileContainer .profileCard#kev input:checked + label {
     background-color: #e31837;
     color: #fff;
   }
@@ -4333,7 +4543,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#rhet input:checked+label {
+  .profileContainer .profileCard#rhet input:checked + label {
     background-color: #d3bc8d;
     color: #141416;
   }
@@ -4349,7 +4559,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#krist input:checked+label {
+  .profileContainer .profileCard#krist input:checked + label {
     background: #bfc0bf;
     color: #000000;
   }
@@ -4365,7 +4575,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#ridg input:checked+label {
+  .profileContainer .profileCard#ridg input:checked + label {
     background-color: #003f2d;
     color: #000000;
   }
@@ -4381,7 +4591,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#sams input:checked+label {
+  .profileContainer .profileCard#sams input:checked + label {
     background-color: #97233f;
     color: #fff;
   }
@@ -4397,7 +4607,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#scot input:checked+label {
+  .profileContainer .profileCard#scot input:checked + label {
     background-color: #046a38;
     color: #fff;
   }
@@ -4413,7 +4623,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#skul input:checked+label {
+  .profileContainer .profileCard#skul input:checked + label {
     background-color: #0b2265;
     color: #fff;
   }
@@ -4429,7 +4639,7 @@ h1.display {
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#spen input:checked+label {
+  .profileContainer .profileCard#spen input:checked + label {
     background-color: #a71930;
     color: #a5acaf;
   }
@@ -4443,7 +4653,7 @@ h1.display {
     text-align: center;
   }
 
-  .content>div {
+  .content > div {
     display: none;
     padding: 20px 25px 5px;
   }
@@ -4470,15 +4680,15 @@ h1.display {
     cursor: pointer;
   }
 
-  input:checked+label {
+  input:checked + label {
     background: #bfc0bf;
     color: #000000;
   }
 
-  #tab1:checked~.content #content1,
-  #tab2:checked~.content #content2,
-  #tab3:checked~.content #content3,
-  #tab4:checked~.content #content4 {
+  #tab1:checked ~ .content #content1,
+  #tab2:checked ~ .content #content2,
+  #tab3:checked ~ .content #content3,
+  #tab4:checked ~ .content #content4 {
     display: block;
   }
 
