@@ -1536,20 +1536,20 @@ h1.display {
   }
 
   .profileContainer .profileCard#scot .top {
-    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Service_members_unfurl_flag_at_NY_Jets_first_home_game_at_new_Meadowlands_Stadium.jpg/250px-Service_members_unfurl_flag_at_NY_Jets_first_home_game_at_new_Meadowlands_Stadium.jpg);
+    background: url(https://phildanmatt.weebly.com/uploads/6/6/2/3/6623029/5063122_orig.jpg);
     background-size: cover;
     background-repeat: norepeat;
-    background-position: 90% 80%;
+    background-position: 90% 75%;
     background-blend-mode: soft-light;
     background-color: #046a38;
     color: #fff;
   }
 
   .profileContainer .profileCard#skul .top {
-    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Metlife_stadium_%28Aerial_view%29.jpg/300px-Metlife_stadium_%28Aerial_view%29.jpg);
+    background: url(https://www.stadiumsofprofootball.com/wp-content/uploads/2016/08/giants16_top.jpg);
     background-size: cover;
     background-repeat: norepeat;
-    background-position: 90% 40%;
+    background-position: 90% 70%;
     background-blend-mode: soft-light;
     background-color: #0b2265;
     color: #fff;
@@ -1566,11 +1566,11 @@ h1.display {
   }
 
   .profileContainer .profileCard#chab .top h1 {
-    font-size: 45px !important;
+    font-size: 22px !important;
     font-family: "Gamecocks";
   }
 
-  .profileContainer .profileCard#chab .top h1 {
+  .profileContainer .profileCard#chrb .top h1 {
     font-size: 50px !important;
     font-family: "Panthers";
   }
@@ -4642,6 +4642,101 @@ h1.display {
   .profileContainer .profileCard#spen input:checked + label {
     background-color: #a71930;
     color: #a5acaf;
+  }
+
+  .profileContainer .profileCard#chab .top h1 {
+    font-size: 43px !important;
+    font-family: "Gamecocks";
+    text-align: right;
+  }
+
+  .profileContainer .profileCard#chrb .top h1 {
+    font-size: 56px !important;
+    font-family: "Panthers";
+    text-align: right;
+  }
+
+  .profileContainer .profileCard#gar .top h1 {
+    font-size: 56px !important;
+    font-family: "Cowboys";
+    text-align: right;
+  }
+
+  .profileContainer .profileCard#hayd .top h1 {
+    font-size: 45px !important;
+    font-family: "Falcons";
+    text-align: right;
+  }
+
+  .profileContainer .profileCard#heat .top h1 {
+    font-family: "Broncos";
+    font-size: 56px !important;
+    text-align: right;
+  }
+
+  .profileContainer .profileCard#jaso .top h1 {
+    font-size: 56px !important;
+    text-align: right;
+  }
+
+  .profileContainer .profileCard#jay .top h1 {
+    font-family: "Panthers";
+    font-size: 45px !important;
+    text-align: right;
+  }
+
+  .profileContainer .profileCard#jenna .top h1 {
+    font-family: "Tigers";
+    font-size: 56px !important;
+    text-align: right;
+  }
+
+  .profileContainer .profileCard#kev .top h1 {
+    font-family: "Chiefs";
+    font-size: 56px !important;
+    text-align: right;
+  }
+
+  .profileContainer .profileCard#krist .top h1 {
+    font-family: "Panthers";
+    font-size: 35px !important;
+    text-align: right;
+  }
+
+  .profileContainer .profileCard#rhet .top h1 {
+    font-family: "Saints";
+    font-size: 56px !important;
+    text-align: right;
+  }
+
+  .profileContainer .profileCard#ridg .top h1 {
+    font-family: "Jets";
+    font-size: 30px !important;
+    text-align: right;
+  }
+
+  .profileContainer .profileCard#sams .top h1 {
+    font-family: "Cardinals";
+    font-size: 50px !important;
+    text-align: right;
+  }
+
+  .profileContainer .profileCard#scot .top h1 {
+    font-family: "Jets";
+    font-size: 40px !important;
+    text-align: right;
+  }
+
+  .profileContainer .profileCard#skul .top h1 {
+    font-family: "Giants";
+    font-size: 65px !important;
+    text-align: right;
+  }
+
+  .profileContainer .profileCard#spen .top h1 {
+    font-family: "Giants";
+    font-size: 60px !important;
+    text-align: right;
   }
 
   /*------------ News Card --------------*/
