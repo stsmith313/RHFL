@@ -1,0 +1,100 @@
+.carousel {
+	position: relative;
+    list-style: none;
+    padding: 100px;
+}
+
+.carousel > li {
+    position: absolute;
+    padding: 100px;
+}
+
+.carousel > li:not(.active) {
+    display: none;
+    padding: 100px;
+}
+  
+.carousel > li.next-in {
+	animation: next-in 0.5s;
+}
+
+.carousel > li.next-out {
+	animation: next-out 0.5s;
+}
+
+.carousel > li.prev-in {
+	animation: prev-in 0.5s;
+}
+
+.carousel > li.prev-out {
+	animation: prev-out 0.5s;
+}
+  
+@keyframes next-in {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+@keyframes next-out {
+	0% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+	100% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+}
+
+@keyframes prev-in {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+@keyframes prev-out {
+	0% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+	100% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+}
+
+/* NOT RELATED TO TUTORIAL */
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v5/toadOcfmlt9b38dHJxOBGNbE_oMaV8t2eFeISPpzbdE.woff) format('woff');
+}
+
+body { 
+  transform: translateZ(0px);
+}
+
+a, a:visited {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  margin: 5px;
+  padding: 0px 100px;
+}
+
+img {
+  display: block;
+}
