@@ -1,100 +1,92 @@
-.carousel {
-	position: relative;
-    list-style: none;
-    padding: 100px;
-}
+@media only screen and (min-width: 100px) {
 
-.carousel > li {
+	#demo {
+		text-align: center;
+		font-weight: bold;
+		font-size: 50px;
+		color: #000000;
+		line-height: 3rem;
+	}
+
+	#dem {
+		text-align: center;
+		font-weight: bold;
+		font-size: 50px;
+		color: #000000;
+		line-height: 3.5rem;
+	}
+
+	.card {
+    width: 100%;
+    margin: 35px 0;
+    position: relative;
+    background: #f9fafb;
+    -webkit-box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    min-height: 204px;
+  }
+
+  .card:after {
+    content: "\f44e";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
     position: absolute;
-    padding: 100px;
-}
+    top: 15px;
+    right: 15px;
+    font-size: 1.42em;
+    color: #9b0007;
+  }
 
-.carousel > li:not(.active) {
-    display: none;
-    padding: 100px;
-}
-  
-.carousel > li.next-in {
-	animation: next-in 0.5s;
-}
+  .card:hover {
+    -webkit-box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
 
-.carousel > li.next-out {
-	animation: next-out 0.5s;
-}
+  .card:hover:after {
+    color: #0d1011;
+  }
 
-.carousel > li.prev-in {
-	animation: prev-in 0.5s;
-}
+	.card .cardBody {
+    padding: 10px;
+  }
 
-.carousel > li.prev-out {
-	animation: prev-out 0.5s;
-}
-  
-@keyframes next-in {
-	0% {
-		opacity: 0;
-		transform: translateY(50px);
+  .card .cardBody a {
+    display: inline-block;
+    margin: 0 0 10px 0;
+    text-decoration: none;
+    border: 1px solid #0d1011;
+    border-radius: 10px;
+    padding: 8px 30px;
+    color: #0d1011;
+    font-weight: 700;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+
+  .card .cardBody a:hover,
+  .card .cardBody a:active,
+  .card .cardBody a:focus {
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background: #d50a0a;
+    color: #fff;
+    font-weight: 300;
+  }
+
+  .card .cardBody p {
+    height: 80px;
 	}
-	100% {
-		opacity: 1;
-		transform: translateY(0px);
-	}
-}
-
-@keyframes next-out {
-	0% {
-		opacity: 1;
-		transform: translateX(0px);
-	}
-	100% {
-		opacity: 0;
-		transform: translateX(-50px);
-	}
-}
-
-@keyframes prev-in {
-	0% {
-		opacity: 0;
-		transform: translateX(-50px);
-	}
-	100% {
-		opacity: 1;
-		transform: translateX(0px);
-	}
-}
-
-@keyframes prev-out {
-	0% {
-		opacity: 1;
-		transform: translateY(0px);
-	}
-	100% {
-		opacity: 0;
-		transform: translateY(50px);
-	}
-}
-
-/* NOT RELATED TO TUTORIAL */
-
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v5/toadOcfmlt9b38dHJxOBGNbE_oMaV8t2eFeISPpzbdE.woff) format('woff');
-}
-
-body { 
-  transform: translateZ(0px);
-}
-
-a, a:visited {
-  text-decoration: none;
-  font-weight: bold;
-  color: black;
-  margin: 5px;
-  padding: 0px 100px;
-}
-
-img {
-  display: block;
+	
+	.cardArea {
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
 }
