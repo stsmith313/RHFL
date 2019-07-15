@@ -1,3 +1,14 @@
+/*
+  Theme Name: Modern White
+  Theme URI: Modern White
+  Description: Modern minimalistic theme
+  Version: 1.0
+  Author: Carlos Pacheco
+
+  License: MIT
+  License URI: https://opensource.org/licenses/mit-license.php
+*/
+
 @import url("https://fonts.googleapis.com/css?family=Biryani|Montserrat:400,700|Overpass");
 
 @font-face {
@@ -140,21 +151,21 @@ h1.display {
 @media only screen and (min-width: 100px) {
 
   #demo {
-		text-align: center;
-		font-weight: bold;
-		font-size: 50px;
-		color: #013369;
-		line-height: 3rem;
-	}
-
-	#dem {
-		text-align: center;
-		font-weight: bold;
-		font-size: 50px;
-		color: #d50a0a;
-		line-height: 3.5rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: #013369;
+    line-height: 3rem;
   }
-  
+
+  #dem {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: #d50a0a;
+    line-height: 3.5rem;
+  }
+
   header {
     width: 100%;
     position: fixed;
@@ -3723,7 +3734,7 @@ h1.display {
   .timer .timerBody {
     padding: 10px;
   }
-  
+
   header {
     width: 100%;
     position: fixed;
