@@ -145,6 +145,27 @@ h1.display {
   font-size: 3.105em;
 }
 
+.wrapper {
+  display: flex;
+  min-height: 97vh;
+  flex-direction: column;
+}
+
+footer {
+  background: #9da9af;
+  clear: both;
+}
+
+footer p {
+  padding: 5px 0;
+  margin: 0 5px;
+  color: #0d1011;
+}
+
+main {
+  flex: 1;
+}
+
 /*------------------------------------*\
     100
 \*------------------------------------*/
@@ -426,16 +447,7 @@ h1.display {
     padding: 0;
   }
 
-  footer {
-    background: #9da9af;
-    clear: both;
-  }
-
-  footer p {
-    padding: 5px 0;
-    margin: 0 5px;
-    color: #0d1011;
-  }
+  
 
   /*---------------- Nav ----------------*/
   .nav {
