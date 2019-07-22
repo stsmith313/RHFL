@@ -145,12 +145,6 @@ h1.display {
   font-size: 3.105em;
 }
 
-.wrapper {
-  display: flex;
-  min-height: 97vh;
-  flex-direction: column;
-}
-
 footer {
   background: #9da9af;
   clear: both;
@@ -447,7 +441,7 @@ main {
     padding: 0;
   }
 
-  
+
 
   /*---------------- Nav ----------------*/
   .nav {
