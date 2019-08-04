@@ -4663,19 +4663,19 @@ main {
   }
 
   .profileContainer .profileCard#spen .stat:hover {
-    background-color: #21B5CB;
-    color: #fff;
+    background-color: #a71930;
+    color: #a5acaf;
   }
 
   .profileContainer .profileCard#spen label:hover {
-    background-color: #000000;
-    color: #21B5CB;
+    background-color: #a71930;
+    color: #a5acaf;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#spen input:checked+label {
-    background-color: #000000;
-    color: #21B5CB;
+    background-color: #a71930;
+    color: #a5acaf;
   }
 
   .profileContainer .profileCard#chab .top h1 {
