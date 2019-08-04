@@ -3720,7 +3720,7 @@ main {
     width: 96.5%;
     margin: 0 20px 40px 20px;
     position: relative;
-    background: ##f9fafb;
+    background: #f9fafb;
     -webkit-box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2);
     box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2);
     -webkit-transition: all 0.3s ease;
