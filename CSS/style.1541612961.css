@@ -977,7 +977,7 @@ main {
   }
 
   .longCard#chab .top {
-    background: url("https://i.imgur.com/R57F9Aw.png");
+    background: url("../images/chandler.png");
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -987,11 +987,11 @@ main {
     background: -webkit-gradient(linear,
         left bottom,
         left top,
-        from(#73000a),
+        from(#F05133),
         to(#f3f5f6));
-    background: -webkit-linear-gradient(bottom, #73000a, #f3f5f6);
-    background: -o-linear-gradient(bottom, #73000a, #f3f5f6);
-    background: linear-gradient(to top, #73000a, #f3f5f6);
+    background: -webkit-linear-gradient(bottom, #F05133, #f3f5f6);
+    background: -o-linear-gradient(bottom, #F05133, #f3f5f6);
+    background: linear-gradient(to top, #F05133, #f3f5f6);
     opacity: 0.75;
   }
 
@@ -1110,7 +1110,7 @@ main {
   }
 
   .longCard#gar .top {
-    background: url("https://cdn.freebiesupply.com/images/large/2x/dallas-cowboys-logo-transparent.png");
+    background: url("../Images/garrett.png");
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1120,11 +1120,11 @@ main {
     background: -webkit-gradient(linear,
         left bottom,
         left top,
-        from(#041e42),
+        from(#000000),
         to(#f3f5f6));
-    background: -webkit-linear-gradient(bottom, #041e42, #f3f5f6);
-    background: -o-linear-gradient(bottom, #041e42, #f3f5f6);
-    background: linear-gradient(to top, #041e42, #f3f5f6);
+    background: -webkit-linear-gradient(bottom, #000000, #f3f5f6);
+    background: -o-linear-gradient(bottom, #000000, #f3f5f6);
+    background: linear-gradient(to top, #000000, #f3f5f6);
     opacity: 0.75;
   }
 
@@ -1186,7 +1186,7 @@ main {
   }
 
   .longCard#ridg .top {
-    background: url("https://i.imgur.com/yxzJphz.png");
+    background: url("../images/ridge.png");
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1196,16 +1196,16 @@ main {
     background: -webkit-gradient(linear,
         left bottom,
         left top,
-        from(#003f2d),
+        from(#FF1F1F),
         to(#f3f5f6));
-    background: -webkit-linear-gradient(bottom, #003f2d, #f3f5f6);
-    background: -o-linear-gradient(bottom, #003f2d, #f3f5f6);
-    background: linear-gradient(to top, #003f2d, #f3f5f6);
+    background: -webkit-linear-gradient(bottom, #FF1F1F, #f3f5f6);
+    background: -o-linear-gradient(bottom, #FF1F1F, #f3f5f6);
+    background: linear-gradient(to top, #FF1F1F, #f3f5f6);
     opacity: 0.75;
   }
 
   .longCard#sams .top {
-    background: url("https://i.imgur.com/GnyenA4.png");
+    background: url("../images/sam.png");
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1215,11 +1215,11 @@ main {
     background: -webkit-gradient(linear,
         left bottom,
         left top,
-        from(#97233f),
+        from(#D02030),
         to(#f3f5f6));
-    background: -webkit-linear-gradient(bottom, #97233f, #f3f5f6);
-    background: -o-linear-gradient(bottom, #97233f, #f3f5f6);
-    background: linear-gradient(to top, #97233f, #f3f5f6);
+    background: -webkit-linear-gradient(bottom, #D02030, #f3f5f6);
+    background: -o-linear-gradient(bottom, #D02030, #f3f5f6);
+    background: linear-gradient(to top, #D02030, #f3f5f6);
     opacity: 0.75;
   }
 
@@ -1262,7 +1262,7 @@ main {
   }
 
   .longCard#spen .top {
-    background: url("https://i.imgur.com/EEt6uwV.png");
+    background: url("../images/spencer.png");
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1272,11 +1272,11 @@ main {
     background: -webkit-gradient(linear,
         left bottom,
         left top,
-        from(#0b2265),
+        from(#21B5CB),
         to(#f3f5f6));
-    background: -webkit-linear-gradient(bottom, #0b2265, #f3f5f6);
-    background: -o-linear-gradient(bottom, #0b2265, #f3f5f6);
-    background: linear-gradient(to top, #0b2265, #f3f5f6);
+    background: -webkit-linear-gradient(bottom, #21B5CB, #f3f5f6);
+    background: -o-linear-gradient(bottom, #21B5CB, #f3f5f6);
+    background: linear-gradient(to top, #21B5CB, #f3f5f6);
     opacity: 0.75;
   }
 
@@ -1443,7 +1443,7 @@ main {
     background-repeat: norepeat;
     background-position: 90% 40%;
     background-blend-mode: soft-light;
-    background-color: #73000a;
+    background-color: #571C20;
     color: #fff;
   }
 
@@ -1508,8 +1508,8 @@ main {
     background-repeat: norepeat;
     background-position: 90% 40%;
     background-blend-mode: soft-light;
-    background-color: #041e42;
-    color: #fff;
+    background-color: #C09E45;
+    color: #000000;
   }
 
   .profileContainer .profileCard#kev .top {
@@ -1548,8 +1548,8 @@ main {
     background-repeat: norepeat;
     background-position: 90% 30%;
     background-blend-mode: soft-light;
-    background-color: #003f2d;
-    color: #fff;
+    background-color: #FF1F1F;
+    color: #000000;
   }
 
   .profileContainer .profileCard#sams .top {
@@ -1558,8 +1558,8 @@ main {
     background-repeat: norepeat;
     background-position: 1% 37%;
     background-blend-mode: soft-light;
-    background-color: #97233f;
-    color: #fff;
+    background-color: #b6b6b6;
+    color: #97233f;
   }
 
   .profileContainer .profileCard#scot .top {
@@ -1588,8 +1588,8 @@ main {
     background-repeat: norepeat;
     background-position: 90% 55%;
     background-blend-mode: soft-light;
-    background-color: #0b2265;
-    color: #fff;
+    background-color: #21B5CB;
+    color: #000000;
   }
 
   .profileContainer .profileCard#chab .top h1 {
@@ -2595,18 +2595,18 @@ main {
   }
 
   .profileContainer .profileCard#chab .stat:hover {
-    background: #73000a;
-    color: #fff;
+    background: #571C20;
+    color: #F05133;
   }
 
   .profileContainer .profileCard#chab label:hover {
-    background: #73000a;
-    color: #fff;
+    background: #571C20;
+    color: #F05133;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#chab input:checked+label {
-    background: #000000;
+    background: #571C20;
     color: #fff;
   }
 
@@ -2707,18 +2707,18 @@ main {
   }
 
   .profileContainer .profileCard#gar .stat:hover {
-    background-color: #003594;
+    background-color: #C09E45;
     color: #fff;
   }
 
   .profileContainer .profileCard#gar label:hover {
-    background: #003594;
+    background: #C09E45;
     color: #fff;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#gar input:checked+label {
-    background: #bfc0bf;
+    background: #C09E45;
     color: #000000;
   }
 
@@ -2771,35 +2771,35 @@ main {
   }
 
   .profileContainer .profileCard#ridg .stat:hover {
-    background-color: #003f2d;
-    color: #fff;
+    background-color: #000000;
+    color: #FF1F1F;
   }
 
   .profileContainer .profileCard#ridg label:hover {
-    background-color: #003f2d;
+    background-color: #000000;
     color: #fff;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#ridg input:checked+label {
-    background-color: #003f2d;
-    color: #000000;
+    background-color: #000000;
+    color: #FF1F1F;
   }
 
   .profileContainer .profileCard#sams .stat:hover {
-    background-color: #ffb612;
-    color: #000000;
+    background-color: #97233f;
+    color: #B6B6B6;
   }
 
   .profileContainer .profileCard#sams label:hover {
-    background-color: #ffb612;
-    color: #000000;
+    background-color: #97233f;
+    color: #B6B6B6;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#sams input:checked+label {
     background-color: #97233f;
-    color: #fff;
+    color: #B6B6B6;
   }
 
   .profileContainer .profileCard#scot .stat:hover {
@@ -3409,18 +3409,18 @@ main {
   }
 
   .profileContainer .profileCard#chab .stat:hover {
-    background: #73000a;
-    color: #fff;
+    background: #571C20;
+    color: #F05133;
   }
 
   .profileContainer .profileCard#chab label:hover {
-    background: #73000a;
-    color: #fff;
+    background: #571C20;
+    color: #F05133;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#chab input:checked+label {
-    background: #000000;
+    background: #571C20;
     color: #fff;
   }
 
@@ -3521,18 +3521,18 @@ main {
   }
 
   .profileContainer .profileCard#gar .stat:hover {
-    background-color: #003594;
+    background-color: #C09E45;
     color: #fff;
   }
 
   .profileContainer .profileCard#gar label:hover {
-    background: #003594;
+    background: #C09E45;
     color: #fff;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#gar input:checked+label {
-    background: #bfc0bf;
+    background: #C09E45;
     color: #000000;
   }
 
@@ -3585,29 +3585,29 @@ main {
   }
 
   .profileContainer .profileCard#ridg .stat:hover {
-    background-color: #003f2d;
-    color: #fff;
+    background-color: #000000;
+    color: #FF1F1F;
   }
 
   .profileContainer .profileCard#ridg label:hover {
-    background-color: #003f2d;
+    background-color: #000000;
     color: #fff;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#ridg input:checked+label {
-    background-color: #003f2d;
-    color: #000000;
+    background-color: #000000;
+    color: #FF1F1F;
   }
 
   .profileContainer .profileCard#sams .stat:hover {
-    background-color: #ffb612;
-    color: #000000;
+    background-color: #97233f;
+    color: #B6B6B6;
   }
 
   .profileContainer .profileCard#sams label:hover {
-    background-color: #ffb612;
-    color: #000000;
+    background-color: #97233f;
+    color: #B6B6B6;
     cursor: pointer;
   }
 
@@ -4423,18 +4423,18 @@ main {
   }
 
   .profileContainer .profileCard#chab .stat:hover {
-    background: #73000a;
-    color: #fff;
+    background: #571C20;
+    color: #F05133;
   }
 
   .profileContainer .profileCard#chab label:hover {
-    background: #73000a;
-    color: #fff;
+    background: #571C20;
+    color: #F05133;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#chab input:checked+label {
-    background: #000000;
+    background: #571C20;
     color: #fff;
   }
 
@@ -4535,18 +4535,18 @@ main {
   }
 
   .profileContainer .profileCard#gar .stat:hover {
-    background-color: #003594;
+    background-color: #C09E45;
     color: #fff;
   }
 
   .profileContainer .profileCard#gar label:hover {
-    background: #003594;
+    background: #C09E45;
     color: #fff;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#gar input:checked+label {
-    background: #bfc0bf;
+    background: #C09E45;
     color: #000000;
   }
 
@@ -4599,29 +4599,29 @@ main {
   }
 
   .profileContainer .profileCard#ridg .stat:hover {
-    background-color: #003f2d;
-    color: #fff;
+    background-color: #000000;
+    color: #FF1F1F;
   }
 
   .profileContainer .profileCard#ridg label:hover {
-    background-color: #003f2d;
+    background-color: #000000;
     color: #fff;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#ridg input:checked+label {
-    background-color: #003f2d;
-    color: #000000;
+    background-color: #000000;
+    color: #FF1F1F;
   }
 
   .profileContainer .profileCard#sams .stat:hover {
-    background-color: #ffb612;
-    color: #000000;
+    background-color: #97233f;
+    color: b6b6b6;
   }
 
   .profileContainer .profileCard#sams label:hover {
-    background-color: #ffb612;
-    color: #000000;
+    background-color: #97233f;
+    color: #b6b6b6;
     cursor: pointer;
   }
 
@@ -4663,19 +4663,19 @@ main {
   }
 
   .profileContainer .profileCard#spen .stat:hover {
-    background-color: #a71930;
-    color: #a5acaf;
+    background-color: #21B5CB;
+    color: #fff;
   }
 
   .profileContainer .profileCard#spen label:hover {
-    background-color: #a71930;
-    color: #a5acaf;
+    background-color: #000000;
+    color: #21B5CB;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#spen input:checked+label {
-    background-color: #a71930;
-    color: #a5acaf;
+    background-color: #000000;
+    color: #21B5CB;
   }
 
   .profileContainer .profileCard#chab .top h1 {
