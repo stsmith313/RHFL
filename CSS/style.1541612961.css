@@ -977,7 +977,7 @@ main {
   }
 
   .longCard#chab .top {
-    background: url("../images/chandler.png");
+    background: url("../Images/chandler.png");
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1186,7 +1186,7 @@ main {
   }
 
   .longCard#ridg .top {
-    background: url("../images/ridge.png");
+    background: url("../Images/ridge.png");
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1205,7 +1205,7 @@ main {
   }
 
   .longCard#sams .top {
-    background: url("../images/sam.png");
+    background: url("../Images/sam.png");
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1262,7 +1262,7 @@ main {
   }
 
   .longCard#spen .top {
-    background: url("../images/spencer.png");
+    background: url("../Images/spencer.png");
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
