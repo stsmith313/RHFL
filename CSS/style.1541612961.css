@@ -2707,19 +2707,19 @@ main {
   }
 
   .profileContainer .profileCard#gar .stat:hover {
-    background-color: #C09E45;
-    color: #fff;
+    background-color: #000000;
+    color: #C09E45;
   }
 
   .profileContainer .profileCard#gar label:hover {
-    background: #C09E45;
+    background: #000000;
     color: #fff;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#gar input:checked+label {
-    background: #C09E45;
-    color: #000000;
+    background: #000000;
+    color: #C09E45;
   }
 
   .profileContainer .profileCard#kev .stat:hover {
@@ -2787,18 +2787,18 @@ main {
   }
 
   .profileContainer .profileCard#sams .stat:hover {
-    background-color: #97233f;
-    color: #B6B6B6;
+    background-color: #000000;
+    color: #97233f;
   }
 
   .profileContainer .profileCard#sams label:hover {
-    background-color: #97233f;
-    color: #B6B6B6;
+    background-color: #000000;
+    color: #97233f;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#sams input:checked+label {
-    background-color: #97233f;
+    background-color: #000000;
     color: #B6B6B6;
   }
 
@@ -2835,19 +2835,19 @@ main {
   }
 
   .profileContainer .profileCard#spen .stat:hover {
-    background-color: #a71930;
-    color: #a5acaf;
+    background-color: #21B5CB;
+    color: #000000;
   }
 
   .profileContainer .profileCard#spen label:hover {
-    background-color: #a71930;
-    color: #a5acaf;
+    background-color: #000000;
+    color: #fff;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#spen input:checked+label {
-    background-color: #a71930;
-    color: #a5acaf;
+    background-color: #000000;
+    color: #21B5CB;
   }
 
   .content {
@@ -3521,19 +3521,19 @@ main {
   }
 
   .profileContainer .profileCard#gar .stat:hover {
-    background-color: #C09E45;
-    color: #fff;
+    background-color: #000000;
+    color: #C09E45;
   }
 
   .profileContainer .profileCard#gar label:hover {
-    background: #C09E45;
+    background: #000000;
     color: #fff;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#gar input:checked+label {
-    background: #C09E45;
-    color: #000000;
+    background: #000000;
+    color: #C09E45;
   }
 
   .profileContainer .profileCard#kev .stat:hover {
@@ -3601,19 +3601,19 @@ main {
   }
 
   .profileContainer .profileCard#sams .stat:hover {
-    background-color: #97233f;
-    color: #B6B6B6;
+    background-color: #000000;
+    color: #97233f;
   }
 
   .profileContainer .profileCard#sams label:hover {
-    background-color: #97233f;
-    color: #B6B6B6;
+    background-color: #000000;
+    color: #97233f;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#sams input:checked+label {
-    background-color: #97233f;
-    color: #fff;
+    background-color: #000000;
+    color: #B6B6B6;
   }
 
   .profileContainer .profileCard#scot .stat:hover {
@@ -3649,19 +3649,19 @@ main {
   }
 
   .profileContainer .profileCard#spen .stat:hover {
-    background-color: #a71930;
-    color: #a5acaf;
+    background-color: #21B5CB;
+    color: #000000;
   }
 
   .profileContainer .profileCard#spen label:hover {
-    background-color: #a71930;
-    color: #a5acaf;
+    background-color: #000000;
+    color: #fff;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#spen input:checked+label {
-    background-color: #a71930;
-    color: #a5acaf;
+    background-color: #000000;
+    color: #21B5CB;
   }
 
   .content {
@@ -4535,19 +4535,19 @@ main {
   }
 
   .profileContainer .profileCard#gar .stat:hover {
-    background-color: #C09E45;
-    color: #fff;
+    background-color: #000000;
+    color: #C09E45;
   }
 
   .profileContainer .profileCard#gar label:hover {
-    background: #C09E45;
+    background: #000000;
     color: #fff;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#gar input:checked+label {
-    background: #C09E45;
-    color: #000000;
+    background: #000000;
+    color: #C09E45;
   }
 
   .profileContainer .profileCard#kev .stat:hover {
@@ -4615,19 +4615,19 @@ main {
   }
 
   .profileContainer .profileCard#sams .stat:hover {
-    background-color: #97233f;
-    color: b6b6b6;
+    background-color: #000000;
+    color: #97233f;
   }
 
   .profileContainer .profileCard#sams label:hover {
-    background-color: #97233f;
-    color: #b6b6b6;
+    background-color: #000000;
+    color: #97233f;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#sams input:checked+label {
-    background-color: #97233f;
-    color: #fff;
+    background-color: #000000;
+    color: #B6B6B6;
   }
 
   .profileContainer .profileCard#scot .stat:hover {
@@ -4663,19 +4663,19 @@ main {
   }
 
   .profileContainer .profileCard#spen .stat:hover {
-    background-color: #a71930;
-    color: #a5acaf;
+    background-color: #21B5CB;
+    color: #000000;
   }
 
   .profileContainer .profileCard#spen label:hover {
-    background-color: #a71930;
-    color: #a5acaf;
+    background-color: #000000;
+    color: #fff;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#spen input:checked+label {
-    background-color: #a71930;
-    color: #a5acaf;
+    background-color: #000000;
+    color: #21B5CB;
   }
 
   .profileContainer .profileCard#chab .top h1 {
