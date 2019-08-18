@@ -1284,7 +1284,6 @@ main {
   .box {
     height: 100%;
     max-width: 100%;
-    background: #f9fafb;
     margin: 0 10px;
     position: relative;
     padding: 10px 5px;
@@ -1998,6 +1997,21 @@ main {
   }
 
   /*------------ Keepers --------------*/
+  .keeperContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
   .keeperCard {
     width: 355px;
     margin: 20px 10px;
@@ -3310,7 +3324,7 @@ main {
   }
 
   .article .postIMG {
-    width: 93%;
+    width: auto;
     height: 400px;
     overflow: hidden;
     position: relative;
