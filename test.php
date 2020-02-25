@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head></head>
   <body>
@@ -91,7 +92,8 @@
     <button id="signout-button" onclick="handleSignOutClick()">Sign out</button>
 
     <div style="margin-left:auto; margin-right:auto; width:960px;">
-    <?php
+    
+      <?php
     for($row = 0; $row < 8; $row++) {
       echo "<div style='clear:both'>";
       for($col = 0; $col < 3; $col++) {
