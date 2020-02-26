@@ -1,56 +1,20 @@
-<script src="https://apis.google.com/js/api.js"></script>
+<div class="results"></div>
+
 <script>
-    /**
-     * Sample JavaScript code for sheets.spreadsheets.values.batchGet
-     * See instructions for running APIs Explorer code samples locally:
-     * https://developers.google.com/explorer-help/guides/code_samples#javascript
-     */
+    // ID of the Google Spreadsheet
+    var spreadsheetID = "1jLvo1AUKpPeNesLQajz7m2zsA97cs1SphhUNQPlAvW0";
 
-    function authenticate() {
-        return gapi.auth2.getAuthInstance()
-            .signIn({
-                scope: "https://www.googleapis.com/auth/spreadsheets.readonly"
-            })
-            .then(function () {
-                    console.log("Sign-in successful");
-                },
-                function (err) {
-                    console.error("Error signing in", err);
-                });
-    }
+    // Make sure it is public or set to Anyone with link can view
+    var url = "https://spreadsheets.google.com/feeds/list/" + spreadsheetID + "/od6/public/values?alt=json";
 
-    function loadClient() {
-        gapi.client.setApiKey("AIzaSyB-2cW028h6otL0fOndqVolSEd06zQhIwg");
-        return gapi.client.load("https://content.googleapis.com/discovery/v1/apis/sheets/v4/rest")
-            .then(function () {
-                    console.log("GAPI client loaded for API");
-                },
-                function (err) {
-                    console.error("Error loading GAPI client for API", err);
-                });
-    }
-    // Make sure the client is loaded and sign-in is complete before calling this method.
-    function execute() {
-        return gapi.client.sheets.spreadsheets.values.batchGet({
-                "spreadsheetId": "1jLvo1AUKpPeNesLQajz7m2zsA97cs1SphhUNQPlAvW0",
-                "majorDimension": "COLUMNS",
-                "ranges": [
-                    "Sheet1"
-                ]
-            })
-            .then(function (response) {
-                    // Handle the results here (response.result has the parsed body).
-                    console.log("Response", response);
-                },
-                function (err) {
-                    console.error("Execute error", err);
-                });
-    }
-    gapi.load("client:auth2", function () {
-        gapi.auth2.init({
-            client_id: "1067848577835-57cbu6sf2n0qu0ktg2gjllkihcrmi6qv.apps.googleusercontent.com"
+    $.getJSON(url, function (data) {
+
+        var entry = data.feed.entry;
+
+        $(entry).each(function () {
+            // Column names are name, age, etc.
+            $('.results').prepend('<h2>' + this.gsx$name.$t + '</h2><p>' + this.gsx$age.$t + '</p>');
         });
+
     });
 </script>
-<button onclick="authenticate().then(loadClient)">authorize and load</button>
-<button onclick="execute()">execute</button>
