@@ -1,20 +1,41 @@
 <div class="results"></div>
 
 <script>
-    // ID of the Google Spreadsheet
-    var spreadsheetID = "1jLvo1AUKpPeNesLQajz7m2zsA97cs1SphhUNQPlAvW0";
+    function doGet(e) {
 
-    // Make sure it is public or set to Anyone with link can view
-    var url = "https://spreadsheets.google.com/feeds/list/" + spreadsheetID + "/od6/public/values?alt=json";
+        // Change Spread Sheet url
+        var ss = SpreadsheetApp.openByUrl("1jLvo1AUKpPeNesLQajz7m2zsA97cs1SphhUNQPlAvW0");
 
-    $.getJSON(url, function (data) {
+        // Sheet Name, Chnage Sheet1 to Users in Spread Sheet. Or any other name as you wish
+        var sheet = ss.getSheetByName("Sheet1");
 
-        var entry = data.feed.entry;
+        return getUsers(sheet);
 
-        $(entry).each(function () {
-            // Column names are name, age, etc.
-            $('.results').prepend('<h2>' + this.gsx$name.$t + '</h2><p>' + this.gsx$age.$t + '</p>');
-        });
+    }
 
-    });
+
+    function getUsers(sheet) {
+        var jo = {};
+        var dataArray = [];
+
+        // collecting data from 2nd Row , 1st column to last row and last column
+        var rows = sheet.getRange(2, 1, sheet.getLastRow() - 1, sheet.getLastColumn()).getValues();
+
+        for (var i = 0, l = rows.length; i < l; i++) {
+            var dataRow = rows[i];
+            var record = {};
+            record['id'] = dataRow[0];
+            record['name'] = dataRow[1];
+
+            dataArray.push(record);
+
+        }
+
+        jo.user = dataArray;
+
+        var result = JSON.stringify(jo);
+
+        return ContentService.createTextOutput(result).setMimeType(ContentService.MimeType.JSON);
+
+    }
 </script>
