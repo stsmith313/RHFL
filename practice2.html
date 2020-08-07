@@ -1,191 +1,83 @@
-<!doctype html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
-    <title> The Money Team - 2018 RHFL Champ : RHFL</title>
-
-
-    <meta name="keywords" content="RHFL, Rock Hill Fantasy League, fantasy football, rhfl">
-    <meta name="author" content="Sam Smith">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Overpass" rel="stylesheet">
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138314030-1"></script>
+  <head></head>
+  <body>
+    <!--
+    BEFORE RUNNING:
+    ---------------
+    1. If not already done, enable the Google Sheets API
+       and check the quota for your project at
+       https://console.developers.google.com/apis/api/sheets
+    2. Get access keys for your application. See
+       https://developers.google.com/api-client-library/javascript/start/start-js#get-access-keys-for-your-application
+    3. For additional information on authentication, see
+       https://developers.google.com/sheets/api/quickstart/js#step_2_set_up_the_sample
+    -->
     <script>
-        window.dataLayer = window.dataLayer || [];
+    function makeApiCall() {
+      var params = {
+        // The ID of the spreadsheet to retrieve data from.
+        spreadsheetId: '1jLvo1AUKpPeNesLQajz7m2zsA97cs1SphhUNQPlAvW0',  // TODO: Update placeholder value.
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+        // The A1 notation of the values to retrieve.
+        range: 'Sheet1',  // TODO: Update placeholder value.
 
-        gtag('config', 'UA-138314030-1');
+        // How values should be represented in the output.
+        // The default render option is ValueRenderOption.FORMATTED_VALUE.
+        valueRenderOption: '',  // TODO: Update placeholder value.
+
+        // How dates, times, and durations should be represented in the output.
+        // This is ignored if value_render_option is
+        // FORMATTED_VALUE.
+        // The default dateTime render option is [DateTimeRenderOption.SERIAL_NUMBER].
+        dateTimeRenderOption: '',  // TODO: Update placeholder value.
+      };
+
+      var request = gapi.client.sheets.spreadsheets.values.get(params);
+      request.then(function(response) {
+        // TODO: Change code below to process the `response` object:
+        console.log(response.result);
+      }, function(reason) {
+        console.error('error: ' + reason.result.error.message);
+      });
+    }
+
+    function initClient() {
+      var API_KEY = 'AIzaSyDlGWBWBD9s60itBGW2bCEn22Ye8JC4Ywc';  // TODO: Update placeholder with desired API key.
+
+      var CLIENT_ID = '665264218502-b57fhmvskkvprbmn3tcuu4hj02crdlm3.apps.googleusercontent.com';  // TODO: Update placeholder with desired client ID.
+
+      // TODO: Authorize using one of the following scopes:
+      //   'https://www.googleapis.com/auth/drive'
+      //   'https://www.googleapis.com/auth/drive.file'
+      //   'https://www.googleapis.com/auth/drive.readonly'
+      //   'https://www.googleapis.com/auth/spreadsheets'
+      //   'https://www.googleapis.com/auth/spreadsheets.readonly'
+      var SCOPE = 'https://www.googleapis.com/auth/spreadsheets.readonly';
+
+      gapi.client.init({
+        'apiKey': API_KEY,
+        'clientId': CLIENT_ID,
+        'scope': SCOPE,
+        'discoveryDocs': ['https://sheets.googleapis.com/$discovery/rest?version=v4'],
+      }).then(function() {
+        gapi.auth2.getAuthInstance().isSignedIn.listen(updateSignInStatus);
+        updateSignInStatus(gapi.auth2.getAuthInstance().isSignedIn.get());
+      });
+    }
+
+    function handleClientLoad() {
+      gapi.load('client:auth2', initClient);
+    }
+
+    function updateSignInStatus(isSignedIn) {
+      if (isSignedIn) {
+        makeApiCall();
+      }
+    }
     </script>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <link rel='stylesheet' id='theme-css-css' href='CSS/style.1541612961.css' type='text/css' media='all' />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-
-</head>
-
-<body class="post-template-default single single-post postid-668 single-format-standard cat-8-id cat-14-id cat-1-id">
-
-    <!-- wrapper -->
-    <div class="wrapper">
-
-        <!-- nav -->
-        <nav class="nav" role="navigation">
-            <div class="menu">
-                <ul>
-                    <li class="page_item page-item-4"><a href="index.html">Home</a></li>
-                    <li class="page_item page-item-243 current_page_parent"><a href="news.html">News</a></li>
-                    <li class="page_item page-item-243"><a href="hall.html">Hall of Champions</a></li>
-                    <li class="page_item page-item-446"><a href="pwr.html">Power Rankings</a></li>
-                    <li class="page_item page-item-14"><a href="prestige.html">Prestige</a></li>
-                    <li class="page_item page-item-10"><a href="records.html">Records</a></li>
-                    <li class="page_item page-item-12"><a href="draft.html">Drafts</a></li>
-                    <li class="page_item page-item-8"><a href="teams.html">Teams</a></li>
-                </ul>
-            </div>
-        </nav>
-        <!-- /nav -->
-
-        <!-- header -->
-        <header class="header clear" role="banner">
-
-            <div class="menu-icon">
-                <div class="bar"></div>
-            </div>
-
-            <!-- logo -->
-            <a href="index.html"><img class="mainLogo" src="https://i.imgur.com/Wi4rCy3.png" alt="RHFL Logo"
-                    border="0" /></a>
-            <!-- /logo -->
-
-        </header>
-        <!-- /header -->
-
-        <main role="main">
-
-                    <div class="carousel">
-
-                        <div class="arrowContainer">
-                            <i id="moveLeft" class="arrow fas fa-arrow-left"></i>
-                            <i id="moveRight" class="arrow fas fa-arrow-right"></i>
-                        </div>
-
-                        <div class="post active">
-                            <img src="https://i.imgur.com/QMhYsYK.jpg" align = "left" height= "600px" width= "1200px">
-
-                        </div>
-
-                        <div class="post">
-                            <div class="postImage"
-                                style="background: url('https://cdn.freebiesupply.com/images/large/2x/dallas-cowboys-logo-transparent.png'); height: 90vh; width: 100vw;">
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <!-- section -->
-            <section class='post'>
-
-                    <!-- article -->
-                <article class='article' id="post-668"
-                class="post-668 post type-post status-publish format-standard has-post-thumbnail hentry category-news category-playoffs category-uncategorized cat-8-id cat-14-id cat-1-id">
-                
-                    <!-- post title -->
-                    <h1 class='display'>
-                        Weekly Newsletter
-                    </h1>
-                    <!-- /post title -->
-
-                    <!-- post details -->
-                    <span class="date">December 26, 2018 3:43 pm</span>
-                    <!-- /post details -->
-
-                    <p>Here is the newsletter for the preseason with draft grades! </p>
-
-                    <p>Categorized in: <a href="news.html" rel="category tag">News</a>, <a href="draft.html"
-                            rel="category tag">Drafts</a></p>
-
-                </article>
-                <!-- /article -->
-
-
-
-            </section>
-            <!-- /section -->
-
-            <!-- sidebar -->
-            <aside class="sidebarChamp" role="complementary">
-
-
-
-                <div class="sidebar-widget">
-                    <div id="recent-posts-3" class="widget_recent_entries">
-                        <h3>Recent Posts</h3>
-                        <ul>
-                            <li>
-                                <a href="2018RhfflChampion.html">The Money Team - 2018 RHFL Champion</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div id="categories-3" class="widget_categories">
-                        <h3>Categories</h3>
-                        <ul>
-                            <li class="cat-item cat-item-4"><a href="draft.html">Draft</a>
-                            </li>
-                            <li class="cat-item cat-item-8"><a href="news.html">News</a>
-                            </li>
-                            <li class="cat-item cat-item-14"><a href="playoffs.html">Playoffs</a>
-                            </li>
-                            <li class="cat-item cat-item-13"><a href="pwr.html">Power Rankings</a>
-                            </li>
-                            <li class="cat-item cat-item-1"><a href="#trades.html">Trades</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div id="archives-3" class="widget_archive">
-                        <h3>Archives</h3> <label class="screen-reader-text" for="archives-dropdown-3">Archives</label>
-                        <select id="archives-dropdown-3" name="archive-dropdown"
-                            onchange='document.location.href=this.options[this.selectedIndex].value;'>
-
-                            <option value="">Select Month</option>
-                            <option value='decemberArchive.html'> December 2018 </optioN>
-
-                        </select>
-                    </div>
-                </div>
-
-
-    </div>
-    <div class="sidebar-widget">
-    </div>
-
-    </aside>
-    <!-- /sidebar -->
-
-    </main>
-
-    <!-- footer -->
-    <footer class="footer" role="contentinfo">
-        <p class="small">Created and maintained by Sam Smith</p>
-    </footer>
-    <!-- /footer -->
-
-    </div>
-    <!-- /wrapper -->
-
-    <script type='text/javascript' src='JS/test.1535917643.js'></script>
-    <script type='text/javascript' src='JS/wp-embed.min.1544581843.js'></script>
-</body>
-
+    <script async defer src="https://apis.google.com/js/api.js"
+      onload="this.onload=function(){};handleClientLoad()"
+      onreadystatechange="if (this.readyState === 'complete') this.onload()">
+    </script>
+  </body>
 </html>
