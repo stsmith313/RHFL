@@ -1253,11 +1253,11 @@ main {
     background: -webkit-gradient(linear,
         left bottom,
         left top,
-        from(#0b2265),
+        from(#aea387),
         to(#f3f5f6));
-    background: -webkit-linear-gradient(bottom, #0b2265, #f3f5f6);
-    background: -o-linear-gradient(bottom, #0b2265, #f3f5f6);
-    background: linear-gradient(to top, #0b2265, #f3f5f6);
+    background: -webkit-linear-gradient(bottom, #aea387, #f3f5f6);
+    background: -o-linear-gradient(bottom, #aea387, #f3f5f6);
+    background: linear-gradient(to top, #aea387, #f3f5f6);
     opacity: 0.75;
   }
 
@@ -1577,7 +1577,7 @@ main {
     background-repeat: norepeat;
     background-position: 90% 70%;
     background-blend-mode: soft-light;
-    background-color: #0b2265;
+    background-color: #aea387;
     color: #fff;
   }
 
@@ -2833,7 +2833,7 @@ main {
   }
 
   .profileContainer .profileCard#skul .stat:hover {
-    background-color: #a71930;
+    background-color: #aea387;
     color: #a5acaf;
   }
 
@@ -2844,7 +2844,7 @@ main {
   }
 
   .profileContainer .profileCard#skul input:checked+label {
-    background-color: #0b2265;
+    background-color: #676151;
     color: #fff;
   }
 
@@ -3647,18 +3647,18 @@ main {
   }
 
   .profileContainer .profileCard#skul .stat:hover {
-    background-color: #a71930;
+    background-color: #676151;
     color: #a5acaf;
   }
 
   .profileContainer .profileCard#skul label:hover {
-    background-color: #a71930;
+    background-color: #676151;
     color: #a5acaf;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#skul input:checked+label {
-    background-color: #0b2265;
+    background-color: #676151;
     color: #fff;
   }
 
@@ -4661,19 +4661,19 @@ main {
   }
 
   .profileContainer .profileCard#skul .stat:hover {
-    background-color: #a71930;
-    color: #a5acaf;
+    background-color: #676151;
+    color: #fff;
   }
 
   .profileContainer .profileCard#skul label:hover {
-    background-color: #a71930;
-    color: #a5acaf;
+    background-color: #676151;
+    color: #fff;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#skul input:checked+label {
-    background-color: #0b2265;
-    color: #fff;
+    background-color: #FEF6C3;
+    color: #000000;
   }
 
   .profileContainer .profileCard#spen .stat:hover {
