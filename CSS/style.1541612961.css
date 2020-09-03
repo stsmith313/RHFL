@@ -1552,13 +1552,13 @@ main {
   }
 
   .profileContainer .profileCard#sams .top {
-    background: url(https://scontent.frkh1-1.fna.fbcdn.net/v/t1.0-9/64214295_10218915085452119_1777129056152584192_n.jpg?_nc_cat=101&_nc_oc=AQnYg4KJFzYoRWvo3Kf2ouP9NAZDVrkIxLO5ua8PJ4_7a2rl4SoEfKflWfjTsvoiado&_nc_ht=scontent.frkh1-1.fna&oh=52fe9486ae6cb292356cedcd590ed4db&oe=5D8DC548);
+    background: url(https://thespun.com/wp-content/uploads/2019/04/GettyImages-879742732-775x465.jpg);
     background-size: cover;
     background-repeat: norepeat;
-    background-position: 1% 37%;
+    background-position: 1% 90%;
     background-blend-mode: soft-light;
     background-color: #b6b6b6;
-    color: #97233f;
+    color: #d02030;
   }
 
   .profileContainer .profileCard#scot .top {
@@ -1582,10 +1582,10 @@ main {
   }
 
   .profileContainer .profileCard#spen .top {
-    background: url(https://nygiants.strmarketplace.com/App_Themes/NYGiants/images/home/home_stadium.png);
+    background: url(https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/metlifegiants2012955.jpg);
     background-size: cover;
     background-repeat: norepeat;
-    background-position: 40% 35%;
+    background-position: 10% 90%;
     background-blend-mode: soft-light;
     background-color: #21B5CB;
     color: #000000;
@@ -2802,12 +2802,12 @@ main {
 
   .profileContainer .profileCard#sams .stat:hover {
     background-color: #000000;
-    color: #97233f;
+    color: #d02030;
   }
 
   .profileContainer .profileCard#sams label:hover {
     background-color: #000000;
-    color: #97233f;
+    color: #d02030;
     cursor: pointer;
   }
 
@@ -3616,12 +3616,12 @@ main {
 
   .profileContainer .profileCard#sams .stat:hover {
     background-color: #000000;
-    color: #97233f;
+    color: #d02030;
   }
 
   .profileContainer .profileCard#sams label:hover {
     background-color: #000000;
-    color: #97233f;
+    color: #d02030;
     cursor: pointer;
   }
 
@@ -4630,12 +4630,12 @@ main {
 
   .profileContainer .profileCard#sams .stat:hover {
     background-color: #000000;
-    color: #97233f;
+    color: #d02030;
   }
 
   .profileContainer .profileCard#sams label:hover {
     background-color: #000000;
-    color: #97233f;
+    color: #d02030;
     cursor: pointer;
   }
 
