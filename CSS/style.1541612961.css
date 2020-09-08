@@ -1770,7 +1770,7 @@ main {
     background-size: 300% 300%;
     box-sizing: border-box;
     display: table;
-    height: 100vh;
+    height: 10vh;
     position: relative;
     -webkit-animation: Rainbow 7s ease infinite;
     -moz-animation: Rainbow 7s ease infinite;
@@ -3227,7 +3227,7 @@ main {
     background-size: 300% 300%;
     box-sizing: border-box;
     display: table;
-    height: 100vh;
+    height: 10vh;
     position: relative;
     -webkit-animation: Rainbow 7s ease infinite;
     -moz-animation: Rainbow 7s ease infinite;
@@ -4074,7 +4074,7 @@ main {
     background-size: 300% 300%;
     box-sizing: border-box;
     display: table;
-    height: 100vh;
+    height: 10vh;
     position: relative;
     -webkit-animation: Rainbow 7s ease infinite;
     -moz-animation: Rainbow 7s ease infinite;
