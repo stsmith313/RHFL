@@ -596,8 +596,8 @@ main {
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-position: center right;
-    height: 97vh;
-    width: 100vh;
+    height: 100%%;
+    width: 100%;
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
