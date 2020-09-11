@@ -1,8 +1,10 @@
-$(document).ready(function($) {
-    var Body = $('body');
-    Body.addClass('preloader-site');
-});
-$(window).load(function() {
-    $('.preloader-wrapper').fadeOut();
-    $('body').removeClass('preloader-site');
-});
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
