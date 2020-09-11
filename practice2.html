@@ -1,654 +1,344 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <title>Swanson's Army : RHFL</title>
 
-    <!-- Bootstrap CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="CSS/test2.css" />
     <link
-      href="/static/blog/css/font-awesome/all.3ff43efa6738.css"
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700"
       rel="stylesheet"
     />
     <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/static/blog/media/favicon/favicon.ab9b3edda282.ico"
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Overpass"
+      rel="stylesheet"
     />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/static/blog/media/favicon/apple-touch-icon.f1eda87b0844.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/static/blog/media/favicon/favicon-32x32.c6277e5de550.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/static/blog/media/favicon/favicon-16x16.fb2d09c1b91b.png"
-    />
-    <link
-      rel="manifest"
-      href="/static/blog/media/favicon/site.b9aa277fcfc3.webmanifest"
-    />
-    <link
-      rel="mask-icon"
-      href="/static/blog/media/favicon/safari-pinned-tab.d15dd24210e1.svg"
-      color="#5bbad5"
-    />
-    <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="theme-color" content="#ffffff" />
 
-    <title>DDC | All The Kings Horses</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-138314030-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-138314030-1");
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      id="theme-css-css"
+      href="../CSS/style.1541612961.css"
+      type="text/css"
+      media="all"
+    />
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
   </head>
-  <body>
-    <div class="preload-wrapper">
-      <div id="preload"></div>
-    </div>
 
-    <nav>
-      <div class="top">
-        <a class="navigation-logo" href="/">
-          <img
-            src="https://ddc-media.s3.us-east-2.amazonaws.com/logos/DDC-LOGO.svg"
-            alt="DDC Main Logo"
-          />
-        </a>
+  <body
+    class="ddc_teams-template ddc_teams-template-individual_team_homepage ddc_teams-template-individual_team_homepage-php single single-ddc_teams postid-378 single-format-standard"
+  >
+    <!-- wrapper -->
+    <div class="wrapper">
+      <!-- nav -->
+      <nav class="nav" role="navigation">
+        <div class="menu">
+          <ul>
+            <li class="page_item page-item-4">
+              <a href="../index.html">Home</a>
+            </li>
+            <!--<li class="page_item page-item-243"><a href="../news.html">News</a></li>-->
+            <li class="page_item page-item-243">
+              <a href="../hall.html">Hall of Champions</a>
+            </li>
+            <li class="page_item page-item-446">
+              <a href="../pwr.html">Power Rankings</a>
+            </li>
+            <li class="page_item page-item-14">
+              <a href="../prestige.html">Prestige</a>
+            </li>
+            <li class="page_item page-item-10">
+              <a href="../records.html">Records</a>
+            </li>
+            <li class="page_item page-item-12">
+              <a href="../draft.html">Drafts</a>
+            </li>
+            <li class="page_item page-item-8">
+              <a href="../teams.html">Teams</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- /nav -->
 
-        <div class="button-menu">
+      <!-- header -->
+      <header class="header clear" role="banner">
+        <div class="menu-icon">
           <div class="bar"></div>
         </div>
-      </div>
-      <div class="nav-container">
-        <ul class="nav-links">
-          <li class="link-container"><a class="link" href="/news/">News</a></li>
-          <li class="link-container">
-            <a class="link" href="/teams/">Teams</a>
-          </li>
-          <li class="link-container">
-            <a class="link" href="/history/">History</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
 
-    <div class="container-fluid">
-      <div class="row mb-5">
-        <div class="col-xl-8 col-md-12">
-          <div class="team-page-header">
-            <span class="background-text">DRAFT DAY COLLAPSE</span>
-            <img
-              src="https://ddc-media.s3.amazonaws.com/team_uniforms/All-The-Kings-Horses---Home-Jersey--Left-Profile_llAS1sN.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAQ4I3UZ4LDJDRI4UF%2F20200904%2Fus-east-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20200904T004007Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=46e0ac2a28a081e10fcd6dd3f90b834c80093b9703e3802b0417c09047634577"
-              alt="All The Kings Horses Jersey"
-              class="team-uniform"
-            />
-            <div class="team-detail">
-              <img
-                src="https://ddc-media.s3.amazonaws.com/team_logos/ATKH.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAQ4I3UZ4LDJDRI4UF%2F20200904%2Fus-east-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20200904T004007Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=8ee9cb934cd03f7e775311814c3a12c23112389a3eff7248840fd8bbd8fbd3ad"
-                alt="All The Kings Horses Logo"
-                class="team-logo"
-              />
-              <h1>All The Kings Horses</h1>
-              <p>Aaron Sisco</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-4 col-md-12">
-          <aside>
-            <div class="current-streak bg-danger">
-              <h3 class="lead">2 GAME LOSING STREAK</h3>
-            </div>
-
-            <div class="current-record">
-              <h3>5 - 8</h3>
-              <p>CURRENT RECORD</p>
-            </div>
-
-            <div class="current-standing">
-              <h3 class="jumbo">8</h3>
-              <p>CURRENT POSITION</p>
-            </div>
-          </aside>
-        </div>
-      </div>
-
-      <div class="stat-row">
-        <div class="row">
-          <div class="col-lg-3 p-3">
-            <div class="stat-container">
-              <p>Total Points</p>
-              <hr />
-              <h3>7275.60</h3>
-            </div>
-          </div>
-          <div class="col-lg-3 p-3">
-            <div class="stat-container">
-              <p>Most Points Scored in a Game</p>
-              <hr />
-              <h3>156.90</h3>
-            </div>
-          </div>
-          <div class="col-lg-3 p-3">
-            <div class="stat-container">
-              <p>Points Average</p>
-              <hr />
-              <h3>113.61</h3>
-            </div>
-          </div>
-          <div class="col-lg-3 p-3">
-            <div class="stat-container">
-              <p>Biggest Win Margin</p>
-              <hr />
-              <h3>67.20</h3>
-            </div>
-          </div>
-          <div class="col-lg-3 p-3">
-            <div class="stat-container">
-              <p>Wins</p>
-              <hr />
-              <h3>41</h3>
-            </div>
-          </div>
-          <div class="col-lg-3 p-3">
-            <div class="stat-container">
-              <p>Win Percentage</p>
-              <hr />
-              <h3>63.80%</h3>
-            </div>
-          </div>
-          <div class="col-lg-3 p-3">
-            <div class="stat-container">
-              <p>Roto Wins</p>
-              <hr />
-              <h3>489</h3>
-            </div>
-          </div>
-          <div class="col-lg-3 p-3">
-            <div class="stat-container">
-              <p>Roto Win Percentage</p>
-              <hr />
-              <h3>58.60%</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row mt-5">
-        <div class="col-lg-8">
-          <h2>Roster</h2>
-          <table class="table roster-table">
-            <thead>
-              <tr>
-                <th scope="col">POS</th>
-                <th scope="col">PLAYER</th>
-                <th scope="col">POS. RANK</th>
-                <th scope="col">ACQ</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">QB</th>
-                <td class="player-column">
-                  <div class="img-holder">
-                    <img
-                      width="60"
-                      alt="Deshaun Watson picture"
-                      src="https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3122840.png"
-                    />
-                  </div>
-                  <div class="player-name">
-                    <div class="name">Deshaun Watson</div>
-                    <div class="team">HOU</div>
-                  </div>
-                </td>
-                <td class="pos-rank">4</td>
-                <td>DRAFT</td>
-              </tr>
-
-              <tr>
-                <th scope="row">RB</th>
-                <td class="player-column">
-                  <div class="img-holder">
-                    <img
-                      width="60"
-                      alt="Kenyan Drake picture"
-                      src="https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2979843.png"
-                    />
-                  </div>
-                  <div class="player-name">
-                    <div class="name">Kenyan Drake</div>
-                    <div class="team">ARI</div>
-                  </div>
-                </td>
-                <td class="pos-rank">17</td>
-                <td>DRAFT</td>
-              </tr>
-
-              <tr>
-                <th scope="row">WR</th>
-                <td class="player-column">
-                  <div class="img-holder">
-                    <img
-                      width="60"
-                      alt="Terry McLaurin picture"
-                      src="https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3121422.png"
-                    />
-                  </div>
-                  <div class="player-name">
-                    <div class="name">Terry McLaurin</div>
-                    <div class="team">WSH</div>
-                  </div>
-                </td>
-                <td class="pos-rank">29</td>
-                <td>ADD</td>
-              </tr>
-
-              <tr>
-                <th scope="row">WR</th>
-                <td class="player-column">
-                  <div class="img-holder">
-                    <img
-                      width="60"
-                      alt="Davante Adams picture"
-                      src="https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/16800.png"
-                    />
-                  </div>
-                  <div class="player-name">
-                    <div class="name">Davante Adams</div>
-                    <div class="team">GB</div>
-                  </div>
-                </td>
-                <td class="pos-rank">22</td>
-                <td>TRADE</td>
-              </tr>
-
-              <tr>
-                <th scope="row">K</th>
-                <td class="player-column">
-                  <div class="img-holder">
-                    <img
-                      width="60"
-                      alt="Joey Slye picture"
-                      src="https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3124084.png"
-                    />
-                  </div>
-                  <div class="player-name">
-                    <div class="name">Joey Slye</div>
-                    <div class="team">CAR</div>
-                  </div>
-                </td>
-                <td class="pos-rank">11</td>
-                <td>ADD</td>
-              </tr>
-
-              <tr>
-                <th scope="row">D/ST</th>
-                <td class="player-column">
-                  <div class="img-holder">
-                    <img
-                      width="40"
-                      alt="Panthers D/ST picture"
-                      src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/CAR.png"
-                    />
-                  </div>
-                  <div class="player-name">
-                    <div class="name">Panthers D/ST</div>
-                    <div class="team">CAR</div>
-                  </div>
-                </td>
-                <td class="pos-rank">23</td>
-                <td>ADD</td>
-              </tr>
-
-              <tr>
-                <th scope="row">RB</th>
-                <td class="player-column">
-                  <div class="img-holder">
-                    <img
-                      width="60"
-                      alt="Phillip Lindsay picture"
-                      src="https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3052117.png"
-                    />
-                  </div>
-                  <div class="player-name">
-                    <div class="name">Phillip Lindsay</div>
-                    <div class="team">DEN</div>
-                  </div>
-                </td>
-                <td class="pos-rank">19</td>
-                <td>TRADE</td>
-              </tr>
-
-              <tr>
-                <th scope="row">TE</th>
-                <td class="player-column">
-                  <div class="img-holder">
-                    <img
-                      width="60"
-                      alt="Travis Kelce picture"
-                      src="https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/15847.png"
-                    />
-                  </div>
-                  <div class="player-name">
-                    <div class="name">Travis Kelce</div>
-                    <div class="team">KC</div>
-                  </div>
-                </td>
-                <td class="pos-rank">1</td>
-                <td>TRADE</td>
-              </tr>
-
-              <tr>
-                <th scope="row">WR</th>
-                <td class="player-column">
-                  <div class="img-holder">
-                    <img
-                      width="60"
-                      alt="DJ Chark Jr. picture"
-                      src="https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3115394.png"
-                    />
-                  </div>
-                  <div class="player-name">
-                    <div class="name">DJ Chark Jr.</div>
-                    <div class="team">JAX</div>
-                  </div>
-                </td>
-                <td class="pos-rank">17</td>
-                <td>TRADE</td>
-              </tr>
-
-              <tr>
-                <th scope="row">RB</th>
-                <td class="player-column">
-                  <div class="img-holder">
-                    <img
-                      width="60"
-                      alt="Latavius Murray picture"
-                      src="https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/15920.png"
-                    />
-                  </div>
-                  <div class="player-name">
-                    <div class="name">Latavius Murray</div>
-                    <div class="team">NO</div>
-                  </div>
-                </td>
-                <td class="pos-rank">28</td>
-                <td>ADD</td>
-              </tr>
-
-              <tr>
-                <th scope="row">WR</th>
-                <td class="player-column">
-                  <div class="img-holder">
-                    <img
-                      width="60"
-                      alt="Danny Amendola picture"
-                      src="https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/11674.png"
-                    />
-                  </div>
-                  <div class="player-name">
-                    <div class="name">Danny Amendola</div>
-                    <div class="team">DET</div>
-                  </div>
-                </td>
-                <td class="pos-rank">49</td>
-                <td>ADD</td>
-              </tr>
-
-              <tr>
-                <th scope="row">RB</th>
-                <td class="player-column">
-                  <div class="img-holder">
-                    <img
-                      width="60"
-                      alt="Kalen Ballage picture"
-                      src="https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128774.png"
-                    />
-                  </div>
-                  <div class="player-name">
-                    <div class="name">Kalen Ballage</div>
-                    <div class="team">MIA</div>
-                  </div>
-                </td>
-                <td class="pos-rank">71</td>
-                <td>ADD</td>
-              </tr>
-
-              <tr>
-                <th scope="row">RB</th>
-                <td class="player-column">
-                  <div class="img-holder">
-                    <img
-                      width="60"
-                      alt="Raheem Mostert picture"
-                      src="https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2576414.png"
-                    />
-                  </div>
-                  <div class="player-name">
-                    <div class="name">Raheem Mostert</div>
-                    <div class="team">SF</div>
-                  </div>
-                </td>
-                <td class="pos-rank">26</td>
-                <td>ADD</td>
-              </tr>
-
-              <tr>
-                <th scope="row">TE</th>
-                <td class="player-column">
-                  <div class="img-holder">
-                    <img
-                      width="60"
-                      alt="Jacob Hollister picture"
-                      src="https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3125404.png"
-                    />
-                  </div>
-                  <div class="player-name">
-                    <div class="name">Jacob Hollister</div>
-                    <div class="team">SEA</div>
-                  </div>
-                </td>
-                <td class="pos-rank">23</td>
-                <td>ADD</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="col-lg-4">
+        <!-- logo -->
+        <a href="../index.html"
+          ><img
+            class="mainLogo"
+            src="../Images/Trophy.png"
+            alt="RHFL Logo"
+            border="0"
+        /></a>
+        <!-- /logo -->
+      </header>
+      <!-- /header -->
+      <main role="main">
+        <!-- section -->
+        <section class="section">
           <div
-            class="d-flex flex-column align-items-center schedule-container py-3 mb-5 prestige-container"
+            class="breadcrumbs"
+            typeof="BreadcrumbList"
+            vocab="https://schema.org/"
           >
-            <h2>Prestige</h2>
-
-            <h3 class="big">80.20</h3>
+            <!-- Breadcrumb NavXT 6.2.1 -->
+            <span property="itemListElement" typeof="ListItem"
+              ><a
+                property="item"
+                typeof="WebPage"
+                title="Go to RHFL."
+                href="../index.html"
+                class="home"
+                ><span property="name">RHFL</span></a
+              >
+              <meta property="position" content="1"
+            /></span>
+            &gt;
+            <span property="itemListElement" typeof="ListItem"
+              ><a
+                property="item"
+                typeof="WebPage"
+                title="Go to Teams."
+                href="../teams.html"
+                class="post-root post post-post"
+                ><span property="name">Teams</span></a
+              >
+              <meta property="position" content="2"
+            /></span>
+            &gt;
+            <span class="archive date-month current-item">Swanson's Army</span>
           </div>
-          <div
-            class="d-flex flex-column align-items-center schedule-container py-3 bg-light"
-          >
-            <h2>Schedule</h2>
-            <ol>
-              <li class="p-2">
-                <img
-                  src="https://ddc-media.s3.amazonaws.com/team_logos/fi_db6xP8Z.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAQ4I3UZ4LDJDRI4UF%2F20200904%2Fus-east-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20200904T004007Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=fc62db6a6f1cab45185da0ad7e155571a883f7754c79e68299f266adb219aabb"
-                  alt="Fighting Imps Logo"
-                  style="width: 40px"
-                  class="table-team-logo"
-                />
-                <span>Fighting Imps</span>
-              </li>
+          <div class="profileContainer">
+            <div class="profileCard" id="chab">
+              <section class="top">
+                <img src="../Images/chandler.png" alt="" />
+                <h1>Swanson's Army</h1>
+              </section>
 
-              <li class="p-2">
-                <img
-                  src="https://ddc-media.s3.amazonaws.com/team_logos/SOOC.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAQ4I3UZ4LDJDRI4UF%2F20200904%2Fus-east-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20200904T004007Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=0eceea2f6de2f26085c4b2ab1e802aecb5d857384566feab344936464be3fdbf"
-                  alt="Straight Outta Johns Creek Logo"
-                  style="width: 40px"
-                  class="table-team-logo"
-                />
-                <span>Straight Outta Johns Creek</span>
-              </li>
+              <div class="main">
+                <input id="tab1" type="radio" name="tabs" checked="" />
+                <label for="tab1">Stats</label>
 
-              <li class="p-2">
-                <img
-                  src="https://ddc-media.s3.amazonaws.com/team_logos/D61.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAQ4I3UZ4LDJDRI4UF%2F20200904%2Fus-east-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20200904T004007Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=c002a7a08603880db5f93b2c0ac6f9f45860c50d778bccc7ebdbfdf9908afb6c"
-                  alt="Dan6erous Logo"
-                  style="width: 40px"
-                  class="table-team-logo"
-                />
-                <span>Dan6erous</span>
-              </li>
+                <input id="tab2" type="radio" name="tabs" />
+                <label for="tab2">Records</label>
 
-              <li class="p-2">
-                <img
-                  src="https://ddc-media.s3.amazonaws.com/team_logos/SWTW1.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAQ4I3UZ4LDJDRI4UF%2F20200904%2Fus-east-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20200904T004007Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=102d966fef12c3dc46e9c7f36f7f4fb1740b3977367a9965739a547410db30f2"
-                  alt="Slone with the Wind Logo"
-                  style="width: 40px"
-                  class="table-team-logo"
-                />
-                <span>Slone with the Wind</span>
-              </li>
+                <input id="tab3" type="radio" name="tabs" />
+                <label for="tab3">Rivalries</label>
 
-              <li class="p-2">
-                <img
-                  src="https://ddc-media.s3.amazonaws.com/team_logos/CR.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAQ4I3UZ4LDJDRI4UF%2F20200904%2Fus-east-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20200904T004007Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=a6db8fcd1cd7935ee64d9dc4f0e5edfe4bb8428ee014cdb4dec9b9e8374d82ea"
-                  alt="Chugga Robitussin Logo"
-                  style="width: 40px"
-                  class="table-team-logo"
-                />
-                <span>Chugga Robitussin</span>
-              </li>
+                <input id="tab4" type="radio" name="tabs" />
+                <label for="tab4">Schedule</label>
 
-              <li class="p-2">
-                <img
-                  src="https://ddc-media.s3.amazonaws.com/team_logos/MHSA.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAQ4I3UZ4LDJDRI4UF%2F20200904%2Fus-east-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20200904T004007Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=0676338576779e7fa56e4846a0a2da4b7e4d46d76eb7d9751ef0472f7aaa7506"
-                  alt="My Hero Sports Academy Logo"
-                  style="width: 40px"
-                  class="table-team-logo"
-                />
-                <span>My Hero Sports Academy</span>
-              </li>
+                <div class="content">
+                  <div id="content1">
+                    <section class="bottom">
+                      <div class="stat">
+                        <h1>1.048</h1>
+                        <hr />
+                        <h3>Prestige</h3>
+                        <!--Seasons-->
+                      </div>
+                      <div class="stat">
+                        <h1>8</h1>
+                        <hr />
+                        <h3>Seasons</h3>
+                        <!--Seasons-->
+                      </div>
+                      <div class="stat">
+                        <h1>0</h1>
+                        <hr />
+                        <h3>Titles</h3>
+                        <!--Championships-->
+                      </div>
+                      <div class="stat">
+                        <h1>3</h1>
+                        <hr />
+                        <h3>Playoff Wins</h3>
+                        <!--Playoff Wins-->
+                      </div>
+                      <div class="stat">
+                        <h1>53</h1>
+                        <hr />
+                        <h3>Wins</h3>
+                        <!--Total Wins-->
+                      </div>
+                      <div class="stat">
+                        <h1>0.552</h1>
+                        <hr />
+                        <h3>Win %</h3>
+                        <!--Win %-->
+                      </div>
+                      <div class="stat">
+                        <h1>11,105.2</h1>
+                        <hr />
+                        <h3>Total Points</h3>
+                        <!--Total Points-->
+                      </div>
+                      <div class="stat">
+                        <h1>1,586.5</h1>
+                        <hr />
+                        <h3>Avg. Points</h3>
+                        <!--Average Points-->
+                      </div>
+                    </section>
+                  </div>
 
-              <li class="p-2">
-                <img
-                  src="https://ddc-media.s3.amazonaws.com/team_logos/FF.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAQ4I3UZ4LDJDRI4UF%2F20200904%2Fus-east-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20200904T004007Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=bf157955bb813ee5d10a0b71fed62797933d60d16de7d21a605a110d9537c391"
-                  alt="Fleet Foxes Logo"
-                  style="width: 40px"
-                  class="table-team-logo"
-                />
-                <span>Fleet Foxes</span>
-              </li>
+                  <div id="content2">
+                    <section class="bottom">
+                      <div class="stat">
+                        <h3>Smallest Margin of Defeat, Season Average:</h3>
+                        <hr />
+                        <h3>0.5 (2015)</h3>
+                        <!--Prestige-->
+                      </div>
+                    </section>
+                  </div>
 
-              <li class="p-2">
-                <img
-                  src="https://ddc-media.s3.amazonaws.com/team_logos/mov_rfoS9tJ.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAQ4I3UZ4LDJDRI4UF%2F20200904%2Fus-east-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20200904T004007Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=c9b6fb2c43f072a0c3567f707a20ea932997b078cd1e81019432518c816cd05f"
-                  alt="Mountain Over Viper Logo"
-                  style="width: 40px"
-                  class="table-team-logo"
-                />
-                <span>Mountain Over Viper</span>
-              </li>
+                  <div id="content3">
+                    <section class="bottom">
+                      <div class="stat">
+                        <h3>Jenna</h3>
+                        <hr />
+                        <h3>1-2</h3>
+                        <!--Prestige-->
+                      </div>
+                      <div class="stat">
+                        <h3>Scott</h3>
+                        <hr />
+                        <h3>3-1</h3>
+                        <!--Prestige-->
+                      </div>
+                    </section>
+                  </div>
 
-              <li class="p-2">
-                <img
-                  src="https://ddc-media.s3.amazonaws.com/team_logos/TCO.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAQ4I3UZ4LDJDRI4UF%2F20200904%2Fus-east-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20200904T004007Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=606b6e5788751b5b901f8b0626ff508d55db4aee049c33dc901e699a5b6d18c0"
-                  alt="Team Cody Logo"
-                  style="width: 40px"
-                  class="table-team-logo"
-                />
-                <span>Team Cody</span>
-              </li>
-
-              <li class="p-2">
-                <img
-                  src="https://ddc-media.s3.amazonaws.com/team_logos/bobe.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAQ4I3UZ4LDJDRI4UF%2F20200904%2Fus-east-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20200904T004007Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=39303b0f4b15b8af16925cf0b5388657b157b85323a5ec9b396cba349eac536b"
-                  alt="Bourbon Bears Logo"
-                  style="width: 40px"
-                  class="table-team-logo"
-                />
-                <span>Bourbon Bears</span>
-              </li>
-
-              <li class="p-2">
-                <img
-                  src="https://ddc-media.s3.amazonaws.com/team_logos/TB.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAQ4I3UZ4LDJDRI4UF%2F20200904%2Fus-east-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20200904T004007Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=7a7a7438fa05a0390504122362272aa71e67df000c2879cefb70c7fbfb700297"
-                  alt="Terrorbytes Logo"
-                  style="width: 40px"
-                  class="table-team-logo"
-                />
-                <span>Terrorbytes</span>
-              </li>
-
-              <li class="p-2">
-                <img
-                  src="https://ddc-media.s3.amazonaws.com/team_logos/brbo1.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAQ4I3UZ4LDJDRI4UF%2F20200904%2Fus-east-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20200904T004007Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=bb99bd89f3d795e19185e923c3bb7f9862a0877d5c21d61fc38d052f5bdc2cdf"
-                  alt="Bruin Bombers Logo"
-                  style="width: 40px"
-                  class="table-team-logo"
-                />
-                <span>Bruin Bombers</span>
-              </li>
-
-              <li class="p-2">
-                <img
-                  src="https://ddc-media.s3.amazonaws.com/team_logos/tc_aC82HlU.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAQ4I3UZ4LDJDRI4UF%2F20200904%2Fus-east-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20200904T004007Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=f1995ef812b8e58fcae8bdfeb692b96ba13c169ece47d9f4ae724a6ffb1d0d25"
-                  alt="Team Cara Logo"
-                  style="width: 40px"
-                  class="table-team-logo"
-                />
-                <span>Team Cara</span>
-              </li>
-            </ol>
+                  <div id="content4">
+                    <section class="bottom">
+                      <div class="stat">
+                        <h3>Week 1</h3>
+                        <hr />
+                        <h3><img src="Images/lexi.jpeg" width="42" height="42" style="vertical-align:middle;margin:0px 10px;border-radius: 50%;">Team Swayze Crazy</h3>
+                        <!--Prestige-->
+                      </div>
+                      <div class="stat">
+                        <h3>Week 2</h3>
+                        <hr />
+                        <h3><img src="Images/jay.png" width="42" height="42" style="vertical-align:middle;margin:0px 10px;border-radius: 50%;">2016 Champs Fischer</h3>
+                        <!--Prestige-->
+                      </div>
+                      <div class="stat">
+                        <h3>Week 3</h3>
+                        <hr />
+                        <h3><img src="Images/krista.png" width="42" height="42" style="vertical-align:middle;margin:0px 10px;border-radius: 50%;">K and M</h3>
+                        <!--Prestige-->
+                      </div>
+                      <div class="stat">
+                        <h3>Week 4</h3>
+                        <hr />
+                        <h3><img src="Images/skully.png" width="42" height="42" style="vertical-align:middle;margin:0px 10px;border-radius: 50%;">Team Skully</h3>
+                        <!--Prestige-->
+                      </div>
+                      <div class="stat">
+                        <h3>Week 5</h3>
+                        <hr />
+                        <h3><img src="Images/scott.jpg" width="42" height="42" style="vertical-align:middle;margin:0px 10px;border-radius: 50%;">Big Potato</h3>
+                        <!--Prestige-->
+                      </div>
+                      <div class="stat">
+                        <h3>Week 6</h3>
+                        <hr />
+                        <h3><img src="Images/sam.png" width="42" height="42" style="vertical-align:middle;margin:0px 10px;border-radius: 50%;">The Long Bombers</h3>
+                        <!--Prestige-->
+                      </div>
+                      <div class="stat">
+                        <h3>Week 7</h3>
+                        <hr />
+                        <h3><img src="Images/chris.png" width="42" height="42" style="vertical-align:middle;margin:0px 10px;border-radius: 50%;">Team Beard</h3>
+                        <!--Prestige-->
+                      </div>
+                      <div class="stat">
+                        <h3>Week 8</h3>
+                        <hr />
+                        <h3><img src="Images/spencer.png" width="42" height="42" style="vertical-align:middle;margin:0px 10px;border-radius: 50%;">The Spencycle</h3>
+                        <!--Prestige-->
+                      </div>
+                      <div class="stat">
+                        <h3>Week 9</h3>
+                        <hr />
+                        <h3><img src="Images/jenna.jpg" width="42" height="42" style="vertical-align:middle;margin:0px 10px;border-radius: 50%;">Itty Bitty Smitty</h3>
+                        <!--Prestige-->
+                      </div>
+                      <div class="stat">
+                        <h3>Week 10</h3>
+                        <hr />
+                        <h3><img src="Images/jason.png" width="42" height="42" style="vertical-align:middle;margin:0px 10px;border-radius: 50%;">Team Henderson</h3>
+                        <!--Prestige-->
+                      </div>
+                      <div class="stat">
+                        <h3>Week 11</h3>
+                        <hr />
+                        <h3><img src="Images/lexi.jpeg" width="42" height="42" style="vertical-align:middle;margin:0px 10px;border-radius: 50%;">Team Swayze Crazy</h3>
+                        <!--Prestige-->
+                      </div><div class="stat">
+                        <h3>Week 12</h3>
+                        <hr />
+                        <h3><img src="Images/jay.png" width="42" height="42" style="vertical-align:middle;margin:0px 10px;border-radius: 50%;">2016 Champs Fischer</h3>
+                        <!--Prestige-->
+                      </div>
+                      <div class="stat">
+                        <h3>Week 13</h3>
+                        <hr />
+                        <h3><img src="Images/krista.png" width="42" height="42" style="vertical-align:middle;margin:0px 10px;border-radius: 50%;">K and M</h3>
+                        <!--Prestige-->
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
+        </section>
+        <!-- /section -->
+      </main>
+
+      <!-- footer -->
+      <footer class="footer" role="contentinfo">
+        <p class="small">Created and maintained by Sam Smith</p>
+      </footer>
+      <!-- /footer -->
     </div>
+    <!-- /wrapper -->
 
-    <footer class="mt-3">
-      <div
-        class="container-fluid d-flex justify-content-between align-items-center"
-      >
-        <span
-          >Copyright © <span id="year">2020</span> DDC (Draft Day
-          Collapse)</span
-        ><img
-          class="main-logo"
-          src="https://ddc-media.s3.us-east-2.amazonaws.com/logos/DDC-LOGO.svg"
-          alt="DDC Main Logo"
-        />
-      </div>
-    </footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="../JS/test.1535917643.js"></script>
     <script
-      src="https://code.jquery.com/jquery-3.5.1.js"
-      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.2/lottie.js"
       type="text/javascript"
+      src="../JS/wp-embed.min.1544581843.js"
     ></script>
-    <script src="JS/test.js"></script>
+    <script src="//load.sheetsu.com"></script>
   </body>
 </html>
