@@ -83,6 +83,12 @@
   src: url("fonts/webfonts/ncaa_clemson_paw_hammer-webfont.woff");
 }
 
+@font-face {
+  font-family: "Seahawks";
+  src: url("fonts/webfonts/MkLatinoPlain.ttf");
+  src: url("fonts/webfonts/MkLatinoPlain.ttf");
+}
+
 /* global box-sizing */
 * {
   -moz-box-sizing: border-box;
@@ -996,7 +1002,7 @@ main {
   }
 
   .longCard#chrb .top {
-    background: url("https://s3.amazonaws.com/freebiesupply/large/2x/carolina-panthers-logo-transparent.png");
+    background: url("../Images/chris.png");
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1015,7 +1021,7 @@ main {
   }
 
   .longCard#hayd .top {
-    background: url("https://i.imgur.com/9PC6pyi.png");
+    background: url("../Images/hayden.png");
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1034,7 +1040,7 @@ main {
   }
 
   .longCard#heat .top {
-    background: url("https://i.imgur.com/YbsFrd7.png");
+    background: url("../Images/heather.png");
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1053,7 +1059,7 @@ main {
   }
 
   .longCard#jaso .top {
-    background: url("https://i.imgur.com/u0tPh5f.png");
+    background: url("../Images/jason.png");
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1072,7 +1078,7 @@ main {
   }
 
   .longCard#jay .top {
-    background: url("https://s3.amazonaws.com/freebiesupply/large/2x/carolina-panthers-logo-transparent.png");
+    background: url("../Images/jay.png");
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1091,7 +1097,7 @@ main {
   }
 
   .longCard#jenna .top {
-    background: url("https://i.imgur.com/A8vDfAH.png");
+    background: url("../Images/jenna.png");
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1129,7 +1135,7 @@ main {
   }
 
   .longCard#kev .top {
-    background: url("https://i.imgur.com/Ls0QoDF.png");
+    background: url("../Images/kevin.png");
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1147,27 +1153,27 @@ main {
     opacity: 0.75;
   }
 
-  .longCard#rhet .top {
-    background: url("https://i.imgur.com/12vATk1.png");
+  .longCard#lexi .top {
+    background: url("../Images/lexi.jpeg");
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
   }
 
-  .longCard#rhet .overlay {
+  .longCard#lexi .overlay {
     background: -webkit-gradient(linear,
         left bottom,
         left top,
-        from(#d3bc8d),
+        from(#002244),
         to(#f3f5f6));
-    background: -webkit-linear-gradient(bottom, #d3bc8d, #f3f5f6);
-    background: -o-linear-gradient(bottom, #d3bc8d, #f3f5f6);
-    background: linear-gradient(to top, #d3bc8d, #f3f5f6);
+    background: -webkit-linear-gradient(bottom, #002244, #f3f5f6);
+    background: -o-linear-gradient(bottom, #002244, #f3f5f6);
+    background: linear-gradient(to top, #002244, #f3f5f6);
     opacity: 0.75;
   }
 
   .longCard#krist .top {
-    background: url("https://s3.amazonaws.com/freebiesupply/large/2x/carolina-panthers-logo-transparent.png");
+    background: url("../Images/krista.png");
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1224,7 +1230,7 @@ main {
   }
 
   .longCard#scot .top {
-    background: url("https://i.imgur.com/ixsdtpq.png");
+    background: url("../Images/scott.jpg");
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1521,14 +1527,14 @@ main {
     color: #fff;
   }
 
-  .profileContainer .profileCard#rhet .top {
-    background: url(https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/super2012950.jpg);
+  .profileContainer .profileCard#lexi .top {
+    background: url(https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/century18950.jpg);
     background-size: cover;
     background-repeat: norepeat;
-    background-position: 90% 80%;
+    background-position: 90% 35%;
     background-blend-mode: soft-light;
-    background-color: #d3bc8d;
-    color: #000000;
+    background-color: #002244;
+    color: #A5ACAF;
   }
 
   .profileContainer .profileCard#krist .top {
@@ -1640,8 +1646,8 @@ main {
     font-size: 40px !important;
   }
 
-  .profileContainer .profileCard#rhet .top h1 {
-    font-family: "Saints";
+  .profileContainer .profileCard#lexi .top h1 {
+    font-family: "Seahawks";
     font-size: 56px !important;
   }
 
@@ -2752,20 +2758,20 @@ main {
     color: #fff;
   }
 
-  .profileContainer .profileCard#rhet .stat:hover {
-    background-color: #141416;
-    color: #d3bc8d;
+  .profileContainer .profileCard#lexi .stat:hover {
+    background-color: #002244;
+    color: #69BE28;
   }
 
-  .profileContainer .profileCard#rhet label:hover {
-    background-color: #141416;
-    color: #d3bc8d;
+  .profileContainer .profileCard#lexi label:hover {
+    background-color: #002244;
+    color: #69BE28;
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#rhet input:checked+label {
-    background-color: #d3bc8d;
-    color: #141416;
+  .profileContainer .profileCard#lexi input:checked+label {
+    background-color: #002244;
+    color: #69BE28;
   }
 
   .profileContainer .profileCard#krist .stat:hover {
@@ -3566,20 +3572,20 @@ main {
     color: #fff;
   }
 
-  .profileContainer .profileCard#rhet .stat:hover {
-    background-color: #141416;
-    color: #d3bc8d;
+  .profileContainer .profileCard#lexi .stat:hover {
+    background-color: #002244;
+    color: #69BE28;
   }
 
-  .profileContainer .profileCard#rhet label:hover {
-    background-color: #141416;
-    color: #d3bc8d;
+  .profileContainer .profileCard#lexi label:hover {
+    background-color: #002244;
+    color: #69BE28;
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#rhet input:checked+label {
-    background-color: #d3bc8d;
-    color: #141416;
+  .profileContainer .profileCard#lexi input:checked+label {
+    background-color: #002244;
+    color: #69BE28;
   }
 
   .profileContainer .profileCard#krist .stat:hover {
@@ -4580,20 +4586,20 @@ main {
     color: #fff;
   }
 
-  .profileContainer .profileCard#rhet .stat:hover {
-    background-color: #141416;
-    color: #d3bc8d;
+  .profileContainer .profileCard#lexi .stat:hover {
+    background-color: #002244;
+    color: #69BE28;
   }
 
-  .profileContainer .profileCard#rhet label:hover {
-    background-color: #141416;
-    color: #d3bc8d;
+  .profileContainer .profileCard#lexi label:hover {
+    background-color: #002244;
+    color: #69BE28;
     cursor: pointer;
   }
 
-  .profileContainer .profileCard#rhet input:checked+label {
-    background-color: #d3bc8d;
-    color: #141416;
+  .profileContainer .profileCard#lexi input:checked+label {
+    background-color: #69BE28;
+    color: #002244;
   }
 
   .profileContainer .profileCard#krist .stat:hover {
@@ -4751,8 +4757,8 @@ main {
     text-align: right;
   }
 
-  .profileContainer .profileCard#rhet .top h1 {
-    font-family: "Saints";
+  .profileContainer .profileCard#lexi .top h1 {
+    font-family: "Seahawks";
     font-size: 56px !important;
     text-align: right;
   }
@@ -4841,55 +4847,79 @@ main {
     }
   }
 
-/* Center the loader */
-#loader {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  z-index: 1;
-  width: 150px;
-  height: 150px;
-  margin: -75px 0 0 -75px;
-  border: 16px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 16px solid #3498db;
-  width: 120px;
-  height: 120px;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
-}
+  /* Center the loader */
+  #loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
 
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
 
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
 
-/* Add animation to "page content" */
-.animate-bottom {
-  position: relative;
-  -webkit-animation-name: animatebottom;
-  -webkit-animation-duration: 1s;
-  animation-name: animatebottom;
-  animation-duration: 1s
-}
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
 
-@-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 } 
-  to { bottom:0px; opacity:1 }
-}
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 
-@keyframes animatebottom { 
-  from{ bottom:-100px; opacity:0 } 
-  to{ bottom:0; opacity:1 }
-}
+  /* Add animation to "page content" */
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
 
-#myDiv {
-  display: none;
-  text-align: center;
-}
+  @-webkit-keyframes animatebottom {
+    from {
+      bottom: -100px;
+      opacity: 0
+    }
+
+    to {
+      bottom: 0px;
+      opacity: 1
+    }
+  }
+
+  @keyframes animatebottom {
+    from {
+      bottom: -100px;
+      opacity: 0
+    }
+
+    to {
+      bottom: 0;
+      opacity: 1
+    }
+  }
+
+  #myDiv {
+    display: none;
+    text-align: center;
+  }
 }
