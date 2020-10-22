@@ -4429,7 +4429,7 @@ main {
     margin: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
-    width: calc(25% - 30px) !important;
+    width: 33% !important;
   }
 
   .profileContainer .profileCard .bottom .stat:nth-child(-n + 5) {
