@@ -1012,11 +1012,11 @@ main {
     background: -webkit-gradient(linear,
         left bottom,
         left top,
-        from(#0085ca),
+        from(#d01422),
         to(#f3f5f6));
-    background: -webkit-linear-gradient(bottom, #0085ca, #f3f5f6);
-    background: -o-linear-gradient(bottom, #0085ca, #f3f5f6);
-    background: linear-gradient(to top, #0085ca, #f3f5f6);
+    background: -webkit-linear-gradient(bottom, #d01422, #f3f5f6);
+    background: -o-linear-gradient(bottom, #d01422, #f3f5f6);
+    background: linear-gradient(to top, #d01422, #f3f5f6);
     opacity: 0.75;
   }
 
@@ -1031,11 +1031,11 @@ main {
     background: -webkit-gradient(linear,
         left bottom,
         left top,
-        from(#a71930),
+        from(#413a00),
         to(#f3f5f6));
-    background: -webkit-linear-gradient(bottom, #a71930, #f3f5f6);
-    background: -o-linear-gradient(bottom, #a71930, #f3f5f6);
-    background: linear-gradient(to top, #a71930, #f3f5f6);
+    background: -webkit-linear-gradient(bottom, #413a00, #f3f5f6);
+    background: -o-linear-gradient(bottom, #413a00, #f3f5f6);
+    background: linear-gradient(to top, #413a00, #f3f5f6);
     opacity: 0.75;
   }
 
@@ -1050,11 +1050,11 @@ main {
     background: -webkit-gradient(linear,
         left bottom,
         left top,
-        from(#fb4f14),
+        from(#c98b27),
         to(#f3f5f6));
-    background: -webkit-linear-gradient(bottom, #fb4f14, #f3f5f6);
-    background: -o-linear-gradient(bottom, #fb4f14, #f3f5f6);
-    background: linear-gradient(to top, #fb4f14, #f3f5f6);
+    background: -webkit-linear-gradient(bottom, #c98b27, #f3f5f6);
+    background: -o-linear-gradient(bottom, #c98b27, #f3f5f6);
+    background: linear-gradient(to top, #c98b27, #f3f5f6);
     opacity: 0.75;
   }
 
@@ -1069,11 +1069,11 @@ main {
     background: -webkit-gradient(linear,
         left bottom,
         left top,
-        from(#03202f),
+        from(#c98b27),
         to(#f3f5f6));
-    background: -webkit-linear-gradient(bottom, #03202f, #f3f5f6);
-    background: -o-linear-gradient(bottom, #03202f, #f3f5f6);
-    background: linear-gradient(to top, #03202f, #f3f5f6);
+    background: -webkit-linear-gradient(bottom, #c98b27, #f3f5f6);
+    background: -o-linear-gradient(bottom, #c98b27, #f3f5f6);
+    background: linear-gradient(to top, #c98b27, #f3f5f6);
     opacity: 0.75;
   }
 
@@ -1088,11 +1088,11 @@ main {
     background: -webkit-gradient(linear,
         left bottom,
         left top,
-        from(#0085ca),
+        from(#63ddff),
         to(#f3f5f6));
-    background: -webkit-linear-gradient(bottom, #0085ca, #f3f5f6);
-    background: -o-linear-gradient(bottom, #0085ca, #f3f5f6);
-    background: linear-gradient(to top, #0085ca, #f3f5f6);
+    background: -webkit-linear-gradient(bottom, #63ddff, #f3f5f6);
+    background: -o-linear-gradient(bottom, #63ddff, #f3f5f6);
+    background: linear-gradient(to top, #63ddff, #f3f5f6);
     opacity: 0.75;
   }
 
@@ -1145,11 +1145,11 @@ main {
     background: -webkit-gradient(linear,
         left bottom,
         left top,
-        from(#e31837),
+        from(#731804),
         to(#f3f5f6));
-    background: -webkit-linear-gradient(bottom, #e31837, #f3f5f6);
-    background: -o-linear-gradient(bottom, #e31837, #f3f5f6);
-    background: linear-gradient(to top, #e31837, #f3f5f6);
+    background: -webkit-linear-gradient(bottom, #731804, #f3f5f6);
+    background: -o-linear-gradient(bottom, #731804, #f3f5f6);
+    background: linear-gradient(to top, #731804, #f3f5f6);
     opacity: 0.75;
   }
 
@@ -1183,11 +1183,11 @@ main {
     background: -webkit-gradient(linear,
         left bottom,
         left top,
-        from(#0085ca),
+        from(#47784d),
         to(#f3f5f6));
-    background: -webkit-linear-gradient(bottom, #0085ca, #f3f5f6);
-    background: -o-linear-gradient(bottom, #0085ca, #f3f5f6);
-    background: linear-gradient(to top, #0085ca, #f3f5f6);
+    background: -webkit-linear-gradient(bottom, #47784d, #f3f5f6);
+    background: -o-linear-gradient(bottom, #47784d, #f3f5f6);
+    background: linear-gradient(to top, #47784d, #f3f5f6);
     opacity: 0.75;
   }
 
@@ -1449,7 +1449,7 @@ main {
     background-position: 90% 40%;
     background-blend-mode: soft-light;
     background-color: #571C20;
-    color: #fff;
+    color: #F05133;
   }
 
   .profileContainer .profileCard#chrb .top {
@@ -1458,12 +1458,12 @@ main {
     background-repeat: norepeat;
     background-position: 90% 40%;
     background-blend-mode: soft-light;
-    background-color: #0085ca;
+    background-color: #d01422;
     color: #fff;
   }
 
   .profileContainer .profileCard#hayd .top {
-    background-color: #a71930;
+    background-color: #413a00;
     color: #fff;
   }
 
@@ -1473,7 +1473,7 @@ main {
     background-repeat: norepeat;
     background-position: 90% 40%;
     background-blend-mode: soft-light;
-    background-color: #fb4f14;
+    background-color: #c98b27;
     color: #fff;
   }
 
@@ -1483,7 +1483,7 @@ main {
     background-repeat: norepeat;
     background-position: 90% 60%;
     background-blend-mode: soft-light;
-    background-color: #03202f;
+    background-color: #c98b27;
     color: #fff;
   }
 
@@ -1493,7 +1493,7 @@ main {
     background-repeat: norepeat;
     background-position: 90% 40%;
     background-blend-mode: soft-light;
-    background-color: #0085ca;
+    background-color: #006e8c;
     color: #fff;
   }
 
@@ -1523,7 +1523,7 @@ main {
     background-repeat: norepeat;
     background-position: 90% 40%;
     background-blend-mode: soft-light;
-    background-color: #e31837;
+    background-color: #731804;
     color: #fff;
   }
 
@@ -1543,7 +1543,7 @@ main {
     background-repeat: norepeat;
     background-position: 90% 40%;
     background-blend-mode: soft-light;
-    background-color: #0085ca;
+    background-color: #47784d;
     color: #fff;
   }
 
@@ -2631,83 +2631,83 @@ main {
   }
 
   .profileContainer .profileCard#chrb .stat:hover {
-    background: #bfc0bf;
-    color: #000000;
+    background: #d01422;
+    color: #ffffff;
   }
 
   .profileContainer .profileCard#chrb label:hover {
-    background: #0085ca;
+    background: #d01422;
     color: #fff;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#chrb input:checked+label {
-    background: #bfc0bf;
+    background: #b5b5b5;
     color: #000000;
   }
 
   .profileContainer .profileCard#hayd .stat:hover {
-    background-color: #a5acaf;
-    color: #a71930;
+    background-color: #fb8763;
+    color: #413a00;
   }
 
   .profileContainer .profileCard#hayd label:hover {
-    background: #a71930;
+    background: #413a00;
     color: #fff;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#hayd input:checked+label {
-    background: #a71930;
+    background: #413a00;
     color: #fff;
   }
 
   .profileContainer .profileCard#heat .stat:hover {
-    background-color: #002244;
-    color: #fff;
+    background-color: #c7c7c7;
+    color: #c98b27;
   }
 
   .profileContainer .profileCard#heat label:hover {
-    background-color: #002244;
-    color: #fff;
+    background-color: #c7c7c7;
+    color: #c98b27;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#heat input:checked+label {
-    background-color: #fb4f14;
-    color: #002244;
+    background-color: #c98b27;
+    color: #c7c7c7;
   }
 
   .profileContainer .profileCard#jaso .stat:hover {
-    background-color: #a71930;
-    color: #fff;
+    background-color: #c98b27;
+    color: #000000;
   }
 
   .profileContainer .profileCard#jaso label:hover {
-    background-color: #a71930;
+    background-color: #c98b27;
     color: #fff;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#jaso input:checked+label {
-    background-color: #03202f;
+    background-color: #000000;
     color: #fff;
   }
 
   .profileContainer .profileCard#jay .stat:hover {
-    background-color: #bfc0bf;
-    color: #000000;
+    background-color: #006e8c;
+    color: #63ddff;
   }
 
   .profileContainer .profileCard#jay label:hover {
-    background: #0085ca;
-    color: #fff;
+    background: #63ddff;
+    color: #000000;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#jay input:checked+label {
-    background: #bfc0bf;
-    color: #000000;
+    background: #006e8c;
+    color: #fff;
   }
 
   .profileContainer .profileCard#jenna .stat:hover {
@@ -2743,12 +2743,12 @@ main {
   }
 
   .profileContainer .profileCard#kev .stat:hover {
-    background-color: #ffb81c;
+    background-color: #0b33bd;
     color: #000000;
   }
 
   .profileContainer .profileCard#kev label:hover {
-    background-color: #ffb81c;
+    background-color: #0b33bd;
     color: #000000;
     cursor: pointer;
   }
@@ -2775,19 +2775,19 @@ main {
   }
 
   .profileContainer .profileCard#krist .stat:hover {
-    background-color: #bfc0bf;
-    color: #000000;
+    background-color: #cecece;
+    color: #47784d;
   }
 
   .profileContainer .profileCard#krist label:hover {
-    background: #0085ca;
+    background: #47784d;
     color: #fff;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#krist input:checked+label {
-    background: #bfc0bf;
-    color: #000000;
+    background: #cecece;
+    color: #47784d;
   }
 
   .profileContainer .profileCard#ridg .stat:hover {
@@ -3445,83 +3445,83 @@ main {
   }
 
   .profileContainer .profileCard#chrb .stat:hover {
-    background: #bfc0bf;
+    background: #d01422;
     color: #000000;
   }
 
   .profileContainer .profileCard#chrb label:hover {
-    background: #0085ca;
+    background: #d01422;
     color: #fff;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#chrb input:checked+label {
-    background: #bfc0bf;
+    background: #d01422;
     color: #000000;
   }
 
   .profileContainer .profileCard#hayd .stat:hover {
-    background-color: #a5acaf;
-    color: #a71930;
+    background-color: #fb8763;
+    color: #413a00;
   }
 
   .profileContainer .profileCard#hayd label:hover {
-    background: #a5acaf;
-    color: #a71930;
+    background: #fb8763;
+    color: #413a00;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#hayd input:checked+label {
-    background: #a71930;
+    background: #413a00;
     color: #fff;
   }
 
   .profileContainer .profileCard#heat .stat:hover {
-    background-color: #002244;
-    color: #fff;
+    background-color: #c7c7c7;
+    color: #c98b27;
   }
 
   .profileContainer .profileCard#heat label:hover {
-    background-color: #002244;
-    color: #fff;
+    background-color: #c7c7c7;
+    color: #c98b27;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#heat input:checked+label {
-    background-color: #fb4f14;
-    color: #002244;
+    background-color: #c98b27;
+    color: #c7c7c7;
   }
 
   .profileContainer .profileCard#jaso .stat:hover {
-    background-color: #a71930;
-    color: #fff;
+    background-color: #c98b27;
+    color: #000000;
   }
 
   .profileContainer .profileCard#jaso label:hover {
-    background-color: #a71930;
+    background-color: #c98b27;
     color: #fff;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#jaso input:checked+label {
-    background-color: #03202f;
+    background-color: #000000;
     color: #fff;
   }
 
   .profileContainer .profileCard#jay .stat:hover {
-    background-color: #bfc0bf;
-    color: #000000;
+    background-color: #006e8c;
+    color: #63ddff;
   }
 
   .profileContainer .profileCard#jay label:hover {
-    background: #0085ca;
-    color: #fff;
+    background: #63ddff;
+    color: #000000;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#jay input:checked+label {
-    background: #bfc0bf;
-    color: #000000;
+    background: #006e8c;
+    color: #fff;
   }
 
   .profileContainer .profileCard#jenna .stat:hover {
@@ -3557,12 +3557,12 @@ main {
   }
 
   .profileContainer .profileCard#kev .stat:hover {
-    background-color: #ffb81c;
+    background-color: #0b33bd;
     color: #000000;
   }
 
   .profileContainer .profileCard#kev label:hover {
-    background-color: #ffb81c;
+    background-color: #0b33bd;
     color: #000000;
     cursor: pointer;
   }
@@ -3589,19 +3589,19 @@ main {
   }
 
   .profileContainer .profileCard#krist .stat:hover {
-    background-color: #bfc0bf;
-    color: #000000;
+    background-color: #cecece;
+    color: #47784d;
   }
 
   .profileContainer .profileCard#krist label:hover {
-    background: #0085ca;
+    background: #47784d;
     color: #fff;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#krist input:checked+label {
-    background: #bfc0bf;
-    color: #000000;
+    background: #cecece;
+    color: #47784d;
   }
 
   .profileContainer .profileCard#ridg .stat:hover {
@@ -4459,83 +4459,83 @@ main {
   }
 
   .profileContainer .profileCard#chrb .stat:hover {
-    background: #bfc0bf;
+    background: #b5b5b5;
     color: #000000;
   }
 
   .profileContainer .profileCard#chrb label:hover {
-    background: #0085ca;
-    color: #fff;
+    background: #d01422;
+    color: #000000;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#chrb input:checked+label {
-    background: #bfc0bf;
+    background: #b5b5b5;
     color: #000000;
   }
 
   .profileContainer .profileCard#hayd .stat:hover {
-    background-color: #a5acaf;
-    color: #a71930;
+    background-color: #fb8763;
+    color: #413a00;
   }
 
   .profileContainer .profileCard#hayd label:hover {
-    background: #a5acaf;
-    color: #a71930;
+    background: #fb8763;
+    color: #413a00;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#hayd input:checked+label {
-    background: #a71930;
+    background: #413a00;
     color: #fff;
   }
 
   .profileContainer .profileCard#heat .stat:hover {
-    background-color: #002244;
-    color: #fff;
+    background-color: #c7c7c7;
+    color: #c98b27;
   }
 
   .profileContainer .profileCard#heat label:hover {
-    background-color: #002244;
-    color: #fff;
+    background-color: #c7c7c7;
+    color: #c98b27;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#heat input:checked+label {
-    background-color: #fb4f14;
-    color: #002244;
+    background-color: #c98b27;
+    color: #c7c7c7;
   }
 
   .profileContainer .profileCard#jaso .stat:hover {
-    background-color: #a71930;
-    color: #fff;
+    background-color: #c98b27;
+    color: #000000;
   }
 
   .profileContainer .profileCard#jaso label:hover {
-    background-color: #a71930;
+    background-color: #c98b27;
     color: #fff;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#jaso input:checked+label {
-    background-color: #03202f;
+    background-color: #000000;
     color: #fff;
   }
 
   .profileContainer .profileCard#jay .stat:hover {
-    background-color: #bfc0bf;
-    color: #000000;
+    background-color: #006e8c;
+    color: #63ddff;
   }
 
   .profileContainer .profileCard#jay label:hover {
-    background: #0085ca;
-    color: #fff;
+    background: #63ddff;
+    color: #000000;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#jay input:checked+label {
-    background: #bfc0bf;
-    color: #000000;
+    background: #006e8c;
+    color: #fff;
   }
 
   .profileContainer .profileCard#jenna .stat:hover {
@@ -4571,18 +4571,18 @@ main {
   }
 
   .profileContainer .profileCard#kev .stat:hover {
-    background-color: #ffb81c;
-    color: #000000;
+    background-color: #0b33bd;
+    color: #fff;
   }
 
   .profileContainer .profileCard#kev label:hover {
-    background-color: #ffb81c;
-    color: #000000;
+    background-color: #0b33bd;
+    color: #fff;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#kev input:checked+label {
-    background-color: #e31837;
+    background-color: #731804;
     color: #fff;
   }
 
@@ -4603,19 +4603,19 @@ main {
   }
 
   .profileContainer .profileCard#krist .stat:hover {
-    background-color: #bfc0bf;
-    color: #000000;
+    background-color: #cecece;
+    color: #47784d;
   }
 
   .profileContainer .profileCard#krist label:hover {
-    background: #0085ca;
+    background: #47784d;
     color: #fff;
     cursor: pointer;
   }
 
   .profileContainer .profileCard#krist input:checked+label {
-    background: #bfc0bf;
-    color: #000000;
+    background: #cecece;
+    color: #47784d;
   }
 
   .profileContainer .profileCard#ridg .stat:hover {
